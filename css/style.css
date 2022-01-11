@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,600&display=swap");
+@font-face {
+  font-family: "Haverink Script";
+  src: url("../fonts/HaverinkScript.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  color: #828282;
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  margin-top: 4.7em;
+}
+
+/*carousel-home*/
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.carousel-caption {
+  bottom: 24.25rem;
+}
+
+.carousel-caption > h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.carousel-caption > h1 > span {
+  font-size: 7.5rem;
+  font-family: "Haverink Script";
+  font-weight: normal;
+}
