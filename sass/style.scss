@@ -6,6 +6,18 @@
   font-style: normal;
   font-weight: normal;
 }
+@font-face {
+  font-family: "Bellarina";
+  src: url("../fonts/Bellarina.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Quentin";
+  src: url("../fonts/Quentin.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 
 * {
   box-sizing: border-box;
@@ -37,4 +49,17 @@ body {
   font-size: 7.5rem;
   font-family: "Haverink Script";
   font-weight: normal;
+}
+
+h1 {
+  font-family: "Haverink Script";
+  text-align: center;
+}
+h2 {
+  font-family: "Bellarina";
+  text-align: center;
+}
+h3 {
+  font-family: "Quentin";
+  text-align: center;
 }
