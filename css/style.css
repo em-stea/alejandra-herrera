@@ -1,23 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,600&display=swap");
 @font-face {
-  font-family: "Haverink Script";
-  src: url("../fonts/HaverinkScript.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Bellarina";
-  src: url("../fonts/Bellarina.otf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
   font-family: "Quentin";
   src: url("../fonts/Quentin.otf") format("truetype");
   font-style: normal;
   font-weight: normal;
+}
+
+/*Colors*/
+.light-pink {
+  color: #d7c4bf;
+}
+
+.orange {
+  color: #f6a021;
 }
 
 * {
@@ -32,7 +27,44 @@ body {
   color: #828282;
   font-family: "Playfair Display", serif;
   font-weight: 300;
-  margin-top: 4.7em;
+}
+
+/*Navbar*/
+.navbar {
+  z-index: 2;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-nav {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  background-color: rgba(255, 255, 255, 0.4);
+  float: right;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+
+#navbarNav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.navbar-brand {
+  padding-top: 1.3125rem;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+.navbar-dark .navbar-toggler {
+  color: transparent;
 }
 
 /*carousel-home*/
@@ -43,31 +75,166 @@ body {
 }
 
 .carousel-caption {
-  bottom: 24.25rem;
+  bottom: 20.25rem;
 }
 
 .carousel-caption > h1 {
-  font-size: 3.5rem;
-  font-weight: 900;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 .carousel-caption > h1 > span {
-  font-size: 7.5rem;
-  font-family: "Haverink Script";
+  font-size: 5rem;
+  font-family: "Quentin";
   font-weight: normal;
 }
 
-h1 {
-  font-family: "Haverink Script";
-  text-align: center;
+.text-first-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  right: 5%;
 }
 
-h2 {
-  font-family: "Bellarina";
-  text-align: center;
+.text-third-slide {
+  left: auto;
+  bottom: 17.25rem;
 }
 
-h3 {
+.text-bigger {
+  font-size: 4rem !important;
+}
+
+/*Mi historia*/
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+
+.scroll {
+  height: 650px;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.content {
+  width: 50%;
+}
+
+.content h1 {
+  margin-top: 0;
+}
+
+.content p,
+.sidebar p {
+  font-family: "BLOKKNeue-Regular";
+}
+
+.sidebar {
+  padding: 20px;
+  width: 170px;
+  background-color: #d7c4bf;
+  color: #fff;
+}
+
+.sidebar h3 {
+  margin: 0;
+}
+
+.content,
+.sidebar {
+  float: left;
+}
+
+/* The sticky */
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 50%;
+  height: 41rem;
+}
+
+.box-history {
+  background-color: #d7c4bf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding: 18rem 0;
+}
+
+.box-history h1 {
+  font-size: 5rem;
+}
+
+.bg-sticky {
+  background-color: #d7c4bf;
+}
+
+.text-cursive {
   font-family: "Quentin";
-  text-align: center;
+}
+
+.image-bg-01, .image-bg-02, .image-bg-03 {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 15rem 10rem;
+}
+
+.image-bg-01 {
+  background-image: url(../img/image-bg-01.jpg);
+}
+
+.image-bg-02 {
+  background-image: url(../img/image-bg-02.jpg);
+}
+
+.image-bg-03 {
+  background-image: url(../img/image-bg-03.jpg);
+}
+
+.button-rounded {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 16px;
+}
+
+.button-rounded:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.6);
 }
