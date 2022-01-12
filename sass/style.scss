@@ -7,13 +7,33 @@
   font-style: normal;
   font-weight: normal;
 }
-
-/*Colors*/
+///General///
+/***Colors***/
 .light-pink {
   color: $colour-light-pink;
 }
 .orange {
   color: $colour-orange;
+}
+.brown {
+  color: $colour-brown;
+}
+.light-brown {
+  color: $colour-light-brown;
+}
+.green {
+  color: $colour-green;
+}
+
+/***Text***/
+.text-big {
+  font-size: 3.2rem;
+}
+.text-bigger {
+  font-size: 4rem;
+}
+.text-bold {
+  font-weight: 900;
 }
 
 * {
@@ -22,12 +42,15 @@
   padding: 0;
 }
 body {
-  font-size: 16px;
+  font-size: 19px;
   color: #828282;
-  font-family: "Playfair Display", serif;
-  font-weight: 300;
+  font-family: "Playfair Display", serif !important;
+  font-weight: 400;
 }
-/*Navbar*/
+
+///index.html///
+
+/***Navbar***/
 .navbar {
   z-index: 2;
   padding-left: 2rem;
@@ -38,7 +61,6 @@ body {
 }
 .navbar-nav {
   align-items: end;
-  background-color: rgba(255, 255, 255, 0.4);
   float: right;
   width: 40%;
   padding: 1rem 1rem;
@@ -56,7 +78,7 @@ body {
   color: transparent;
 }
 
-/*carousel-home*/
+/***carousel-home***/
 .carousel-indicators [data-bs-target] {
   width: 15px;
   height: 15px;
@@ -67,7 +89,6 @@ body {
 }
 .carousel-caption > h1 {
   font-size: 2.5rem;
-  font-weight: 600;
 }
 .carousel-caption > h1 > span {
   font-size: 5rem;
@@ -88,7 +109,7 @@ body {
   font-size: 4rem !important;
 }
 
-/*Mi historia*/
+/***Mi historia***/
 .cf:before,
 .cf:after {
   content: " "; /* 1 */
@@ -99,15 +120,11 @@ body {
   clear: both;
 }
 
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
 .cf {
   *zoom: 1;
 }
 .scroll {
-  height: 650px;
+  height: 730px;
   overflow: scroll;
 }
 ::-webkit-scrollbar {
@@ -118,10 +135,6 @@ body {
 }
 .content h1 {
   margin-top: 0;
-}
-.content p,
-.sidebar p {
-  font-family: "BLOKKNeue-Regular";
 }
 .sidebar {
   padding: 20px;
@@ -143,7 +156,7 @@ body {
   position: sticky;
   top: 0;
   width: 50%;
-  height: 41rem;
+  height: 46rem;
 }
 
 .box-history {
@@ -181,7 +194,10 @@ body {
   background-image: url(../img/image-bg-03.jpg);
   @extend %module-img-bg-history;
 }
-.button-rounded {
+.image-bg-03 h3 {
+  line-height: 3rem;
+}
+.button-rounded-white {
   text-decoration: none;
   color: white;
   border: 1px solid white;
@@ -191,4 +207,102 @@ body {
     color: black;
     background-color: rgba(255, 255, 255, 0.6);
   }
+}
+
+/***Coffee***/
+.image-coffee {
+  background-image: url(../img/coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 15rem 10rem;
+}
+.sidebar-coffee {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 50%;
+  height: 30rem;
+  float: left;
+}
+.content-coffee {
+  padding: 8.5rem 10rem;
+}
+.scroll-coffee {
+  height: 480px;
+  overflow: scroll;
+}
+.text-reflection {
+  font-size: 2.8rem;
+  color: $colour-light-brown;
+}
+.text-oportunity {
+  color: $colour-dark-brown;
+}
+
+/***Hackea tu vida***/
+.content-hackea {
+  padding: 15rem 10rem;
+}
+.button-rounded-brown {
+  text-decoration: none;
+  color: white;
+  background-color: $colour-light-brown;
+  border-radius: 50px;
+  padding: 16px 30px;
+  &:hover {
+    color: white;
+    background-color: $colour-brown;
+  }
+}
+.sidebar-carousel {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 50%;
+  height: 46rem;
+  color: #fff;
+  float: left;
+}
+.box-hackea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 18rem 0;
+}
+.box-hackea h1 {
+  font-size: 5rem;
+}
+.scroll-hackea {
+  height: 730px;
+  overflow: scroll;
+}
+.carousel-hackea {
+  position: initial;
+}
+
+/***Testimonio***/
+.bg-testimonio {
+  background-color: $colour-green;
+  padding: 10rem 0 7rem 0;
+}
+.wrapper-testimony {
+  font-style: italic;
+  color: white;
+  text-align: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 1px solid white;
+  padding: 3.5rem 3rem 2rem 3rem;
+  position: relative;
+}
+#comillas {
+  width: 10rem;
+  position: absolute;
+  top: -7rem;
 }
