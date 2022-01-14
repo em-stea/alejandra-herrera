@@ -1,36 +1,43 @@
 @import "variables";
 
 @media screen and (max-width: 560px) {
+  /*Navbar*/
+  .navbar-brand {
+    padding-top: 1.2rem;
+  }
   /*Carousel*/
   .caption1 {
-    bottom: 2.25rem;
-    width: 50%;
-    left: 41%;
+    bottom: 3.25rem;
+    width: 100%;
+    left: 2%;
   }
-  .caption1 > h1 > span {
-    font-size: 1.35rem;
+  .caption1 .span1 {
+    font-size: 1.5rem;
+  }
+  .caption1 .span2 {
+    font-size: 3.5rem;
   }
   .caption2 {
-    bottom: 3.25rem;
-    width: 50%;
-    left: 25%;
+    bottom: 1.25rem;
+    width: 100%;
+    left: 3%;
   }
-  .caption2 > h1 {
-    font-size: 1.5rem;
+  .caption2 .span1 {
+    font-size: 1rem;
   }
-  .caption2 > h1 > span {
-    font-size: 1.5rem;
+  .caption2 .span2 {
+    font-size: 3rem;
   }
   .caption3 {
-    bottom: 2.25rem;
-    width: 50%;
-    left: 25%;
+    bottom: 1.25rem;
+    width: 80%;
+    left: 10%;
   }
   .caption3 > h1 {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
-  .caption3 > h1 > span {
-    font-size: 1rem;
+  .caption3 span {
+    font-size: 2.5rem;
   }
   .text-bigger {
     font-size: 1.5rem !important;
@@ -46,7 +53,7 @@
 
   /*Hackea tu vida*/
   .box-hackea {
-    padding: auto;
+    padding: 17rem 0;
   }
 }
 
@@ -65,34 +72,37 @@
 @media screen and (min-width: 560px) and (max-width: 780px) {
   /*Carousel*/
   .caption1 {
-    bottom: 3.25rem;
-    width: 50%;
-    left: 44%;
-  }
-  .caption1 > h1 > span {
-    font-size: 3rem;
-  }
-  .caption2 {
     bottom: 4.25rem;
     width: 50%;
-    left: 25%;
+    left: 26%;
   }
-  .caption2 > h1 {
-    font-size: 2.5rem;
+  .caption1 .span1 {
+    font-size: 1.5rem;
   }
-  .caption2 > h1 > span {
-    font-size: 2.5rem;
+  .caption1 .span2 {
+    font-size: 4.5rem;
+  }
+  .caption2 {
+    bottom: 3.25rem;
+    width: 70%;
+    left: 16%;
+  }
+  .caption2 .span1 {
+    font-size: 1rem;
+  }
+  .caption2 .span2 {
+    font-size: 3rem;
   }
   .caption3 {
     bottom: 3.25rem;
-    width: 50%;
-    left: 25%;
+    width: 80%;
+    left: 10%;
   }
   .caption3 > h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
-  .caption3 > h1 > span {
-    font-size: 2rem;
+  .caption3 span {
+    font-size: 3rem;
   }
   .text-bigger {
     font-size: 2rem !important;
@@ -108,30 +118,30 @@
     width: 50%;
     left: 44%;
   }
-  .caption1 > h1 > span {
+  .caption1 .span1 {
     font-size: 4.3rem;
   }
   .caption2 {
-    bottom: 7.25rem;
+    bottom: 5.25rem;
     width: 50%;
     left: 25%;
   }
-  .caption2 > h1 {
-    font-size: 2.5rem;
+  .caption2 .span1 {
+    font-size: 2rem;
   }
-  .caption2 > h1 > span {
-    font-size: 2.5rem;
+  .caption2 .span2 {
+    font-size: 5rem;
   }
   .caption3 {
-    bottom: 5.25rem;
-    width: 74%;
-    left: 14%;
+    bottom: 7rem;
+    width: 80%;
+    left: 10%;
   }
   .caption3 > h1 {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
-  .caption3 > h1 > span {
-    font-size: 3rem;
+  .caption3 span {
+    font-size: 4rem;
   }
   .text-bigger {
     font-size: 2rem !important;
@@ -148,30 +158,33 @@
     width: 50%;
     left: 44%;
   }
-  .caption1 > h1 > span {
-    font-size: 6rem;
+  .caption1 .span1 {
+    font-size: 3.5rem;
+  }
+  .caption1 .span2 {
+    font-size: 10.5rem;
   }
   .caption2 {
-    bottom: 17.25rem;
-    width: 50%;
-    left: 25%;
+    bottom: 12.25rem;
+    width: 61%;
+    left: 20.25%;
   }
-  .caption2 > h1 {
-    font-size: 3.5rem;
-  }
-  .caption2 > h1 > span {
-    font-size: 3.5rem;
-  }
-  .caption3 {
-    bottom: 11.25rem;
-    width: 81%;
-    left: 9%;
-  }
-  .caption3 > h1 {
+  .caption2 .span1 {
     font-size: 3rem;
   }
-  .caption3 > h1 > span {
-    font-size: 4rem;
+  .caption2 .span2 {
+    font-size: 6rem;
+  }
+  .caption3 {
+    bottom: 13rem;
+    width: 80%;
+    left: 10%;
+  }
+  .caption3 > h1 {
+    font-size: 2.8rem;
+  }
+  .caption3 span {
+    font-size: 5rem;
   }
   .text-bigger {
     font-size: 4rem !important;
@@ -192,30 +205,33 @@
     width: 50%;
     left: 45%;
   }
-  .caption1 > h1 > span {
-    font-size: 8.5rem;
+  .caption1 .span1 {
+    font-size: 4.5rem;
+  }
+  .caption1 .span2 {
+    font-size: 10.5rem;
   }
   .caption2 {
-    bottom: 20.25rem;
-    width: 50%;
-    left: 25%;
+    bottom: 17.25rem;
+    width: 47%;
+    left: 27.25%;
   }
-  .caption2 > h1 {
-    font-size: 4.5rem;
+  .caption2 .span1 {
+    font-size: 3rem;
   }
-  .caption2 > h1 > span {
-    font-size: 4.5rem;
+  .caption2 .span2 {
+    font-size: 6rem;
   }
   .caption3 {
-    bottom: 14.25rem;
-    width: 81%;
-    left: 9%;
+    bottom: 17rem;
+    width: 80%;
+    left: 10%;
   }
   .caption3 > h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
-  .caption3 > h1 > span {
-    font-size: 4.5rem;
+  .caption3 span {
+    font-size: 6rem;
   }
   .text-bigger {
     font-size: 4rem !important;
@@ -235,26 +251,26 @@
     font-size: 10.5rem;
   }
   .caption2 {
-    bottom: 20.25rem;
-    width: auto;
-    left: 15%;
+    bottom: 25.25rem;
+    width: 50%;
+    left: 25.25%;
   }
-  .caption2 > h1 {
-    font-size: 6rem;
+  .caption2 .span1 {
+    font-size: 5rem;
   }
-  .caption2 > h1 > span {
-    font-size: 6rem;
+  .caption2 .span2 {
+    font-size: 9rem;
   }
   .caption3 {
-    bottom: 17.25rem;
-    width: 81%;
-    left: 9%;
+    bottom: 20rem;
+    width: 80%;
+    left: 10%;
   }
   .caption3 > h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
-  .caption3 > h1 > span {
-    font-size: 4.5rem;
+  .caption3 span {
+    font-size: 6rem;
   }
   .text-bigger {
     font-size: 4rem !important;
@@ -266,34 +282,37 @@
 @media screen and (min-width: 2541px) and (max-width: 3000px) {
   /*Carousel*/
   .caption1 {
-    bottom: 27rem;
+    bottom: 22rem;
     width: 50%;
     left: 45%;
   }
-  .caption1 > h1 > span {
-    font-size: 10.5rem;
+  .caption1 .span1 {
+    font-size: 6.5rem;
+  }
+  .caption1 .span2 {
+    font-size: 12.5rem;
   }
   .caption2 {
-    bottom: 29.25rem;
-    width: auto;
-    left: 15%;
+    bottom: 27.25rem;
+    width: 50%;
+    left: 25.25%;
   }
-  .caption2 > h1 {
-    font-size: 6rem;
+  .caption2 .span1 {
+    font-size: 5rem;
   }
-  .caption2 > h1 > span {
-    font-size: 6rem;
+  .caption2 .span2 {
+    font-size: 9rem;
   }
   .caption3 {
-    bottom: 24.25rem;
-    width: 81%;
-    left: 9%;
+    bottom: 27rem;
+    width: 80%;
+    left: 10%;
   }
   .caption3 > h1 {
-    font-size: 5.5rem;
+    font-size: 4rem;
   }
-  .caption3 > h1 > span {
-    font-size: 6.5rem;
+  .caption3 span {
+    font-size: 7rem;
   }
   .text-bigger {
     font-size: 4rem !important;
@@ -335,8 +354,8 @@
   /*My history*/
   .sidebar {
     width: 100%;
-    height: 17rem;
-    padding: 6rem 0;
+    height: 13rem;
+    padding: 4rem 0;
   }
   .content {
     width: 100%;
@@ -344,8 +363,16 @@
   .box-history {
     padding: 0;
   }
+  .box-history h1 {
+    font-size: 4rem;
+  }
   .scroll {
     height: 910px;
+  }
+  .image-bg-01,
+  .image-bg-02,
+  .image-bg-03 {
+    padding: 10rem 3rem;
   }
 
   /*Coffee*/
@@ -354,6 +381,9 @@
   }
   .scroll-coffee {
     height: 986px;
+  }
+  .content-coffee {
+    padding: 9.5rem 3rem;
   }
 
   /*Hackea tu vida*/
@@ -365,11 +395,35 @@
     height: 1428px;
   }
   .w-responsive {
-    height: 47rem;
+    height: 40rem;
+  }
+  .sidebar-carousel {
+    height: 32rem;
+  }
+  .content-hackea {
+    padding: 9rem 3rem;
+  }
+
+  /*Testimonio*/
+  .wrapper-testimony {
+    width: 83%;
+  }
+
+  /*Contactame*/
+  .img-contactame h1 {
+    font-size: 4rem;
+  }
+  .wrapper-input {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapper-input div {
+    width: 80%;
+    margin-bottom: 3rem !important;
   }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 780px) {
   /*Mi Contenido*/
   .row-content {
     flex-wrap: wrap;

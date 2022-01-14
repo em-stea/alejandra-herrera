@@ -107,11 +107,32 @@ body {
   color: transparent;
 }
 
+.logo {
+  width: 70px;
+}
+
 /***carousel-home***/
 .carousel-indicators [data-bs-target] {
   width: 15px;
   height: 15px;
   border-radius: 50%;
+}
+
+.caption1 .span1 {
+  font-size: 4rem;
+}
+
+.caption1 .span2 {
+  font-size: 9rem;
+  color: #d7c4bf;
+}
+
+.caption2 .span1 {
+  font-size: 4rem;
+}
+
+.caption1 .span2 {
+  font-size: 9rem;
 }
 
 .caption1,
@@ -133,10 +154,6 @@ body {
   font-weight: normal;
 }
 
-.caption3 .text-bigger {
-  margin-top: 2rem;
-}
-
 .text-first-slide {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,10 +162,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  right: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .text-third-slide {
@@ -298,6 +314,7 @@ body {
   width: 50%;
   height: 30rem;
   float: left;
+  z-index: 10;
 }
 
 .content-coffee {

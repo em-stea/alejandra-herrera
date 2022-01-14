@@ -94,12 +94,28 @@ body {
 .navbar-dark .navbar-toggler {
   color: transparent;
 }
+.logo {
+  width: 70px;
+}
 
 /***carousel-home***/
 .carousel-indicators [data-bs-target] {
   width: 15px;
   height: 15px;
   border-radius: 50%;
+}
+.caption1 .span1 {
+  font-size: 4rem;
+}
+.caption1 .span2 {
+  font-size: 9rem;
+  color: $colour-light-pink;
+}
+.caption2 .span1 {
+  font-size: 4rem;
+}
+.caption1 .span2 {
+  font-size: 9rem;
 }
 .caption1,
 .caption2,
@@ -117,14 +133,10 @@ body {
   font-size: 5rem;
   font-weight: normal;
 }
-.caption3 .text-bigger {
-  margin-top: 2rem;
-}
 .text-first-slide {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  right: 5%;
+  align-items: center;
 }
 .text-third-slide {
   left: auto;
@@ -249,6 +261,7 @@ body {
   width: 50%;
   height: 30rem;
   float: left;
+  z-index: 10;
 }
 .content-coffee {
   padding: 8.5rem 10rem;
