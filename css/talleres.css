@@ -48,6 +48,10 @@
   font-weight: 900;
 }
 
+.text-cursive {
+  font-family: "Quentin";
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -129,8 +133,7 @@ body {
 
 .taller h2 {
   font-size: 3rem;
-  font-weight: 900;
-  color: #a4593c;
+  color: #61463c;
 }
 
 .bg-taller-01, .bg-taller-02, .bg-taller-03, .bg-taller-04 {
@@ -272,28 +275,38 @@ body {
 }
 
 .img-card-1 {
+  /*
   background-image: url(../img/image-card-taller-01.jpg);
-  background-size: cover;
+  background-size: cover;*/
+  background-color: #a4593c;
 }
 
 .img-card-2 {
+  /*
   background-image: url(../img/image-card-taller-02.jpg);
-  background-size: cover;
+  background-size: cover;*/
+  background-color: #a4593c;
 }
 
 .img-card-3 {
+  /*
   background-image: url(../img/image-card-taller-03.jpg);
-  background-size: cover;
+  background-size: cover;*/
+  background-color: #a4593c;
 }
 
 .img-card-4 {
+  /*
   background-image: url(../img/image-card-taller-04.jpg);
-  background-size: cover;
+  background-size: cover;*/
+  background-color: #a4593c;
 }
 
 .img-card-5 {
+  /*
   background-image: url(../img/image-card-taller-05.jpg);
-  background-size: cover;
+  background-size: cover;*/
+  background-color: #a4593c;
 }
 
 /***Footer***/

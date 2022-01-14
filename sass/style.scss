@@ -232,7 +232,7 @@ body {
   @extend %module-img-bg-history;
 }
 .image-bg-03 h3 {
-  line-height: 3rem;
+  line-height: 4rem;
 }
 .button-rounded-white {
   text-decoration: none;
@@ -263,6 +263,14 @@ body {
   float: left;
   z-index: 10;
 }
+.bg-coffee {
+  background-image: url(../img/bg-coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.bg-coffee-2 {
+}
 .content-coffee {
   padding: 8.5rem 10rem;
 }
@@ -279,18 +287,24 @@ body {
 }
 
 /***Hackea tu vida***/
+.bg-hackea {
+  background-image: url(../img/bg-coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 .content-hackea {
   padding: 15rem 10rem;
 }
 .button-rounded-brown {
   text-decoration: none;
   color: white;
-  background-color: $colour-light-brown;
+  background-color: $colour-green;
   border-radius: 50px;
   padding: 16px 30px;
   &:hover {
     color: white;
-    background-color: $colour-brown;
+    background-color: $colour-dark-brown;
   }
 }
 .sidebar-carousel {
@@ -306,8 +320,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   color: white;
-  padding: 18rem 0;
+  padding: 41rem 0;
 }
 .box-hackea h1 {
   font-size: 5rem;
@@ -343,6 +358,9 @@ body {
   width: 10rem;
   position: absolute;
   top: -7rem;
+}
+.signature-testimonio {
+  font-size: 2rem;
 }
 
 /***Talleres***/

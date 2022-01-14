@@ -43,13 +43,30 @@
   .caption3 .text-bigger {
     margin-top: 0rem;
   }
+  /*Mi historia*/
+  .image-bg-03 span {
+    font-size: 2rem !important;
+  }
+  /*Coffee*/
+  .content-coffee h2 {
+    font-size: 2rem;
+  }
   /*Talleres*/
   .title-talleres {
     font-size: 6rem;
   }
   /*Hackea tu vida*/
   .box-hackea {
-    padding: 17rem 0;
+    padding: 14rem 0;
+  }
+  .box-hackea h2 {
+    font-size: 3rem !important;
+  }
+  .box-hackea h1 {
+    font-size: 5.5rem !important;
+  }
+  .sidebar-carousel {
+    height: 36.7rem;
   }
 }
 
@@ -106,6 +123,19 @@
   .caption3 .text-bigger {
     margin-top: 0rem;
   }
+  /*Hackea tu vida*/
+  .box-hackea {
+    padding: 13rem 0;
+  }
+  .box-hackea h2 {
+    font-size: 3rem !important;
+  }
+  .box-hackea h1 {
+    font-size: 5.5rem !important;
+  }
+  .sidebar-carousel {
+    height: 39rem;
+  }
 }
 
 @media screen and (min-width: 781px) and (max-width: 1000px) {
@@ -146,6 +176,19 @@
   .caption3 .text-bigger {
     margin-top: 1rem;
   }
+  /*Hackea tu vida*/
+  .box-hackea {
+    padding: 13rem 0;
+  }
+  .box-hackea h2 {
+    font-size: 3rem !important;
+  }
+  .box-hackea h1 {
+    font-size: 5.5rem !important;
+  }
+  .sidebar-carousel {
+    height: 39rem;
+  }
 }
 
 /*desktop*/
@@ -171,7 +214,7 @@
     font-size: 3rem;
   }
   .caption2 .span2 {
-    font-size: 6rem;
+    font-size: 6.5rem;
   }
   .caption3 {
     bottom: 13rem;
@@ -192,7 +235,13 @@
   }
   /*Hackea tu vida*/
   .box-hackea {
-    padding: 25rem 0;
+    padding: 22rem 0;
+  }
+  .box-hackea h2 {
+    font-size: 4rem !important;
+  }
+  .box-hackea h1 {
+    font-size: 6.8rem !important;
   }
 }
 
@@ -211,14 +260,14 @@
   }
   .caption2 {
     bottom: 17.25rem;
-    width: 47%;
+    width: 45%;
     left: 27.25%;
   }
   .caption2 .span1 {
     font-size: 3rem;
   }
   .caption2 .span2 {
-    font-size: 6rem;
+    font-size: 6.3rem;
   }
   .caption3 {
     bottom: 17rem;
@@ -236,6 +285,16 @@
   }
   .caption3 .text-bigger {
     margin-top: 3rem;
+  }
+  /*Hackea tu vida*/
+  .box-hackea {
+    padding: 27.5rem 0;
+  }
+  .box-hackea h2 {
+    font-size: 4rem !important;
+  }
+  .box-hackea h1 {
+    font-size: 6.8rem !important;
   }
 }
 
@@ -276,6 +335,16 @@
   }
   .caption3 .text-bigger {
     margin-top: 3rem;
+  }
+  /*Hackea tu vida*/
+  .box-hackea {
+    padding: 45.5rem 0;
+  }
+  .box-hackea h2 {
+    font-size: 6rem !important;
+  }
+  .box-hackea h1 {
+    font-size: 8.8rem !important;
   }
 }
 
@@ -319,6 +388,16 @@
   }
   .caption3 .text-bigger {
     margin-top: 3rem;
+  }
+  /*Hackea tu vida*/
+  .box-hackea {
+    padding: 63.5rem 0;
+  }
+  .box-hackea h2 {
+    font-size: 6rem !important;
+  }
+  .box-hackea h1 {
+    font-size: 8.8rem !important;
   }
 }
 
@@ -402,9 +481,6 @@
   }
   .w-responsive {
     height: 40rem;
-  }
-  .sidebar-carousel {
-    height: 32rem;
   }
   .content-hackea {
     padding: 9rem 3rem;
