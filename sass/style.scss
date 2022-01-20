@@ -554,6 +554,26 @@ p {
 }
 
 /***Talleres***/
+.text-taller-1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.text-taller-2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.text-taller-3 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.text-taller-4 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.text-taller-5 {
+  font-size: 2rem;
+  font-weight: 800;
+}
 .title-talleres {
   background: #eee;
   font-size: 7rem;
@@ -562,6 +582,12 @@ p {
   font-family: "Serenity";
   color: $colour-brown;
   margin-bottom: 0;
+}
+.text-bossing {
+  margin: 2.8rem auto !important;
+}
+.text-vinculos {
+  margin: 2rem auto !important;
 }
 
 %module-img-taller {
@@ -798,7 +824,7 @@ p {
   text-align: center;
   padding: 3rem 0 3rem 0;
   font-family: "Serenity";
-  color: $colour-green;
+  color: $colour-dark-brown;
 }
 .row-content {
   display: flex;
