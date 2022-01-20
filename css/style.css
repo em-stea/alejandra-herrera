@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,600&display=swap");
 @font-face {
-  font-family: "Quentin";
-  src: url("../fonts/Quentin.otf") format("truetype");
+  font-family: "Serenity";
+  src: url("../fonts/Serenity.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -60,12 +60,8 @@
   font-weight: 900;
 }
 
-.text-font {
-  font-family: "Quentin";
-}
-
 .text-cursive {
-  font-family: "Quentin";
+  font-family: "Serenity";
 }
 
 * {
@@ -176,16 +172,22 @@ body {
 }
 
 .caption1 .span2 {
-  font-size: 7rem;
+  font-size: 4rem;
   color: #61463c;
+  font-weight: 700;
 }
 
 .caption2 .span1 {
   font-size: 4rem;
 }
 
-.caption1 .span2 {
-  font-size: 9rem;
+.caption2 .span2 {
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+.caption3 span {
+  font-weight: 900;
 }
 
 .caption1,
@@ -235,13 +237,33 @@ body {
   margin: auto;
 }
 
+.text-comienzos {
+  font-size: 6.5rem;
+  padding-left: 1rem;
+  line-height: 1rem;
+}
+
+.image-bg-01 h3 {
+  line-height: 2.7rem;
+}
+
+.text-analizando {
+  font-size: 5.5rem;
+  padding-top: -1rem;
+  padding-left: 0.5rem;
+}
+
+.image-bg-02 h3 {
+  line-height: 2.5rem;
+}
+
 .bgcolor-historia {
   background-image: url(../img/image-historia.jpg);
 }
 
 .tarjeta {
   height: 39rem;
-  width: 90%;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -267,31 +289,38 @@ body {
 
 .tarjeta p {
   color: #4f4f4f;
-  width: 70%;
+  width: 80%;
   text-align: left;
 }
 
-.tarjeta h3,
+.text-salir {
+  font-size: 6rem;
+  padding: 0 1rem;
+  line-height: 2rem;
+  color: #4f4f4f;
+}
+
+.tarjeta h5,
 h4 {
-  font-weight: 700;
   text-align: left;
 }
 
-.tarjeta h4:first-child {
-  font-size: 2.3rem;
+.tarjeta h4 {
+  font-weight: 700;
+  font-size: 2.5rem;
   color: #61463c;
+  line-height: 2.5rem;
 }
 
-.tarjeta h3 {
-  font-size: 2.8rem;
-  font-weight: normal;
+.tarjeta h5 {
+  font-size: 2rem;
 }
 
 .image-bg-02 {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  padding: 10rem 10rem;
+  padding: 13rem 9rem;
 }
 
 .image-bg-01 {
@@ -390,9 +419,11 @@ h4 {
 }
 
 .text-oportunity {
-  font-size: 50px;
+  font-size: 5rem;
   color: #a4593c;
   font-weight: normal;
+  padding-right: 1rem;
+  line-height: 1rem;
 }
 
 .atras-coffee {
@@ -417,6 +448,10 @@ h4 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.text-decides {
+  font-size: 6rem;
 }
 
 .atras-coffee-two {
@@ -448,22 +483,62 @@ h4 {
   text-align: left;
   margin-right: 10rem;
   margin-bottom: 2rem;
-  color: white;
+  color: #61463c;
 }
 
 .atras-coffee-two p {
-  color: #4f4f4f;
-  font-size: 22px;
+  color: white;
+  font-size: 26px;
   font-weight: 800;
+  margin-bottom: 0.5rem;
 }
 
 .atras-coffee-two h2 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   text-align: left;
-  color: white;
+  color: #4f4f4f;
+  line-height: 5rem;
 }
 
 /***Hackea tu vida***/
+.flex-hackea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.text-vida {
+  font-size: 8rem;
+  line-height: 3rem;
+}
+
+.text-estancada {
+  font-size: 7rem;
+  line-height: 2.5rem;
+  color: #f6a021;
+}
+
+.text-control {
+  font-size: 6rem;
+  padding-right: 6rem;
+  line-height: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.adelante-hackea h1 {
+  line-height: 3rem;
+}
+
 .image-bg-03 {
   background-image: url(../img/image-bg-03.jpg);
   background-repeat: no-repeat;
@@ -472,15 +547,11 @@ h4 {
   padding: 15rem 10rem;
 }
 
-.image-bg-03 h1 {
-  font-size: 4rem;
-}
-
 .tarjeta-hackea {
   position: relative;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  height: 36rem;
+  height: 38rem;
 }
 
 .adelante-hackea,
@@ -532,6 +603,13 @@ p {
 .adelante-hackea h2 {
   font-size: 3rem;
   margin-bottom: 2.5rem;
+}
+
+.bg-hackea-front {
+  background-image: url(../img/bg-taller-04.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 }
 
 .bg-hackea {
@@ -601,8 +679,8 @@ p {
 .client-name {
   text-align: center;
   color: white;
-  font-family: "Quentin";
-  font-size: 2rem;
+  font-family: "Serenity";
+  font-size: 4rem;
 }
 
 .testimonial-text {
@@ -631,10 +709,10 @@ p {
 /***Talleres***/
 .title-talleres {
   background: #eee;
-  font-size: 5rem;
+  font-size: 7rem;
   text-align: center;
-  padding: 4rem 0 0 0;
-  font-family: "Quentin";
+  padding: 3rem 0 0 0;
+  font-family: "Serenity";
   color: #a4593c;
   margin-bottom: 0;
 }
@@ -929,10 +1007,10 @@ p {
 }
 
 .title-content {
-  font-size: 4.5rem;
+  font-size: 7rem;
   text-align: center;
-  padding: 5rem 0 4rem 0;
-  font-family: "Quentin";
+  padding: 3rem 0 3rem 0;
+  font-family: "Serenity";
   color: #8a7c62;
 }
 
@@ -988,16 +1066,14 @@ p {
 
 /***Contactame***/
 .bg-contactame {
-  background-image: url(../img/image-contacto.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 3.3rem 0;
+  background-color: #b9887d;
+  padding: 2.5rem 0;
 }
 
 .bg-contactame h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 900;
+  padding-bottom: 0.5rem;
 }
 
 .text-contact {
