@@ -106,9 +106,24 @@
   .container-fluid-swiper {
     min-height: 60vh;
   }
+  /*ventana modal*/
+  .modal {
+    top: 145px;
+  }
   /*Mi contenido*/
   .title-content {
     font-size: 3.8rem;
+  }
+  .bg-content {
+    padding-left: 1rem;
+    padding-right: 1.6rem;
+  }
+  .img-content-1 {
+    margin: -0.4rem 0.3rem;
+  }
+  /*Contactame*/
+  .bg-contactame h1 {
+    margin-bottom: 2rem;
   }
 }
 

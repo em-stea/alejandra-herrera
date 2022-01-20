@@ -27,12 +27,20 @@
   color: #a4593c;
 }
 
+.dark-brown {
+  color: #61463c;
+}
+
 .light-brown {
   color: #b9887d;
 }
 
 .green {
   color: #8a7c62;
+}
+
+.dark {
+  color: #4f4f4f;
 }
 
 /***Text***/
@@ -227,9 +235,13 @@ body {
   margin: auto;
 }
 
+.bgcolor-historia {
+  background-image: url(../img/image-historia.jpg);
+}
+
 .tarjeta {
   height: 39rem;
-  width: 80%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -243,14 +255,14 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-left: 5rem;
+  padding-left: 9rem;
 }
 
 .tarjeta h1 {
   font-size: 4rem;
   text-align: left;
-  padding: 5rem 0 3rem 0;
-  color: #a4593c;
+  padding: 0rem 0 3rem 0;
+  color: white;
 }
 
 .tarjeta p {
@@ -262,12 +274,17 @@ body {
 .tarjeta h3,
 h4 {
   font-weight: 700;
-  color: #61463c;
   text-align: left;
 }
 
+.tarjeta h4:first-child {
+  font-size: 2.3rem;
+  color: #61463c;
+}
+
 .tarjeta h3 {
-  font-size: 2rem;
+  font-size: 2.8rem;
+  font-weight: normal;
 }
 
 .image-bg-02 {
@@ -374,6 +391,8 @@ h4 {
 
 .text-oportunity {
   font-size: 50px;
+  color: #a4593c;
+  font-weight: normal;
 }
 
 .atras-coffee {
@@ -427,13 +446,21 @@ h4 {
 
 .atras-coffee-two h1 {
   text-align: left;
-  margin-right: 13rem;
-  margin-bottom: 1rem;
+  margin-right: 10rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.atras-coffee-two p {
+  color: #4f4f4f;
+  font-size: 22px;
+  font-weight: 800;
 }
 
 .atras-coffee-two h2 {
   font-size: 3.5rem;
   text-align: left;
+  color: white;
 }
 
 /***Hackea tu vida***/
