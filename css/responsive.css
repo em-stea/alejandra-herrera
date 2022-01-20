@@ -9,36 +9,36 @@
   /*Carousel*/
   .caption1 {
     bottom: 3.25rem;
-    width: 100%;
-    left: 2%;
+    width: 80%;
+    left: 21%;
   }
   .caption1 .span1 {
     font-size: 1.5rem;
   }
   .caption1 .span2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .caption2 {
-    bottom: 1.25rem;
-    width: 100%;
-    left: 3%;
+    bottom: 3.52rem;
+    width: 61%;
+    left: 15%;
   }
   .caption2 .span1 {
     font-size: 1rem;
   }
   .caption2 .span2 {
-    font-size: 3rem;
+    font-size: 1.7rem;
   }
   .caption3 {
-    bottom: 1.25rem;
+    bottom: 2.25rem;
     width: 80%;
-    left: 10%;
+    left: 5%;
   }
   .caption3 > h1 {
     font-size: 1.3rem;
   }
   .caption3 span {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .text-bigger {
     font-size: 1.5rem !important;
