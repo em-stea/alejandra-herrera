@@ -26,17 +26,50 @@
     <!-- Icomoon Icon Fonts-->
     <link rel="stylesheet" href="css\icomoon.css">
 
+    <!-- Link Swiper's CSS Talleres-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
     <!--AOS Library--> <!--Animaciones JS para scroll-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--Estilos Plugin Super Simple Slider Testimonios-->
+    <link rel="stylesheet" href="sss/sss.css">
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!--Script Plugin Super Simple Slider-->
+    <script src="sss/sss.js"></script>
+
+    <!--Script que le da funcionalidad-->
+    <script>
+      jQuery(function($){
+        $('.slider-testimonial').sss({
+	        	slideShow : true, //en "true" los sliders corren automatico
+	        	speed : 3500
+	        });      });
+    </script>
+
+    <!--Plugin ScrollUP-->
+    <script src="js/jquery.scrollUp.js"></script>
+
+    <!--Script de Plugin ScrollUP-->
+    <script>
+        $(function(){
+            $.scrollUp({
+            scrollImg: true
+            });
+        });
+    </script>
         
 </head>
 <body>
   <header>
-    <div class="container">
+    <div class="container-fluid px-0">
       <!--Navbar-->
-      <nav class="navbar navbar-dark navbar-expand-lg navbar-light bg-transparent position-absolute">
+      <nav class="navbar navbar-light navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
             <img src="img/logo-alejandra.png" alt="logo alejandra herrera" class="d-inline-block align-text-top logo">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,22 +77,20 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <!--
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Sobre mí</a>
-              </li>
-              -->
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#hackea">Hackeá tu vida</a>
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#talleres">Talleres</a>
+                <a class="nav-link" href="#hackea">Hackeá tu vida</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#mi-contenido">Mi Contenido</a>
+                <a class="nav-link" href="#talleres">Talleres</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#contactame">Contáctame</a>
+                <a class="nav-link" href="#mi-contenido">Mi Contenido</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactame">Contáctame</a>
               </li>
             </ul>
           </div>
@@ -108,248 +139,598 @@
   </header>
 
   <!--Mi historia-->
-  <section>
-    <div class="container-fluid px-0">
-      <div class="scroll">
-        <div class="wrapper cf text-white">
-          <div class="sidebar">
-            <div class="box-history">
-              <h1 class="text-cursive" data-aos="fade-right" data-aos-duration="1800">Mi historia</h1>
-            </div>
-          </div>
-          <div class="content">
-            <div class="image-bg-01">
-              <h1>¿A ti también hay cosas que no te <span class="text-cursive text-big light-pink">dejan dormir?</span></h1>
-              <p>Como llegar a pagar todas las cuentas, esa charla pendiente que tienes con tus hijos o soltar eso que te hace mal.</p>
-              <br>
-              <h1 class="text-cursive light-pink">Sé lo que es estar ahí,
-                <span class="text-light"> y también sé cómo salir de eso.</span>
-              </h1>
-            </div>
-            <div class="image-bg-02">
-              <br>
-              <br>
-              <h1 class="text-cursive text-big">Soy Alejandra 
-              <br>  
-              Herrera,</h1>
-              <br>
-              <h3>Coach personal y profesional y mi habilidad es ayudarte a vencer los miedos y crear nuevos comienzos.</h3>
-              <div class="text-center mt-5">\
-                <!--
-                <a class="button-rounded-white" href="#">Conoce más de mi vida</a>
-                -->
+  <section class="container-fluid" id="sobre-mi">
+    <div class="row row-mi-historia">
+      <div class="col-12 col-md-6">
+        <img src="img/image-bg.jpg" class="d-block mockup-mobile" alt="..."  data-aos="fade-right" data-aos-duration="1400">
+      </div>
+      <div class="col-12 col-md-6 px-0">
+        <div class="tarjeta">
+          <h1 class="text-cursive">Mi historia</h1>
+          <h4>¿A ti también hay cosas que no te </h4>
+          <h3 class="mb-4"> 
+            <span class="light-pink">dejan dormir?</span>
+          </h3>
+          <!--Collapse-->
+          <a class="btn btn-collapse" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+            <span></span>
+            <span class="">
+                <i class="icon-chevron-down"></i>
+            </span>
+          </a>
+          <div class="row">
+              <div class="col">
+                  <div class="collapse " id="multiCollapseExample1">
+                      <div class="text-secondary">
+                        <p>Como llegar a pagar todas las cuentas, esa charla pendiente que tienes con tus hijos o soltar eso que te hace mal.</p>
+                        <br>
+                        <h4 class="">Sé lo que es estar ahí,
+                          <span class=""> y también sé cómo salir de eso.</span>
+                        </h4>
+                      </div>
+                  </div>
               </div>
-            </div>
-            <div class="image-bg-03">
-              <br>
-              <h3>Trabajaremos 
-                <br>
-                <span class="text-cursive text-bigger"> analizando tus propósitos </span> 
-                <br>
-                de manera consciente y generando una estrategia que funcione para ti.
-              </h3>
-            </div>
           </div>
         </div>
+    </div>
+  </section>
+
+  <section class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-12 col-md-6 image-bg-01" data-aos="fade-right" data-aos-duration="1100">
+        <h1 class="text-cursive text-big  text-white">Soy Alejandra 
+          <br>  
+          Herrera,</h1>
+          <h3 class="text-white">Coach personal y profesional y mi habilidad es ayudarte a vencer los miedos y crear nuevos comienzos.</h3>
+          <!--
+          <div class="text-center mt-5">
+            <a class="button-rounded-white" href="#">Conoce más de mi vida</a>
+          </div>
+          -->
+      </div>
+      <div class="col-12 col-md-6 image-bg-02" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="300">
+        <h3 class="text-white">Trabajaremos 
+          <br>
+          <span class="text-cursive text-big"> analizando tus propósitos </span> 
+          <br>
+          de manera consciente y generando una estrategia que funcione para ti.
+        </h3>
       </div>
     </div>
   </section>
 
   <!--Coffee-->
-  <section>
-    <div class="container-fluid px-0">
-      <div class="scroll-coffee">
-        <div class="wrapper cf text-white">
-          <div class="sidebar-coffee">
-            <div class="image-coffee">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-6 px-0">
+        <div class="wrap">
+          <div class="tarjeta-wrap">
+            <div class="tarjeta-coffee">
+              <div class="adelante-coffee">
+                <h1 class="text-bold">Si sientes que estás bloqueada y 
+                  <span class="light-pink"> no puedes avanzar...</span>
+                </h1>
+              </div>
+              <div class="atras-coffee img-back-coffee"> 
+                <p>o no sabes como dar el primer paso para 
+                  <span class="text-bold"> acercarte a tus objetivos,</span> 
+                  no dudes en agendar un café virtual.
+                </p>
+                <br>
+                <h4>¡Te aseguro una buena charla y una 
+                  <br>
+                  <span class="text-cursive text-oportunity"> oportunidad de reflexión!</span>
+                </h4>
+              </div>
             </div>
           </div>
-          <div class="content text-dark" data-aos="fade-left" data-aos-duration="1800">
-            <div class="bg-coffee content-coffee">
-              <h1 class="text-bold">Si sientes que estás bloqueada y no puedes avanzar...</h1>
-              <br>
-              <p>o no sabes como dar el primer paso para <span class="text-bold"> acercarte a tus objetivos,</span> no dudes en agendar un café virtual.</p>
-              <br>
-              <h4 class="text-cursive text-reflection">¡Te aseguro una buena charla y una 
-                <span class="text-oportunity"> oportunidad de reflexión!</span>
-              </h4>
-            </div>
-            <div class="bg-coffee-2 content-coffee">
-              <h1 class="text-bold text-big orange">¡Vamos por todo!</h1>
-              <br>
-              <p>Hoy puede ser el primer día, en vez de un día más. </p>
-              <br>
-              <h2 class="text-cursive text-bigger brown">Tú decides.</h2>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 px-0">
+        <div class="wrap">
+          <div class="tarjeta-wrap">
+            <div class="tarjeta-coffee">
+              <div class="adelante-coffee image-coffee">
+              </div>
+              <div class="atras-coffee-two image-back-coffee text-white"> 
+                <h1 class="text-bold">¡Vamos por todo!</h1>
+                <p>Hoy puede ser el primer día, en vez de un día más.</p>
+                <br>
+                <h2 class="text-cursive">Tú decides.</h2>
+                </h4>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <!--Hackeá tu vida-->
-  <section id="hackea">
-    <div class="container-fluid px-0">
-      <div class="scroll-hackea">
-        <div class="wrapper cf">
-          <div class="sidebar-carousel" data-aos="fade-right" data-aos-duration="1800">
-            <!--Carousel-->
-            <div id="carouselExampleIndicators" class="carousel carousel-hackea slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <!--Hackea tu vida-->
+  <div class="container-fluid" id="hackea">
+    <div class="row">
+      <div class="col-12 col-md-6 image-bg-03" data-aos="fade-right" data-aos-duration="1100">
+        <h1 class="text-cursive text-big  text-white">Hackeá tu vida</h1>
+      </div>
+      <div class="col-12 col-md-6 px-0">
+        <div class="wrap">
+          <div class="tarjeta-wrap">
+            <div class="tarjeta-hackea">
+              <div class="adelante-hackea">
+               <h1 class="orange">¿Te sientes estancada</h1>
+               <h2 class="text-cursive">personal o profesionalmente?</h2>
+               <p>Aquí estoy yo, para acompañarte y que juntas <span class="text-bold">identifiquemos las trabas que no te permiten alcanzar tus sueños.</span></p>
               </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active w-responsive">
-                  <img src="img/image-bg-04.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption box-hackea">
-                    <h2 class="text-bold">Hackéa</h2>
-                    <h1>
-                      <span class="text-cursive">tu vida</span>
-                    </h1>
-                  </div>
-                </div>
-                <div class="carousel-item w-responsive">
-                  <img src="img/image-bg-05.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption box-hackea">
-                    <h2 class="text-bold">Hackéa</h2>
-                    <h1>
-                      <span class="text-cursive">tu vida</span>
-                    </h1>
-                  </div>
-                </div>
-                <div class="carousel-item w-responsive">
-                  <img src="img/image-bg-06.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption box-hackea">
-                    <h2 class="text-bold">Hackéa</h2>
-                    <h1>
-                      <span class="text-cursive">tu vida</span>
-                    </h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--fin Carousel-->
-          </div>
-          <div class="content">
-            <div class="bg-light content-hackea">
-              <h1 class="green">
-                <span class="orange">¿Te sientes estancada </span>   
-                <span class="text-cursive text-big"> personal o profesionalmente?</span>
-              </h1>
-              <br>
-              <p>Aquí estoy yo, para acompañarte y que juntas
-                <span class="text-bold">
-                  identifiquemos las trabas que no te permiten alcanzar tus sueños.
-                </span>
-              </p>
-            </div>
-            <div class="bg-hackea content-hackea">
-              <h2 class="light-brown text-bold text-big">¡Tú puedes</h2>
-              <h1>
-                <span class="text-cursive text-big orange">
-                  tomar el control
-                </span>
-              </h1>
-              <h2 class="light-brown text-bold text-right text-big"> de tu vida!</h2>
-              <br>
-              <p>En diferentes propuestas de talleres puedes explorar y enriquecerte
-                <span class="text-bold"> conociendo tu propio poder de liderazgo,</span> 
-                vínculos, prepararte para emprender o crecer en el equipo de ventas.
-              </p>
-              <div class="text-center mt-5">
+              <div class="atras-hackea bg-hackea"> 
+                <h1>¡Tú puedes</h1>
+                <h2 class="text-cursive orange">tomar el control</h2>
+                <h1>de tu vida!</h1>
+                <p>En diferentes propuestas de talleres puedes explorar y enriquecerte <span class="text-bold">conociendo tu propio poder de liderazgo,</span> vínculos, prepararte para emprender o crecer en el equipo de ventas.</p>
                 <a class="button-rounded-brown" href="#talleres">Saber más</a>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> 
     </div>
-  </section>
+   
+  </div>
 
-  <!--Testimonio-->
-  <section>
-    <div class="container-fluid bg-testimonio">
-      <div class="wrapper-testimony">
-        <img src="img/comillas.png" alt="" id="comillas"  data-aos="zoom-in" data-aos-duration="1800">
-        <p>"Gracias a ti he podido ser más efectiva en la toma de decisiones; hacer una introspección para decider qué es lo que quiero hacer y qué es lo que realmente me conviene en esta etapa de mi vida"</p>
-        <br>
-        <p class="text-cursive signature-testimonio">Amanda</p>
+  <!--Testimonios-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="wrapper">
+        <div class="slider-testimonial">
+          <div class="testimonial-item">
+            <div class="testimonial-client">
+              <img src="img/comillas.png" alt="">
+            </div>
+            <div class="testimonial-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iusto tenetur repellat dicta optio quam similique odio voluptates iure quidem.</p>
+              <br>
+              <p class="client-name">Juan</p>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-client">
+              <img src="img/comillas.png" alt="">
+            </div>
+            <div class="testimonial-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officiis veniam aspernatur itaque rerum, quia illo modi ab sunt mollitia.</p>
+                <br>
+                <p class="client-name">Pablo</p>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-client">
+              <img src="img/comillas.png" alt="">
+            </div>
+            <div class="testimonial-text">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur officiis reprehenderit quisquam repellendus odio, nisi excepturi porro quaerat facilis adipisci.</p>
+                <br>
+                <p class="client-name">Esteban</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
- 
+  </div>
+
   <!--Talleres-->
-  <section id="talleres">
-    <div class="container-fluid bg-light">
-      <div class="container text-white">
-        <h1 class="title-talleres">Talleres</h1>
-        <div class="row">
-          <div class="col-12 col-md-3 img-taller-1" data-aos="fade-up" data-aos-duration="800">
-            <h3 class="text-bold fst-italic">EQUIPOS DE VENTAS DE ALTO RENDIMIENTO</h3>
-            <div class="text-center mt-5">
-              <a class="button-rounded-white" href="talleres.html">Ver más</a>
-            </div>
+  <div class="container-fluid px-0" id="talleres">
+    <h1 class="title-talleres">Talleres</h1>
+  </div>
+
+    <!--Ventana Modal--> <!--Taller1-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="col-12 col-md-3 img-taller-2" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-            <h3 class="text-bold fst-italic">¿LÍDER 
-            <br>  
-            O BOSSING?
-            </h3>
-            <div class="text-center mt-5">
-              <a class="button-rounded-white" href="talleres.html">Ver más</a>
+          <div class="modal-body">
+            <!--Tarjeta Flip-->
+            <div class="wrap-flip">
+              <div class="card-wrap" data-aos="fade-up" data-aos-duration="800">
+                <div class="card">
+                  <div class="front">
+                      <h1>Este taller es para ti si:</h1>
+                      <div class="item-taller">
+                          <span class="icon-bullhorn"></span>
+                          <p>Dentro del equipo de ventas
+                              <span class="text-bold"> no estás llegando a los objetivos.</span></p>
+                      </div>
+                      <div class="item-taller">
+                          <span class="icon-bullhorn"></span>
+                          <p>
+                              <span class="text-bold">Sientes que te faltan herramientas</span> para desenvolverte en el proceso de venta.</p>
+                      </div>
+                      <div class="item-taller">
+                          <span class="icon-bullhorn"></span>
+                          <p>Sabes cómo captar la atención de tu cliente pero
+                            <span class="text-bold">  te sientes insegura en el cierre de las ventas.</span>
+                          </p>
+                      </div>
+                  </div>
+                  <div class="back background-back">
+                    <h1>¿Qué trabajaremos?</h1>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p>Aprender a identificar una 
+                          <span class="text-bold"> estrategia y rutina para ventas exitosas.</span>
+                        </p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p>
+                          <span class="text-bold">Mantenerse motivado y aprender a manejar frustraciones.</span>
+                        </p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p>Abordar procesos de venta paso a paso y 
+                          <span class="text-bold"> construir vínculos con el cliente.</span></p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p>Crear una buena sintonía con el Cliente (rapport).</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-12 col-md-3 img-taller-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
-            <h3 class="text-bold fst-italic">ME ATREVO, EMPRENDO</h3>
-            <div class="text-center mt-5">
-              <a class="button-rounded-white" href="talleres.html">Ver más</a>
-            </div>
-          </div>
-          <div class="col-12 col-md-3 img-taller-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="700">
-            <h3 class="text-bold fst-italic">SANANDO Y CREANDO VÍNCULOS</h3>
-            <div class="text-center mt-5">
-              <a class="button-rounded-white" href="talleres.html">Ver más</a>
-            </div>
+            
           </div>
         </div>
-        <div class="row pb-5">
-          <div class="col-12 col-md-3 img-taller-5" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">
-            <h3 class="text-bold fst-italic">HIJOS ESPECIALES, PADRES ESPECIALES</h3>
-            <div class="text-center mt-5">
-              <a class="button-rounded-white" href="talleres.html">Ver más</a>
+      </div>
+    </div>
+
+    <!--Ventana Modal--> <!--Taller2-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!--Tarjeta Flip-->
+            <div class="wrap-flip">
+              <div class="card-wrap" data-aos="fade-up" data-aos-duration="800">
+                <div class="card">
+                  <div class="front">
+                      <h1>Este taller es para ti si:</h1>
+                      <div class="item-taller">
+                          <span class="icon-bullhorn"></span>
+                          <p>Tienes o apuntas a tener un puesto de liderazgo pero 
+                            <span class="text-bold">no te sientes del todo cómoda cuando tienes que dar órdenes.</span> 
+                          </p>
+                      </div>
+                      <div class="item-taller">
+                          <span class="icon-bullhorn"></span>
+                          <p class="text-bold">Te cuesta delegar tareas y te abrumas por ocuparte de todo.</p>
+                      </div>
+                      <div class="item-taller">
+                          <span class="icon-bullhorn"></span>
+                          <p>
+                            <span class="text-bold">Necesitas reforzar tus habiidades de oratoria</span> 
+                            para tener una comunicación más eficiente.
+                          </p>
+                      </div>
+                  </div>
+                  <div class="back background-back">
+                    <h1>¿Qué trabajaremos?</h1>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p class="text-bold">Identificar las metas de la empresa.</p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p> 
+                          <span class="text-bold">Incorporar la escucha activa efectiva y eficiente.</span>
+                        </p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p>Romper las creencias limitantes para poder trabajarlas de manera grupal.</p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p class="text-bold">Diseñar un nuevo plan de acciones</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Ventana Modal--> <!--Taller3-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!--Tarjeta Flip-->
+            <div class="wrap-flip">
+              <div class="card-wrap" data-aos="fade-up" data-aos-duration="800">
+                <div class="card">
+                  <div class="front">
+                      <h1>Este taller es para ti si:</h1>
+                      <div class="item-taller">
+                          <span class="icon-bullhorn"></span>
+                          <p>
+                            <span class="text-bold">Temes a la inestabilidad económica,</span> y por eso te frenas a emprender. 
+                         </p>
+                      </div>
+                      <div class="item-taller">
+                          <span class="icon-bullhorn"></span>
+                          <p>
+                            <span class="text-bold">Tienes una idea de emprendimiento pero necesitas bajarla a la realidad,</span> evaluando ganancias, tiempos de trabajo y estrategia.
+                         </p>
+                      </div>
+                  </div>
+                  <div class="back background-back">
+                    <h1>¿Qué trabajaremos?</h1>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p>
+                          <span class="text-bold">Identifica tus pasiones y tus talentos.</span>
+                       </p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p>
+                          <span class="text-bold">Transforma tu pasión en realidad.</span>
+                        </p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p>SMART GOALS</p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p>Elimina tus temores, miedos, barreras, bloqueos y creencias autolimitantes que no te permiten emprender.</p>
+                    </div>
+                    <div class="item-taller">
+                      <span class="icon-check1"></span>
+                      <p>Mantenerte siempre motivado.</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+
+    <!--Ventana Modal--> <!--Taller4-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!--Tarjeta Flip-->
+            <div class="wrap-flip">
+              <div class="card-wrap" data-aos="fade-up" data-aos-duration="800">
+                <div class="card">
+                  <div class="front">
+                      <h1>Este taller es para ti si:</h1>
+                      <div class="item-taller">
+                          <span class="icon-bullhorn"></span>
+                          <p>
+                            <span class="text-bold">Quieres afianzar los vínculos con tus hijos.</span> 
+                          </p>
+                      </div>
+                      <div class="item-taller">
+                          <span class="icon-bullhorn"></span>
+                          <p>Sientes que están más alejadas y 
+                            <span class="text-bold">te cuesta llegar a conversaciones profundas.</span>
+                          </p>
+                      </div>
+                      <div class="item-taller">
+                        <span class="icon-bullhorn"></span>
+                        <p>Tienes cosas guardadas que no sabes en qué momento y cómo hablarlas.</p>
+                    </div>
+                  </div>
+                  <div class="back background-back">
+                    <h1>¿Qué trabajaremos?</h1>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p class="text-bold">Qué heridas hay que sanar.</p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p>Qué puertas estoy cerrando</p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p class="text-bold">Aprendiendo del perdón</p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p> Sanando y construyendo Vínculos</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Ventana Modal--> <!--Taller5-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!--Tarjeta Flip-->
+            <div class="wrap-flip">
+              <div class="card-wrap" data-aos="fade-up" data-aos-duration="800">
+                <div class="card">
+                  <div class="front">
+                      <h1>Este taller es para ti si:</h1>
+                      <div class="item-taller">
+                          <span class="icon-bullhorn"></span>
+                          <p>Quieres desarrollar la conexión desde diferentes lugares.</p>
+                      </div>
+                      <div class="item-taller">
+                          <span class="icon-bullhorn"></span>
+                          <p>Necesitas identificar diferentes señales de comunicación  
+                            <span class="text-bold"> no verbales.</span>
+                          </p>
+                      </div>
+                      <div class="item-taller">
+                        <span class="icon-bullhorn"></span>
+                        <p>No sabes poner 
+                          <span class="text-bold"> límites</span> 
+                          sin enojarte  
+                        </p>
+                      </div>
+                      <div class="item-taller">
+                        <span class="icon-bullhorn"></span>
+                        <p>Necesitas manejar lo social, y la interacción con los demás.</p>
+                      </div>
+                  </div>
+                  <div class="back background-back">
+                    <h1>¿Qué trabajaremos?</h1>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p>
+                          <span class="text-bold">La aceptación</span>
+                        </p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p>Crear un vínculo con mi compañero de vida</p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p class="text-bold">Desaprender, reaprender</p>
+                    </div>
+                    <div class="item-taller">
+                        <span class="icon-check1"></span>
+                        <p>Intercambio de Experiencias</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="container-fluid container-fluid-swiper">
+    <div class="container container-swiper">
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card-description img-taller-1">
+              <div class="card-title">
+                <h4>EQUIPOS DE VENTAS DE ALTO RENDIMIENTO</h4>
+              </div>
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Ver más
+              </button>
+            </div>
+          </div>
+        
+          <div class="swiper-slide">
+            <div class="card-description img-taller-2">
+              <div class="card-title">
+                <h4>¿LÍDER O BOSSING?</h4>
+                <br>
+              </div>
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Ver más
+              </button>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card-description img-taller-3">
+              <div class="card-title">
+                <h4>ME ATREVO, EMPRENDO</h4>
+                <br>
+              </div>
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Ver más
+              </button>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card-description img-taller-4">
+              <div class="card-title">
+                <h4>SANANDO Y CREANDO VÍNCULOS</h4>
+              </div>
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Ver más
+              </button>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card-description img-taller-5">
+              <div class="card-title">
+                <h4>HIJOS ESPECIALES, PADRES ESPECIALES</h4>
+              </div>
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Ver más
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  
 
   <!--Mi contenido-->
-  <section id="mi-contenido">
+  <section id="mi-contenido" id="mi-contenido">
     <div class="container-fluid bg-content">
       <div class="container text-white">
         <h1 class="title-content">Mi Contenido</h1>
         <div class="row">
-          <div class="col-12 col-md-5 img-content-1" data-aos="fade-right" data-aos-duration="1000">
-            <h1 class="text-bold fst-italic">VIVOS</h1>
+          <div class="col-12 col-md-5 img-content-1" data-aos="fade-right" data-aos-duration="1600">
+            <h1 class="text-bold">VIVOS</h1>
             <div class="text-center mt-5">
-              <a class="button-rounded-white" href="#">Ver más</a>
+              <a class="button-rounded-white" href="proximamente.html">Ver más</a>
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="row no gutters">
               <div class="col-12 col-md-12 col-lg-7 img-content-2">
-                <h1 class="text-bold fst-italic">TALLERES O CAPACITACIONES GRABADAS GRATUITAS O PAGAS</h1>
+                <h2 class="text-bold">
+                  TALLERES Y CAPACITACIONES 
+                </h2>
+                <h1>
+                  <span class="text-bold underline-text"> GRATUITAS</span>
+                </h1>
                 <div class="text-center mt-5">
-                  <a class="button-rounded-white" href="#">Ver más</a>
+                  <a class="button-rounded-white" href="proximamente.html">Ver más</a>
                 </div>
               </div>
               <div class="col-12 col-md-12 col-lg-7 img-content-3">
-                <h1 class="text-bold fst-italic">LIBRO</h1>
+                <h1 class="text-bold">LIBRO</h1>
                 <div class="text-center mt-5">
-                  <a class="button-rounded-white" href="#">Ver más</a>
+                  <a class="button-rounded-white" href="proximamente.html">Ver más</a>
                 </div>
               </div>
             </div>
@@ -360,8 +741,8 @@
   </section>
 
   <!--Contactame-->
-  <div class="container-fluid img-contactame text-white text-center" id="contactame">
-    <h1 data-aos="fade-up" data-aos-duration="800">Contáctame</h1>
+  <div class="container-fluid bg-contactame text-white text-center" id="contactame">
+    <h1 data-aos="fade-up" data-aos-duration="1000">Contáctame</h1>
     <p class="text-contact">Mi propósito es acompañarte
       <span class="fst-italic text-bold" >
         ¡Hablemos! 
@@ -388,7 +769,7 @@
   <footer>
     <div class="container-fluid bg-footer">
       <div class="wrapper-footer">
-        <img src="img/logo-alejandra.png" alt="logo alejandra herrera" class="logo-footer">
+        <img src="img/logo-alejandra-blanco.png" alt="logo alejandra herrera" class="logo-footer">
         <a href="mailto:emilia@telocreo.studio" class="link-footer">
           xxx@alejandrahernandez.com.ec
         </a>
@@ -411,13 +792,17 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script src="js/swiper.js"></script>
+
    <!--AOS Library--> <!--Animaciones JS para scroll-->
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
    <!--Initialize AOS Library--> <!--Animaciones JS para scroll-->
    <script>
-    // You can also pass an optional settings object
-    // below listed default settings
     AOS.init({
       // Global settings:
       disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function

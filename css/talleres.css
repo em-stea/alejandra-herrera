@@ -203,22 +203,7 @@ body {
 }
 
 .back {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: inherit;
-      -ms-flex-align: inherit;
-          align-items: inherit;
-  color: white;
+  width: 100%;
 }
 
 .card-wrap:hover .card {
@@ -275,10 +260,8 @@ body {
 }
 
 .img-card-1 {
-  /*
   background-image: url(../img/image-card-taller-01.jpg);
-  background-size: cover;*/
-  background-color: #a4593c;
+  background-size: cover;
 }
 
 .img-card-2 {

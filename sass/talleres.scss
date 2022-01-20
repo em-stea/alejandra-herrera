@@ -178,12 +178,7 @@ body {
   backface-visibility: hidden;
 }
 .back {
-  transform: rotateY(180deg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: inherit;
-  color: white;
+  width: 100%;
 }
 .card-wrap:hover .card {
   transform: rotateY(180deg);
@@ -225,10 +220,9 @@ body {
 }
 
 .img-card-1 {
-  /*
   background-image: url(../img/image-card-taller-01.jpg);
-  background-size: cover;*/
-  background-color: $colour-brown;
+  background-size: cover;
+  //background-color: $colour-brown;
 }
 .img-card-2 {
   /*
