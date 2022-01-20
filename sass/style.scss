@@ -425,7 +425,7 @@ p {
 .wrapper {
   width: 100%;
   background: #8a7c62;
-  padding: 60px 0 45px 0;
+  padding: 40px 0 10px 0;
   position: relative;
 }
 .ssslide img {
@@ -451,7 +451,7 @@ p {
   font-size: 2rem;
 }
 .testimonial-text {
-  padding: 71px 120px 50px 120px;
+  padding: 71px 60px 50px 60px;
   color: white;
   border: 2px solid white;
   position: relative;
@@ -468,6 +468,7 @@ p {
 .testimonial-text p {
   margin: auto;
   text-align: center;
+  width: 90%;
 }
 
 /***Talleres***/
