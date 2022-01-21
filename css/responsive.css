@@ -111,6 +111,9 @@
   .tarjeta-hackea {
     height: 38rem;
   }
+  .text-vida {
+    text-align: center;
+  }
   /*Testimonios*/
   .slider-testimonial {
     width: 90%;
@@ -308,9 +311,9 @@
     font-size: 4rem;
   }
   .caption3 {
-    bottom: 13rem;
-    width: 80%;
-    left: 10%;
+    bottom: 9rem;
+    width: 55%;
+    left: 23%;
   }
   .caption3 > h1 {
     font-size: 2.8rem;
