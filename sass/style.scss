@@ -134,8 +134,11 @@ body {
 
 /***carousel-home***/
 .text-construir {
-  font-size: 8rem !important;
+  font-size: 10rem !important;
   padding-left: 1rem;
+}
+.text-limites {
+  font-size: 9rem !important;
 }
 .carousel-indicators [data-bs-target] {
   width: 15px;
@@ -151,32 +154,33 @@ body {
   color: $colour-light-pink;
   font-weight: 700;
 }
-.caption2 .span1 {
-  font-size: 4rem;
-}
-.caption2 .span2 {
-  font-size: 6rem;
-  font-weight: 900;
-}
-.caption3 span {
-  font-weight: 900;
+.caption1,
+.caption2 {
+  bottom: 23rem;
 }
 .caption1,
-.caption2,
-.caption3 {
-  bottom: 20.25rem;
-}
-.caption1,
-.caption2,
-.caption3 > h1 {
+.caption2 > h1 {
   font-size: 2.5rem;
 }
-.caption1,
-.caption2,
-.caption3 > h1 > span {
+.caption1 > h1 > span {
   font-size: 5rem;
   font-weight: normal;
 }
+.caption2,
+h1 {
+  line-height: 4.5rem !important;
+}
+.caption3,
+h1 {
+  line-height: 3.5rem;
+}
+.caption3 > h1 {
+  font-size: 1rem;
+}
+.caption3 .light-pink {
+  font-size: 3rem;
+}
+
 .text-first-slide {
   display: flex;
   flex-direction: column;
@@ -196,7 +200,7 @@ body {
   margin: auto;
 }
 .text-comienzos {
-  font-size: 6.9rem;
+  font-size: 8rem;
   padding-left: 1rem;
   line-height: 1rem;
 }
@@ -204,9 +208,10 @@ body {
   line-height: 2.7rem;
 }
 .text-analizando {
-  font-size: 7rem;
+  font-size: 8rem;
   padding-top: -1rem;
   padding-left: 0.5rem;
+  font-weight: normal;
 }
 .image-bg-02 h3 {
   line-height: 2.5rem;
@@ -266,7 +271,7 @@ h4 {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  padding: 10rem 10rem;
+  padding: 8rem 9rem;
 }
 .image-bg-02 {
   background-image: url(../img/image-bg-02.jpg);
@@ -410,13 +415,13 @@ h4 {
   line-height: 3rem;
 }
 .text-estancada {
-  font-size: 7.5rem;
+  font-size: 8rem;
   line-height: 2.5rem;
   color: $colour-orange;
 }
 .text-control {
-  font-size: 6rem;
-  padding-right: 6rem;
+  font-size: 7rem;
+  padding-right: 3rem;
   line-height: 2.5rem;
   padding-bottom: 1rem;
 }
@@ -434,7 +439,7 @@ h4 {
 .tarjeta-hackea {
   position: relative;
   transform-style: preserve-3d;
-  height: 38rem;
+  height: 40rem;
 }
 .adelante-hackea,
 .atras-hackea {
@@ -496,6 +501,10 @@ p {
 .atras-hackea p {
   text-align: left;
 }
+.container-button {
+  width: 68%;
+  margin-top: 2rem;
+}
 
 .button-rounded-brown {
   text-decoration: none;
@@ -513,7 +522,7 @@ p {
 .wrapper {
   width: 100%;
   background: #8a7c62;
-  padding: 40px 0 10px 0;
+  padding: 40px 0 1px 0;
   position: relative;
 }
 .ssslide img {
@@ -539,7 +548,7 @@ p {
   font-size: 4rem;
 }
 .testimonial-text {
-  padding: 71px 60px 50px 60px;
+  padding: 71px 60px 30px 60px;
   color: white;
   border: 2px solid white;
   position: relative;
@@ -580,11 +589,14 @@ p {
   font-size: 2rem;
   font-weight: 800;
 }
-.title-talleres {
+#talleres {
   background: #eee;
+  padding: 3rem 0 0 0;
+  margin-bottom: 0;
+}
+.title-talleres {
   font-size: 7rem;
   text-align: center;
-  padding: 3rem 0 0 0;
   font-family: "Serenity";
   color: $colour-brown;
   margin-bottom: 0;
@@ -983,6 +995,70 @@ textarea.form-control {
   &:hover {
     color: $colour-light-brown;
   }
+}
+
+/*Sobre mi*/
+.image-sobre-mi {
+  background: url(../img/image-sobre-mi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 51rem;
+}
+.image-sobre-mi h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 51rem;
+}
+.text-sobre-mi {
+  font-size: 12rem;
+}
+.image-bg-sobre-mi {
+  background: url(../img/bg-taller-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-sobremi {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 85%;
+  margin: auto;
+  padding-top: 5rem;
+}
+.text-sobremi h1,
+h2,
+p {
+  width: 85%;
+}
+.text-sobremi h1 {
+  font-size: 2.5rem;
+  line-height: 3rem !important;
+  font-weight: 800;
+  color: $colour-brown;
+}
+.text-sobremi h2 {
+  font-size: 1.8rem;
+  color: $colour-darker;
+}
+.text-sobremi p {
+  color: $colour-darker;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.text-certezas {
+  font-size: 7rem;
+  line-height: 1rem;
+  padding-left: 1rem;
+  color: $colour-brown;
+}
+.text-decides {
+  color: $colour-darker;
+  font-size: 8rem;
+  line-height: 1rem;
+  color: $colour-green;
 }
 
 /*Arrow Up Button*/

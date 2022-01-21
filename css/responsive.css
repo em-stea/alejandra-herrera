@@ -12,39 +12,42 @@
     width: 80%;
     left: 21%;
   }
+  .caption1 h1 {
+    line-height: 2rem !important;
+  }
   .caption1 .span1 {
     font-size: 1.5rem;
   }
   .caption1 .span2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .caption2 {
-    bottom: 3.52rem;
-    width: 61%;
+    bottom: 2.52rem;
     left: 15%;
   }
-  .caption2 .span1 {
-    font-size: 1rem;
+  .caption2 h1 {
+    font-size: 1.5rem !important;
+    line-height: 1.7rem !important;
   }
-  .caption2 .span2 {
-    font-size: 1.7rem;
+  .text-limites {
+    font-size: 4.9rem !important;
+  }
+  .text-construir {
+    font-size: 7rem !important;
   }
   .caption3 {
     bottom: 2.25rem;
-    width: 80%;
-    left: 5%;
+    left: 13%;
   }
-  .caption3 > h1 {
+  .caption3 h1 {
     font-size: 1.3rem;
+    line-height: 1.8rem !important;
   }
-  .caption3 span {
-    font-size: 2rem;
+  .caption3 .light-pink {
+    font-size: 1.5rem;
   }
   .text-bigger {
     font-size: 1.5rem !important;
-  }
-  .caption3 .text-bigger {
-    margin-top: 0rem;
   }
   /*Mi historia*/
   .image-bg-03 span {
@@ -289,7 +292,7 @@
 @media screen and (min-width: 1001px) and (max-width: 1600px) {
   /*Carousel*/
   .caption1 {
-    bottom: 12.25rem;
+    bottom: 14rem;
     width: 50%;
     left: 44%;
   }
@@ -300,7 +303,7 @@
     font-size: 6rem;
   }
   .caption2 {
-    bottom: 12.25rem;
+    bottom: 14rem;
     width: 61%;
     left: 20.25%;
   }
@@ -308,12 +311,11 @@
     font-size: 3rem;
   }
   .caption2 .span2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .caption3 {
-    bottom: 9rem;
-    width: 55%;
-    left: 23%;
+    bottom: 14rem;
+    left: 20%;
   }
   .caption3 > h1 {
     font-size: 2.8rem;
