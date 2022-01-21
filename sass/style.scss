@@ -413,6 +413,7 @@ h4 {
 .text-vida {
   font-size: 8rem;
   line-height: 3rem;
+  padding-right: 2rem;
 }
 .text-estancada {
   font-size: 8rem;
@@ -421,7 +422,7 @@ h4 {
 }
 .text-control {
   font-size: 7rem;
-  padding-right: 3rem;
+  padding-left: 1rem;
   line-height: 2.5rem;
   padding-bottom: 1rem;
 }
@@ -452,7 +453,8 @@ h4 {
   backface-visibility: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding-left: 7rem;
   justify-content: center;
 }
 .tarjeta-wrap:hover .tarjeta-hackea {
