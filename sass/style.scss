@@ -1074,14 +1074,86 @@ p {
 }
 
 /*proximamente-section*/
-.proximamente-section {
+/*vivos*/
+.bg-proximamente-vivos {
+  background-color: $colour-light-brown;
+}
+.proximamente-section-1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 85vh;
+  text-align: center;
 }
-.proximamente-section h1 {
-  color: $colour-brown;
-  font-size: 4rem;
-  font-weight: 700;
+.proximamente-section-1 h1 {
+  color: white;
+  font-size: 2rem;
+  line-height: 2.3rem !important;
+}
+.text-creando {
+  font-size: 9rem;
+  padding-left: 1rem;
+  color: $colour-darker;
+  font-weight: normal;
+}
+
+/*capacitaciones gratuitas*/
+.bg-proximamente-cap {
+  background-color: $colour-light-pink;
+}
+.bolder {
+  font-weight: 600;
+}
+.proximamente-section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 85vh;
+  width: 70%;
+  margin: auto;
+}
+.proximamente-section-2 h1 {
+  color: $colour-dark-brown;
+  font-size: 2rem;
+  line-height: 3rem !important;
+  text-align: center;
+}
+.text-gratuito {
+  font-size: 9rem;
+  padding-left: 1rem;
+  color: white;
+  font-weight: normal !important;
+}
+
+/*libro*/
+.text-historia {
+  font-size: 9rem;
+  padding-left: 1rem;
+  color: $colour-orange;
+}
+.bg-proximamente {
+  background: url(../img/bg-taller-04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.proximamente-section-3 {
+  background: url(../img/bg-taller-04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 85vh;
+  width: 70%;
+  margin: auto;
+}
+.proximamente-section-3 h1 {
+  color: $colour-dark-brown;
+  font-size: 2rem;
+  line-height: 3rem !important;
+  text-align: center;
 }

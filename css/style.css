@@ -1391,7 +1391,12 @@ p {
 }
 
 /*proximamente-section*/
-.proximamente-section {
+/*vivos*/
+.bg-proximamente-vivos {
+  background-color: #b9887d;
+}
+
+.proximamente-section-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1401,11 +1406,108 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 85vh;
+  text-align: center;
 }
 
-.proximamente-section h1 {
-  color: #a4593c;
-  font-size: 4rem;
-  font-weight: 700;
+.proximamente-section-1 h1 {
+  color: white;
+  font-size: 2rem;
+  line-height: 2.3rem !important;
+}
+
+.text-creando {
+  font-size: 9rem;
+  padding-left: 1rem;
+  color: #4f4f4f;
+  font-weight: normal;
+}
+
+/*capacitaciones gratuitas*/
+.bg-proximamente-cap {
+  background-color: #d7c4bf;
+}
+
+.bolder {
+  font-weight: 600;
+}
+
+.proximamente-section-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 85vh;
+  width: 70%;
+  margin: auto;
+}
+
+.proximamente-section-2 h1 {
+  color: #61463c;
+  font-size: 2rem;
+  line-height: 3rem !important;
+  text-align: center;
+}
+
+.text-gratuito {
+  font-size: 9rem;
+  padding-left: 1rem;
+  color: white;
+  font-weight: normal !important;
+}
+
+/*libro*/
+.text-historia {
+  font-size: 9rem;
+  padding-left: 1rem;
+  color: #f6a021;
+}
+
+.bg-proximamente {
+  background: url(../img/bg-taller-04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.proximamente-section-3 {
+  background: url(../img/bg-taller-04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 85vh;
+  width: 70%;
+  margin: auto;
+}
+
+.proximamente-section-3 h1 {
+  color: #61463c;
+  font-size: 2rem;
+  line-height: 3rem !important;
+  text-align: center;
 }
