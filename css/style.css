@@ -1294,8 +1294,10 @@ textarea.form-control {
 .image-sobre-mi {
   background: url(../img/image-sobre-mi.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 51rem;
+  background-size: contain;
+  background-position: top center;
+  height: auto;
+  margin-top: 3rem;
 }
 
 .image-sobre-mi h1 {
@@ -1312,15 +1314,20 @@ textarea.form-control {
 }
 
 .text-sobre-mi {
-  font-size: 12rem;
+  font-size: 9rem;
 }
 
+.image-bg-sobre-mi {
+  border-left: 1px solid #e3e2e2;
+  margin-top: 2rem;
+}
+
+/*
 .image-bg-sobre-mi {
   background: url(../img/bg-taller-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
+}*/
 .text-sobremi {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1338,7 +1345,6 @@ textarea.form-control {
   text-align: left;
   width: 85%;
   margin: auto;
-  padding-top: 5rem;
 }
 
 .text-sobremi h1,
@@ -1363,6 +1369,7 @@ p {
   color: #4f4f4f;
   font-size: 1.2rem;
   line-height: 2rem;
+  margin-bottom: 4rem;
 }
 
 .text-certezas {
@@ -1373,10 +1380,10 @@ p {
 }
 
 .text-decides-2 {
-  color: #4f4f4f;
+  color: #8a7c62;
   font-size: 8rem;
   line-height: 1rem;
-  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 .row-redes {
@@ -1579,4 +1586,105 @@ p {
   font-size: 2rem;
   line-height: 3rem !important;
   text-align: center;
+}
+
+/*Buttons click responsive*/
+.button-rounded-click {
+  background-color: #d7c4bf;
+  width: 35px;
+  height: 35px;
+  margin-top: 2rem;
+  border-radius: 50px;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: twinkle;
+          animation-name: twinkle;
+}
+
+.button-rounded-click-2 {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  margin-top: 23rem;
+  border-radius: 50px;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: twinkle;
+          animation-name: twinkle;
+}
+
+.button-rounded-click-3 {
+  background-color: #8a7c62;
+  width: 35px;
+  height: 35px;
+  margin: 2rem auto 0;
+  border-radius: 50px;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: twinkle;
+          animation-name: twinkle;
+}
+
+.container-click {
+  padding-right: 3rem;
+}
+
+@-webkit-keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0.7;
+  }
+  30% {
+    opacity: 0.4;
+  }
+  45% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0.7;
+  }
+  30% {
+    opacity: 0.4;
+  }
+  45% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
 }

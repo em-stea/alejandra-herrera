@@ -42,7 +42,12 @@
   }
   /*sobre mi*/
   .image-sobre-mi {
-    height: auto;
+    height: 19rem;
+  }
+  .image-bg-sobre-mi {
+    border-left: none;
+    border-top: 1px solid #e3e2e2;
+    margin-top: 2rem;
   }
   .image-sobre-mi h1 {
     height: 30rem;
@@ -105,6 +110,22 @@
   .modal-top-talleres {
     top: 59px;
   }
+  /*Hackea tu vida*/
+  .text-control {
+    padding-right: 2rem;
+    font-size: 6.5rem;
+    line-height: 4rem;
+  }
+  .atras-hackea h1 {
+    margin-bottom: 0;
+  }
+  .tarjeta-hackea {
+    height: 43rem;
+  }
+  .adelante-hackea,
+  .atras-hackea {
+    padding-left: 2rem;
+  }
 }
 @media screen and (min-width: 380px) and (max-width: 475px) {
   /*Navbar*/
@@ -163,6 +184,12 @@
   .caption3 .light-pink {
     font-size: 0.9rem;
   }
+  /*mi historia*/
+  .tarjeta {
+    width: 90%;
+    padding-left: 2rem;
+  }
+
   /*Coffee*/
   .atras-coffee-two {
     padding-left: 1rem;
@@ -172,7 +199,12 @@
   }
   /*sobre mi*/
   .image-sobre-mi {
-    height: auto;
+    height: 28rem;
+  }
+  .image-bg-sobre-mi {
+    border-left: none;
+    border-top: 1px solid #e3e2e2;
+    margin-top: 2rem;
   }
   .image-sobre-mi h1 {
     height: 33rem;
@@ -185,13 +217,38 @@
   }
   /*Talleres*/
   .modal-top-talleres {
-    top: 80px;
+    top: 45px;
   }
   .back h1 {
-    padding-top: 2rem;
+    padding-top: 1rem;
+  }
+  .card {
+    width: 326px;
+    height: 530px;
   }
   .card h1 {
     margin-bottom: 0;
+  }
+  .front h1 {
+    padding-top: 2.8rem;
+  }
+  /*Hackea tu vida*/
+  .text-control {
+    padding-right: 2rem;
+    font-size: 6.5rem;
+    line-height: 4rem;
+  }
+  .atras-hackea {
+    padding-left: 4rem;
+  }
+  .atras-hackea h1 {
+    margin-bottom: 0;
+  }
+  .tarjeta-hackea {
+    height: 45rem;
+  }
+  .adelante-hackea {
+    padding-left: 3rem;
   }
 }
 @media screen and (min-width: 476px) and (max-width: 600px) {
@@ -254,7 +311,12 @@
   }
   /*sobre mi*/
   .image-sobre-mi {
-    height: auto;
+    height: 37rem;
+  }
+  .image-bg-sobre-mi {
+    border-left: none;
+    border-top: 1px solid #e3e2e2;
+    margin-top: 2rem;
   }
   .image-sobre-mi h1 {
     height: 33rem;
@@ -335,7 +397,12 @@
   }
   /*sobre mi*/
   .image-sobre-mi {
-    height: auto;
+    height: 46rem;
+  }
+  .image-bg-sobre-mi {
+    border-left: none;
+    border-top: 1px solid #e3e2e2;
+    margin-top: 2rem;
   }
   .image-sobre-mi h1 {
     height: 33rem;
@@ -378,10 +445,6 @@
     display: flex;
     flex-direction: column-reverse;
   }
-  .tarjeta {
-    width: 85%;
-    padding-left: 30px;
-  }
   .tarjeta h1 {
     padding: 2rem 0 3rem 0;
   }
@@ -401,14 +464,6 @@
   }
 
   /*Hackea tu vida*/
-  .adelante-hackea,
-  .atras-hackea {
-    padding-left: 2rem;
-  }
-  .text-control {
-    padding-right: 2rem;
-    font-size: 4.5rem;
-  }
   .button-rounded-brown {
     margin-top: 1rem;
   }
@@ -423,9 +478,6 @@
   }
   .sidebar-carousel {
     height: 36.7rem;
-  }
-  .tarjeta-hackea {
-    height: 38rem;
   }
   .text-vida {
     text-align: center;

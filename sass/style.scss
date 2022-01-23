@@ -1003,8 +1003,10 @@ textarea.form-control {
 .image-sobre-mi {
   background: url(../img/image-sobre-mi.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 51rem;
+  background-size: contain;
+  background-position: top center;
+  height: auto;
+  margin-top: 3rem;
 }
 .image-sobre-mi h1 {
   display: flex;
@@ -1013,13 +1015,18 @@ textarea.form-control {
   height: 51rem;
 }
 .text-sobre-mi {
-  font-size: 12rem;
+  font-size: 9rem;
 }
+.image-bg-sobre-mi {
+  border-left: 1px solid #e3e2e2;
+  margin-top: 2rem;
+}
+/*
 .image-bg-sobre-mi {
   background: url(../img/bg-taller-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
+}*/
 .text-sobremi {
   display: flex;
   justify-content: center;
@@ -1028,7 +1035,6 @@ textarea.form-control {
   text-align: left;
   width: 85%;
   margin: auto;
-  padding-top: 5rem;
 }
 .text-sobremi h1,
 h2,
@@ -1049,6 +1055,7 @@ p {
   color: $colour-darker;
   font-size: 1.2rem;
   line-height: 2rem;
+  margin-bottom: 4rem;
 }
 .text-certezas {
   font-size: 7rem;
@@ -1057,10 +1064,10 @@ p {
   color: $colour-brown;
 }
 .text-decides-2 {
-  color: $colour-darker;
+  color: $colour-green;
   font-size: 8rem;
   line-height: 1rem;
-  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 .row-redes {
   border-bottom: 1px solid #e3e2e2;
@@ -1205,4 +1212,65 @@ p {
   font-size: 2rem;
   line-height: 3rem !important;
   text-align: center;
+}
+
+/*Buttons click responsive*/
+.button-rounded-click {
+  background-color: $colour-light-pink;
+  width: 35px;
+  height: 35px;
+  margin-top: 2rem;
+  border-radius: 50px;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: twinkle;
+}
+.button-rounded-click-2 {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  margin-top: 23rem;
+  border-radius: 50px;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: twinkle;
+}
+.button-rounded-click-3 {
+  background-color: $colour-green;
+  width: 35px;
+  height: 35px;
+  margin: 2rem auto 0;
+  border-radius: 50px;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: twinkle;
+}
+.container-click {
+  padding-right: 3rem;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0.7;
+  }
+  30% {
+    opacity: 0.4;
+  }
+  45% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
 }
