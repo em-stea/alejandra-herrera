@@ -1,11 +1,124 @@
 @import "variables";
-@media screen and (max-width: 488px) {
+
+@media screen and (min-width: 300px) and (max-width: 379px) {
+  /*navbar*/
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+  .navbar-nav {
+    width: 100%;
+  }
+  /*Carousel*/
+  .caption1 {
+    bottom: 2rem;
+    left: 40%;
+  }
+  .caption2 {
+    bottom: 2.52rem;
+    left: 15%;
+  }
+  .text-limites {
+    font-size: 3rem !important;
+  }
+  .caption2 h1 {
+    font-size: 1.2rem;
+    line-height: 1.7rem !important;
+  }
+  .caption3 {
+    bottom: 2.25rem;
+    left: 13%;
+  }
+  .text-construir {
+    font-size: 3.5rem !important;
+    padding-left: 0.5rem;
+  }
+  .caption3 h1 {
+    font-size: 0.9rem;
+    line-height: 1.8rem !important;
+  }
+  .caption3 .light-pink {
+    font-size: 0.9rem;
+  }
+  /*sobre mi*/
+  .image-sobre-mi {
+    height: auto;
+  }
+  .image-sobre-mi h1 {
+    height: 30rem;
+  }
+  .text-sobre-mi {
+    font-size: 8rem;
+  }
+  .text-decides-2 {
+    margin-bottom: 6rem;
+    line-height: 5rem;
+  }
+  .container-redes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-redes p {
+    margin-bottom: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .modal-top {
+    top: 0;
+  }
+  .gallery {
+    padding: 50px 0;
+  }
+
+  /*mi historia*/
+  .tarjeta {
+    height: 50rem;
+  }
+  .text-comienzos {
+    font-size: 6.5rem;
+  }
+  /*Coffee*/
+  .text-oportunity {
+    font-size: 5rem;
+  }
+  .atras-coffee-two {
+    padding-left: 0;
+  }
+  .atras-coffee-two h1 {
+    margin-left: 20rem;
+  }
+  /*Talleres*/
+  .card {
+    width: 279px;
+    height: 560px;
+  }
+  .card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .front h1 {
+    padding-top: 2rem;
+  }
+  .back h1 {
+    padding-top: 0;
+  }
+  .modal-top-talleres {
+    top: 59px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 475px) {
   /*Navbar*/
   .navbar {
     position: inherit;
   }
   .navbar-brand {
     padding-top: 0.8rem;
+  }
+  .nav-link {
+    margin: 0;
+  }
+  .navbar-nav {
+    width: 100%;
   }
   /*Carousel*/
   .caption1 {
@@ -26,34 +139,62 @@
     bottom: 2.52rem;
     left: 15%;
   }
+  .text-limites {
+    font-size: 4.5rem;
+  }
   .caption2 h1 {
-    font-size: 1.5rem !important;
+    font-size: 1.2rem;
     line-height: 1.7rem !important;
   }
   .text-limites {
-    font-size: 4.9rem !important;
+    font-size: 3.9rem !important;
   }
   .text-construir {
-    font-size: 7rem !important;
+    font-size: 4.1rem !important;
   }
   .caption3 {
     bottom: 2.25rem;
     left: 13%;
   }
   .caption3 h1 {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     line-height: 1.8rem !important;
   }
   .caption3 .light-pink {
-    font-size: 1.5rem;
+    font-size: 0.9rem;
+  }
+  /*Coffee*/
+  .atras-coffee-two {
+    padding-left: 1rem;
+  }
+  .atras-coffee-two h1 {
+    margin-left: 20rem;
   }
   /*sobre mi*/
-  .image-bg-sobre-mi {
-    height: 66rem;
+  .image-sobre-mi {
+    height: auto;
+  }
+  .image-sobre-mi h1 {
+    height: 33rem;
+  }
+  .text-decides-2 {
+    margin-bottom: 6rem;
+  }
+  .gallery {
+    padding: 50px 0;
+  }
+  /*Talleres*/
+  .modal-top-talleres {
+    top: 80px;
+  }
+  .back h1 {
+    padding-top: 2rem;
+  }
+  .card h1 {
+    margin-bottom: 0;
   }
 }
-
-@media screen and (min-width: 488px) and (max-width: 740px) {
+@media screen and (min-width: 476px) and (max-width: 600px) {
   /*Navbar*/
   .navbar {
     position: inherit;
@@ -63,7 +204,91 @@
   }
   /*Carousel*/
   .caption1 {
-    bottom: 3.25rem;
+    bottom: 4rem;
+    width: 80%;
+    left: 21%;
+  }
+  .caption1 h1 {
+    line-height: 2rem !important;
+  }
+  .caption1 .span1 {
+    font-size: 1.5rem;
+  }
+  .caption1 .span2 {
+    font-size: 2.5rem;
+  }
+  .caption2 {
+    bottom: 4.1rem;
+    left: 15%;
+  }
+  .text-limites {
+    font-size: 4.5rem;
+  }
+  .caption2 h1 {
+    font-size: 1.2rem;
+    line-height: 1.7rem !important;
+  }
+  .text-limites {
+    font-size: 3.9rem !important;
+  }
+  .text-construir {
+    font-size: 4.1rem !important;
+  }
+  .caption3 {
+    bottom: 4rem;
+    left: 13%;
+  }
+  .caption3 h1 {
+    font-size: 0.9rem;
+    line-height: 1.8rem !important;
+  }
+  .caption3 .light-pink {
+    font-size: 0.9rem;
+  }
+  /*Coffee*/
+  .atras-coffee-two {
+    padding-left: 1rem;
+  }
+  .atras-coffee-two h1 {
+    margin-left: 20rem;
+  }
+  /*sobre mi*/
+  .image-sobre-mi {
+    height: auto;
+  }
+  .image-sobre-mi h1 {
+    height: 33rem;
+  }
+  .text-decides-2 {
+    margin-bottom: 6rem;
+  }
+  .gallery {
+    padding: 50px 0;
+  }
+
+  /*Talleres*/
+  .modal-top-talleres {
+    top: 80px;
+  }
+  .back h1 {
+    padding-top: 2rem;
+  }
+  .card h1 {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 740px) {
+  /*Navbar*/
+  .navbar {
+    position: inherit;
+  }
+  .navbar-brand {
+    padding-top: 0.8rem;
+  }
+  /*Carousel*/
+  .caption1 {
+    bottom: 7rem;
     width: 80%;
     left: 21%;
   }
@@ -80,7 +305,7 @@
     font-size: 2.5rem;
   }
   .caption2 {
-    bottom: 5.25rem;
+    bottom: 6rem;
     left: 15%;
   }
   .caption2 h1 {
@@ -94,7 +319,7 @@
     font-size: 7rem !important;
   }
   .caption3 {
-    bottom: 2.25rem;
+    bottom: 7rem;
     left: 13%;
   }
   .caption3 h1 {
@@ -104,9 +329,22 @@
   .caption3 .light-pink {
     font-size: 1.5rem;
   }
+  /*Hackea tu vida*/
+  .text-vida {
+    padding-right: 18rem;
+  }
   /*sobre mi*/
-  .image-bg-sobre-mi {
-    height: 60rem !important;
+  .image-sobre-mi {
+    height: auto;
+  }
+  .image-sobre-mi h1 {
+    height: 33rem;
+  }
+  .text-decides-2 {
+    margin-bottom: 6rem;
+  }
+  .gallery {
+    padding: 50px 0;
   }
 }
 
@@ -119,11 +357,7 @@
     padding-top: 0.8rem;
   }
   /*Carousel*/
-  .caption1 {
-    bottom: 3.25rem;
-    width: 80%;
-    left: 21%;
-  }
+
   .caption1 h1 {
     line-height: 2rem !important;
   }
@@ -132,31 +366,6 @@
   }
   .caption1 .span2 {
     font-size: 2.5rem;
-  }
-  .caption2 {
-    bottom: 2.52rem;
-    left: 15%;
-  }
-  .caption2 h1 {
-    font-size: 1.5rem !important;
-    line-height: 1.7rem !important;
-  }
-  .text-limites {
-    font-size: 4.9rem !important;
-  }
-  .text-construir {
-    font-size: 7rem !important;
-  }
-  .caption3 {
-    bottom: 2.25rem;
-    left: 13%;
-  }
-  .caption3 h1 {
-    font-size: 1.3rem;
-    line-height: 1.8rem !important;
-  }
-  .caption3 .light-pink {
-    font-size: 1.5rem;
   }
   .text-bigger {
     font-size: 1.5rem !important;
@@ -187,17 +396,8 @@
   .tarjeta-resp {
     height: 25rem;
   }
-  .atras-coffee-two h1 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-right: 0;
-    margin-bottom: 3rem;
-  }
   .adelante-coffee h1 {
     font-size: 2.5rem;
-  }
-  .text-oportunity {
-    font-size: 4rem;
   }
 
   /*Hackea tu vida*/
@@ -250,10 +450,6 @@
     font-size: 7rem;
     padding-top: 1rem;
   }
-  /*ventana modal*/
-  .modal {
-    top: 145px;
-  }
 
   /*Mi contenido*/
   .title-content {
@@ -298,32 +494,18 @@
 
 @media screen and (min-width: 560px) and (max-width: 780px) {
   /*Carousel*/
-  .caption1 {
-    bottom: 4.25rem;
-    width: 50%;
-    left: 26%;
-  }
   .caption1 .span1 {
     font-size: 1.5rem;
   }
   .caption1 .span2 {
     font-size: 4.5rem;
   }
-  .caption2 {
-    bottom: 3.25rem;
-    width: 70%;
-    left: 16%;
-  }
+
   .caption2 .span1 {
     font-size: 1rem;
   }
   .caption2 .span2 {
     font-size: 3rem;
-  }
-  .caption3 {
-    bottom: 3.25rem;
-    width: 80%;
-    left: 10%;
   }
   .caption3 > h1 {
     font-size: 1.6rem;
@@ -349,6 +531,10 @@
   }
   .sidebar-carousel {
     height: 39rem;
+  }
+  /*Gallery sobre mi*/
+  .gallery {
+    padding: 50px 0;
   }
 }
 @media screen and (min-width: 781px) and (max-width: 1000px) {
@@ -401,6 +587,10 @@
   }
   .sidebar-carousel {
     height: 39rem;
+  }
+  /*Sobre mi*/
+  .gallery {
+    padding: 50px 0;
   }
 }
 /*desktop*/
