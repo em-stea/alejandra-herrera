@@ -1006,7 +1006,7 @@ textarea.form-control {
   background-size: contain;
   background-position: top center;
   height: auto;
-  margin-top: 3rem;
+  margin-top: 9rem;
 }
 .image-sobre-mi h1 {
   display: flex;
@@ -1018,7 +1018,7 @@ textarea.form-control {
   font-size: 9rem;
 }
 .image-bg-sobre-mi {
-  border-left: 1px solid #e3e2e2;
+  /*border-left: 1px solid #e3e2e2;*/
   margin-top: 2rem;
 }
 /*
@@ -1070,14 +1070,15 @@ p {
   margin-bottom: 4rem;
 }
 .row-redes {
-  border-bottom: 1px solid #e3e2e2;
+  /*border-top: 1px solid #e3e2e2;*/
+  margin: 4rem 2rem 0 3rem;
 }
 .container-redes {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   flex-direction: row;
-  margin: 4rem 0;
+  margin: 3rem 0;
 }
 .container-redes p {
   width: auto;
@@ -1097,17 +1098,26 @@ p {
     color: white;
   }
 }
+.row-border {
+  border-top: 1px solid #e3e2e2;
+  padding-top: 3rem;
+  margin-bottom: 4rem;
+}
 /*Gallery Sobre mi*/
 .gallery-item {
   max-width: 100%;
 }
 .gallery {
-  padding: 50px 200px;
+  margin-top: 2rem;
 }
 .gallery img {
   width: 100%;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);*/
   cursor: pointer;
+}
+.col-padding {
+  padding: 0.2rem;
+  margin-top: 0;
 }
 #gallery-modal .modal-img {
   width: 100%;
@@ -1115,6 +1125,13 @@ p {
 .modal-top {
   top: 0;
   max-width: 600px;
+}
+.flexible-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 3rem;
 }
 
 /*Arrow Up Button*/

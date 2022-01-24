@@ -40,11 +40,12 @@
   }
   /*sobre mi*/
   .image-sobre-mi {
-    height: 19rem;
+    height: 24rem;
+    margin-top: 3rem;
   }
   .image-bg-sobre-mi {
     border-left: none;
-    border-top: 1px solid #e3e2e2;
+    /*border-top: 1px solid #e3e2e2;*/
     margin-top: 2rem;
   }
   .image-sobre-mi h1 {
@@ -56,6 +57,9 @@
   .text-decides-2 {
     margin-bottom: 6rem;
     line-height: 5rem;
+  }
+  .row-redes {
+    margin: 2rem 0 0 0;
   }
   .container-redes {
     -webkit-box-orient: vertical;
@@ -76,6 +80,10 @@
   }
   .gallery {
     padding: 50px 0;
+  }
+  .flexible-box {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   /*mi historia*/
   .tarjeta {
@@ -214,8 +222,15 @@
   .text-decides-2 {
     margin-bottom: 6rem;
   }
+  .row-redes {
+    margin: 2rem 0.5rem 0 1.5rem;
+  }
   .gallery {
     padding: 50px 0;
+  }
+  .flexible-box {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   /*Talleres*/
   .modal-top-talleres {
