@@ -39,6 +39,12 @@
     font-size: 0.9rem;
   }
   /*sobre mi*/
+  .row-padding-cert {
+    padding: 0;
+  }
+  .modal-top-certificacion {
+    top: 15rem;
+  }
   .image-sobre-mi {
     margin-top: 3rem;
   }
@@ -221,6 +227,12 @@
   .image-sobre-mi h1 {
     height: 33rem;
   }
+  .row-padding-cert {
+    padding: 0;
+  }
+  .modal-top-certificacion {
+    top: 15rem;
+  }
   .text-decides-2 {
     margin-bottom: 6rem;
   }
@@ -341,6 +353,12 @@
   .image-sobre-mi h1 {
     height: 33rem;
   }
+  .row-padding-cert {
+    padding: 0;
+  }
+  .modal-top-certificacion {
+    top: 15rem;
+  }
   .text-decides-2 {
     margin-bottom: 6rem;
   }
@@ -425,6 +443,12 @@
   }
   .image-sobre-mi h1 {
     height: 33rem;
+  }
+  .row-padding-cert {
+    padding: 0;
+  }
+  .modal-top-certificacion {
+    top: 15rem;
   }
   .text-decides-2 {
     margin-bottom: 6rem;
