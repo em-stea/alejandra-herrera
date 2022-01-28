@@ -40,7 +40,6 @@
   }
   /*sobre mi*/
   .image-sobre-mi {
-    height: 24rem;
     margin-top: 3rem;
   }
   .image-bg-sobre-mi {
@@ -84,6 +83,9 @@
   .flexible-box {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  audio {
+    width: 100%;
   }
   /*mi historia*/
   .tarjeta {
@@ -208,8 +210,8 @@
     margin-left: 20rem;
   }
   /*sobre mi*/
-  .image-sobre-mi {
-    height: 28rem;
+  audio {
+    width: 100%;
   }
   .image-bg-sobre-mi {
     border-left: none;
@@ -328,8 +330,8 @@
     margin-left: 20rem;
   }
   /*sobre mi*/
-  .image-sobre-mi {
-    height: 37rem;
+  audio {
+    width: 100%;
   }
   .image-bg-sobre-mi {
     border-left: none;

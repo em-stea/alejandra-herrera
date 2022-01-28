@@ -1291,6 +1291,11 @@ textarea.form-control {
 }
 
 /*Sobre mi*/
+audio {
+  width: 70.5%;
+}
+
+/*
 .image-sobre-mi {
   background: url(../img/image-sobre-mi.jpg);
   background-repeat: no-repeat;
@@ -1298,6 +1303,18 @@ textarea.form-control {
   background-position: top center;
   height: auto;
   margin-top: 9rem;
+}*/
+.text-play {
+  font-weight: 800;
+  color: #61463c;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.image-sobre-mi {
+  margin-top: 5rem;
+  height: auto;
 }
 
 .image-sobre-mi h1 {
@@ -1435,52 +1452,113 @@ p {
   margin-bottom: 4rem;
 }
 
-/*Gallery Sobre mi*/
-.gallery-item {
-  max-width: 100%;
+/*Certificaciones*/
+.text-certificaciones {
+  font-weight: 800;
+  color: #f6a021;
+  margin-bottom: 1.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e3e2e2;
 }
 
-.gallery {
-  margin-top: 2rem;
+.modal-top-certificacion {
+  top: 6rem;
 }
 
-.gallery img {
-  width: 100%;
-  /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);*/
-  cursor: pointer;
+.row-padding-cert {
+  padding: 0 10rem;
+  margin-bottom: 4rem;
 }
 
-.col-padding {
-  padding: 0.2rem;
-  margin-top: 0;
-}
-
-#gallery-modal .modal-img {
+.img-certificacion {
   width: 100%;
 }
 
-.modal-top {
-  top: 0;
-  max-width: 600px;
-}
-
-.flexible-box {
+.bg-colour-01, .bg-colour-02, .bg-colour-03, .bg-colour-04, .bg-colour-05, .bg-colour-06 {
+  height: 15rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-left: 3rem;
 }
 
+.bg-colour-01 {
+  background-color: #a4593c;
+}
+
+.bg-colour-02 {
+  background-color: #d7c4bf;
+}
+
+.bg-colour-03 {
+  background-color: #f6a021;
+}
+
+.bg-colour-04 {
+  background-color: #8a7c62;
+}
+
+.bg-colour-05 {
+  background-color: #61463c;
+}
+
+.bg-colour-06 {
+  background-color: #b9887d;
+}
+
+.button-aval {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #61463c;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 0.5rem 3rem;
+}
+
+.button-aval:hover {
+  background-color: #d7c4bf;
+}
+
+/*Gallery Sobre mi
+.gallery-item {
+  max-width: 100%;
+}
+.gallery {
+  margin-top: 2rem;
+}
+.gallery img {
+  width: 100%;
+  cursor: pointer;
+}
+.col-padding {
+  padding: 0.2rem;
+  margin-top: 0;
+}
+#gallery-modal .modal-img {
+  width: 100%;
+}
+.modal-top {
+  top: 0;
+  max-width: 600px;
+}
+.flexible-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 3rem;
+}*/
 /*Arrow Up Button*/
 #scrollUp {
   bottom: 70px;
