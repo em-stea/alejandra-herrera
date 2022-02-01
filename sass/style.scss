@@ -1136,6 +1136,13 @@ p {
 .img-certificacion {
   width: 100%;
 }
+.link-teilen {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: $colour-dark-brown;
+  }
+}
 %module_bg-color {
   height: 15rem;
   display: flex;

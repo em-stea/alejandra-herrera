@@ -1474,6 +1474,15 @@ p {
   width: 100%;
 }
 
+.link-teilen {
+  text-decoration: none;
+  color: white;
+}
+
+.link-teilen:hover {
+  color: #61463c;
+}
+
 .bg-colour-01, .bg-colour-02, .bg-colour-03, .bg-colour-04, .bg-colour-05, .bg-colour-06 {
   height: 15rem;
   display: -webkit-box;
