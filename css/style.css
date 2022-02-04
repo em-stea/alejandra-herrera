@@ -1289,6 +1289,10 @@ textarea.form-control {
   color: #b9887d;
 }
 
+.fb-icon-footer {
+  font-size: 1.5rem;
+}
+
 /*Sobre mi*/
 audio {
   width: 70.5%;
