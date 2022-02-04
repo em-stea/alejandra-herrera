@@ -1269,14 +1269,14 @@ textarea.form-control {
 
 .icon-instagram,
 .icon-twitter,
-.icon-youtube {
+.icon-youtube .icon-facebook {
   font-size: 1.5rem;
   margin: 0 0.8rem;
 }
 
 .icon-instagram:hover,
 .icon-twitter:hover,
-.icon-youtube:hover {
+.icon-youtube .icon-facebook:hover {
   color: #b9887d;
 }
 
