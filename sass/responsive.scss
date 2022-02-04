@@ -93,7 +93,16 @@
 
   /*mi historia*/
   .tarjeta {
-    height: 50rem;
+    height: 40rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+  }
+  .tarjeta h4 {
+    width: 100%;
+  }
+  .tarjeta p {
+    width: 100%;
   }
   .text-comienzos {
     font-size: 6.5rem;
