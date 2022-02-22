@@ -13,6 +13,7 @@ function ocultarTarjeta() {
 function mostrarTarjetaTwo() {
   document.getElementById("frente-two").style.display = "none";
   document.getElementById("dorso-two").style.display = "flex";
+  document.getElementById("dorso-two").style.alignItems = "baseline";
 }
 function ocultarTarjetaTwo() {
   document.getElementById("dorso-two").style.display = "none";

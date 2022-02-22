@@ -1,3 +1,94 @@
+@media screen and (max-width: 299px) {
+  /*navbar*/
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .navbar-nav {
+    width: auto;
+  }
+  /*Carousel home*/
+  .caption2 {
+    bottom: 1rem;
+  }
+  .caption2 h1 {
+    font-size: 1.2rem;
+    line-height: 1.5rem !important;
+  }
+  .text-limites {
+    font-size: 3.2rem !important;
+  }
+  .text-third-slide {
+    bottom: 1rem;
+    left: 2rem;
+  }
+  .caption3 h1 {
+    line-height: 1rem !important;
+    font-size: 0.8rem;
+  }
+  .text-construir {
+    font-size: 3.5rem !important;
+  }
+  .caption1 {
+    bottom: 2rem;
+  }
+  .caption1 h1 {
+    line-height: 1.2rem !important;
+  }
+  .caption1 .span1 {
+    font-size: 1.2rem !important;
+  }
+  .caption1 .span2 {
+    font-size: 1.6rem !important;
+  }
+  /*Mi historia*/
+  .tarjeta {
+    width: 90%;
+    height: 51rem;
+    padding-left: 1rem;
+  }
+  .tarjeta p {
+    width: 90%;
+  }
+  .text-comienzos {
+    font-size: 5rem;
+  }
+  .text-analizando {
+    font-size: 6rem;
+  }
+  /*Coffee*/
+  .text-oportunity {
+    font-size: 5.5rem;
+  }
+  .atras-two {
+    padding-left: 2rem;
+  }
+  .atras-two h1 {
+    margin-right: 1rem;
+    line-height: 2.7rem !important;
+  }
+  /*Hackea tu vida*/
+  .tarjeta-hackea {
+    height: 50rem;
+  }
+  .adelante-hackea,
+  .atras-hackea {
+    padding-left: 2rem;
+  }
+  .img-content-1 h1,
+  .img-content-2 h2 {
+    font-size: 1.7rem !important;
+    line-height: 3rem !important;
+  }
+  .img-content-3 h1 {
+    font-size: 2rem !important;
+  }
+  /*Mi contenido*/
+  .title-content {
+    font-size: 3.7rem !important;
+  }
+}
+
 @media screen and (max-width: 320px) {
   /*Coffee*/
   .tarjeta-one {
@@ -21,7 +112,7 @@
     width: auto;
   }
   .img-content-2 h2 {
-    font-size: 1.7rem !important;
+    font-size: 1.6rem !important;
   }
   /*contactame*/
   .bg-contactame h1 {
@@ -583,9 +674,6 @@
     padding-top: 0.8rem;
   }
   /*Carousel*/
-  .caption1 h1 {
-    line-height: 2rem !important;
-  }
   .caption1 .span1 {
     font-size: 1.5rem;
   }
