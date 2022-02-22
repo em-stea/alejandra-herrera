@@ -373,7 +373,7 @@
     height: 37rem;
   }
   .atras-two {
-    padding-left: 1rem;
+    padding-left: 2rem;
   }
   /*sobre mi*/
   audio {
@@ -1251,7 +1251,7 @@
     color: white;
   }
   /*Hackea tu vida*/
-  .flex-icon-plus {
+  .flex-icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
