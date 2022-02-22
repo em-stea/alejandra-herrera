@@ -664,7 +664,6 @@ p {
   width: 100%;
   height: 100%;
 }
-
 .card-title h4 {
   color: white;
   font-weight: 600;
@@ -735,7 +734,7 @@ p {
 
 /*Tarjeta flip talleres*/
 .wrap-flip {
-  margin: 19px auto;
+  margin: 5px auto;
   display: flex;
   justify-content: center;
 }
@@ -746,34 +745,31 @@ p {
 }
 .card {
   width: 415px;
-  height: 490px;
+  height: 560px;
   background-color: white;
   position: relative;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d; //para que funcione el giro con efecto hover
+  //-webkit-transform-style: preserve-3d;
+  //transform-style: preserve-3d; //para que funcione el giro con efecto hover
   -webkit-transition: 0.7s ease;
   transition: 0.7s ease;
   -webkit-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
   -moz-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
   box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
   border: none;
+  overflow: hidden;
 }
 .front,
 .back {
   width: 100%;
-  height: 100%;
+  height: 500px;
   position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-backface-visibility: hidden; //Oculta la parte trasera de la rotación(muestra la clase "adelante" y oculta la clase "atras" y viceversa cuando gira.)
-  backface-visibility: hidden;
 }
 .front {
   width: 100%;
+  top: 0;
+  left: 0;
 }
 .back {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -781,21 +777,42 @@ p {
   background-color: $colour-brown;
   text-align: center;
   color: #fff;
+  top: 500px;
+  left: 0;
 }
 
 .background-back {
   background-color: $colour-brown;
-}
+} /*
 .card-wrap:hover .card {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   border: none;
+}*/
+
+/*Accordion*/
+.accordion-button {
+  padding: 0.25rem 1.25rem;
 }
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+.accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+.accordion-header {
+  width: 100%;
+}
+.accordion-body {
+  padding: 1rem 0;
+  border-top: 0.5px solid #eceded;
+}
+
 .card h1 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 900;
   text-align: center;
-  margin-bottom: 1rem;
 }
 .card p {
   font-size: 1rem;
@@ -805,7 +822,7 @@ p {
 }
 .front h1 {
   color: $colour-green;
-  padding-top: 3.8rem;
+  margin-bottom: 0;
 }
 .back h1 {
   padding-top: 2.5rem;
