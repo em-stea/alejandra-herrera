@@ -1,7 +1,27 @@
 @import "variables";
 
 @media screen and (max-width: 320px) {
+  /*Coffee*/
+  .tarjeta-one {
+    height: 39rem;
+  }
+  /*Proximamente*/
+  .proximamente-section-1 {
+    margin-top: 0;
+  }
+  .proximamente-section-1 h1 {
+    font-size: 1.3rem;
+    width: auto;
+  }
+  .proximamente-section-3 h1 {
+    font-size: 1.3rem;
+    width: auto;
+  }
   /*Talleres*/
+  .proximamente-section-2 h1 {
+    font-size: 1.3rem;
+    width: auto;
+  }
   .img-content-2 h2 {
     font-size: 1.7rem !important;
   }
@@ -128,16 +148,35 @@
     font-size: 6.8rem;
   }
   /*Coffee*/
+  .tarjeta-one {
+    height: 37rem;
+  }
   .text-oportunity {
     font-size: 5rem;
   }
-  .atras-coffee-two {
+  .atras-two {
     padding-left: 0;
   }
-  .atras-coffee-two h1 {
+  .atras-two h1 {
     margin-left: 20rem;
   }
+  /*Proximamente*/
+  .proximamente-section-1 {
+    margin-top: 0;
+  }
+  .proximamente-section-1 h1 {
+    font-size: 1.3rem;
+    width: auto;
+  }
+  .proximamente-section-3 h1 {
+    font-size: 1.3rem;
+    width: auto;
+  }
   /*Talleres*/
+  .proximamente-section-2 h1 {
+    font-size: 1.3rem;
+    width: auto;
+  }
   .card {
     width: 279px;
     height: 560px;
@@ -170,6 +209,10 @@
   .adelante-hackea,
   .atras-hackea {
     padding-left: 2rem;
+  }
+  /*sobre mi*/
+  .bg-colour-06 {
+    height: 20rem;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 475px) {
@@ -236,10 +279,13 @@
   }
 
   /*Coffee*/
-  .atras-coffee-two {
+  .tarjeta-one {
+    height: 37rem;
+  }
+  .atras-two {
     padding-left: 1rem;
   }
-  .atras-coffee-two h1 {
+  .atras-two h1 {
     margin-left: 20rem;
   }
   /*sobre mi*/
@@ -273,7 +319,26 @@
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  .bg-colour-06 {
+    height: 19rem;
+  }
+  /*Proximamente*/
+  .proximamente-section-1 {
+    margin-top: 0;
+  }
+  .proximamente-section-1 h1 {
+    font-size: 1.3rem;
+    width: auto;
+  }
+  .proximamente-section-3 h1 {
+    font-size: 1.3rem;
+    width: auto;
+  }
   /*Talleres*/
+  .proximamente-section-2 h1 {
+    font-size: 1.3rem;
+    width: auto;
+  }
   .modal-top-talleres {
     top: 45px;
   }
@@ -297,13 +362,13 @@
     line-height: 4rem;
   }
   .atras-hackea {
-    padding-left: 4rem;
+    padding-left: 3rem;
   }
   .atras-hackea h1 {
     margin-bottom: 0;
   }
   .tarjeta-hackea {
-    height: 45rem;
+    height: 50rem;
   }
   .adelante-hackea {
     padding-left: 3rem;
@@ -361,10 +426,10 @@
     font-size: 0.9rem;
   }
   /*Coffee*/
-  .atras-coffee-two {
+  .atras-two {
     padding-left: 1rem;
   }
-  .atras-coffee-two h1 {
+  .atras-two h1 {
     margin-left: 20rem;
   }
   /*sobre mi*/
@@ -391,8 +456,27 @@
   .gallery {
     padding: 50px 0;
   }
+  .bg-colour-06 {
+    height: 19rem;
+  }
+  /*Proximamente*/
+  .proximamente-section-1 {
+    margin-top: 0;
+  }
+  .proximamente-section-1 h1 {
+    font-size: 1.3rem;
+    width: auto;
+  }
+  .proximamente-section-3 h1 {
+    font-size: 1.3rem;
+    width: auto;
+  }
 
   /*Talleres*/
+  .proximamente-section-2 h1 {
+    font-size: 1.3rem;
+    width: auto;
+  }
   .modal-top-talleres {
     top: 80px;
   }
@@ -483,6 +567,9 @@
   .gallery {
     padding: 50px 0;
   }
+  .bg-colour-06 {
+    height: 18rem;
+  }
 }
 
 @media screen and (max-width: 560px) {
@@ -529,7 +616,7 @@
   .tarjeta-resp {
     height: 25rem;
   }
-  .adelante-coffee h1 {
+  .adelante h1 {
     font-size: 2.5rem;
   }
 
@@ -1035,5 +1122,122 @@
   .img-content-3 {
     width: 100%;
     height: 36rem;
+  }
+}
+
+/*responsive cards*/
+@media screen and (max-width: 669px) {
+  /*Coffee*/
+  //Columna-1
+  .icon-plus,
+  .icon-minus {
+    display: block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+  }
+  .icon-plus-one,
+  .icon-minus-one {
+    margin-top: 1rem;
+    color: $colour-green;
+  }
+  //Columna-2
+  .icon-plus-two {
+    position: absolute;
+    bottom: 30px;
+    color: white;
+  }
+  .icon-minus-two {
+    color: white;
+  }
+  /*Hackea tu vida*/
+  .flex-icon-plus {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+  .icon-plus-three {
+    margin-top: 1rem;
+    color: $colour-green;
+  }
+  .icon-minus-three {
+    margin-top: 3rem;
+    color: $colour-green;
+  }
+}
+/*desktop*/
+@media screen and (min-width: 670px) {
+  .icon-plus,
+  .icon-minus {
+    display: none;
+  }
+  /*coffee*/
+  //columna-1
+  .adelante,
+  .atras {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden; //oculta la parte de atras cuando gira
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .atras {
+    transform: rotateY(180deg);
+  }
+  .tarjeta-wrap:hover .tarjeta-one {
+    transform: rotateY(180deg);
+  }
+  //columna-2
+  .atras-two {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden; //oculta la parte de atras cuando gira
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+    padding-left: 5rem;
+  }
+  .atras-two {
+    transform: rotateY(180deg);
+  }
+  /*HAckea tu vida*/
+  .adelante-hackea,
+  .atras-hackea {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden; //oculta la parte de atras cuando gira
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 7rem;
+    justify-content: center;
+  }
+  .atras-hackea {
+    transform: rotateY(180deg);
+  }
+  .tarjeta-wrap:hover .tarjeta-hackea {
+    transform: rotateY(180deg);
   }
 }

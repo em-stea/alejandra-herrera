@@ -209,16 +209,19 @@
       <div class="col-12 col-md-6 px-0">
         <div class="wrap">
           <div class="tarjeta-wrap">
-            <div class="tarjeta-coffee">
-              <div class="adelante-coffee">
+            <div class="tarjeta-one">
+              <div class="adelante"  id="frente">
                 <h1 class="text-bold">Si sientes que estás bloqueada y 
                   <span class="orange"> no puedes avanzar...</span>
                 </h1>
+                <!--
                 <div class="d-md-none">
                   <div class="button-rounded-click"></div>
                 </div>
+                -->
+                <a href="javascript:void(0);" class="icon-plus icon-plus-one" onclick="mostrarTarjeta()"></a>
               </div>
-              <div class="atras-coffee img-back-coffee"> 
+              <div class="atras img-back-coffee"  id="dorso"> 
                 <p>o no sabes como dar el primer paso para 
                   <span class="text-bold"> acercarte a tus objetivos,</span> 
                   no dudes en agendar un café virtual.
@@ -229,6 +232,7 @@
                   <span class="text-cursive text-oportunity"> oportunidad</span>
                   de reflexión!
                 </h4>
+                <a href="javascript:void(0);" class="icon-minus icon-minus-one" onclick="ocultarTarjeta()"></a>
               </div>
             </div>
           </div>
@@ -237,18 +241,22 @@
       <div class="col-12 col-md-6 px-0">
         <div class="wrap">
           <div class="tarjeta-wrap">
-            <div class="tarjeta-coffee">
-              <div class="adelante-coffee image-coffee">
+            <div class="tarjeta-one">
+              <div class="adelante image-coffee"  id="frente-two">
+                <!--
                 <div class="d-md-none">
                   <div class="button-rounded-click-2"></div>
                 </div>
+                -->
+                <a href="javascript:void(0);" class="icon-plus icon-plus-two" onclick="mostrarTarjetaTwo()"></a>
               </div>
-              <div class="atras-coffee-two image-back-coffee text-white"> 
+              <div class="atras-two image-back-coffee text-white"  id="dorso-two"> 
                 <h1 class="text-bold">¡Vamos por todo!</h1>
                 <p>Hoy puede ser el primer día, 
                 <br>  
                 en vez de un día más.</p>
                 <h2 class=""><span class="text-cursive text-decides">Tu decides</span>.</h2>
+                <a href="javascript:void(0);" class="icon-minus icon-minus-two" onclick="ocultarTarjetaTwo()"></a>
               </div>
             </div>
           </div>
@@ -270,24 +278,32 @@
         <div class="wrap">
           <div class="tarjeta-wrap">
             <div class="tarjeta-hackea">
-              <div class="adelante-hackea bg-hackea-front">
+              <div class="adelante-hackea bg-hackea-front"  id="frente-three">
                 <h1 class="green text-bold">¿Te sientes </h1>
                 <h1>
                   <span class="text-cursive text-estancada" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="800">estancada</span>
                 </h1>
                 <h1 class="green text-bold">personal o profesionalmente?</h1>
                 <p class="brown mt-4">Aquí estoy yo, para acompañarte y que juntas <span class="text-bold">identifiquemos las trabas que no te permiten alcanzar tus sueños.</span></p>
+                <!--
                 <div class="d-md-none w-100 container-click">
                   <div class="button-rounded-click-3"></div>
                 </div>
+                -->
+                <div class="flex-icon-plus">
+                  <a href="javascript:void(0);" class="icon-plus icon-plus-three" onclick="mostrarTarjetaThree()"></a>
+                </div>
               </div>
-              <div class="atras-hackea bg-hackea"> 
+              <div class="atras-hackea bg-hackea"  id="dorso-three"> 
                 <h1>¡Tú puedes</h1>
                 <h3 class="text-cursive orange text-control">tomar el control</h3>
                 <h1>de tu vida!</h1>
                 <p class="dark">En diferentes propuestas de talleres puedes explorar y enriquecerte <span class="text-bold">conociendo tu propio poder de liderazgo,</span> vínculos, prepararte para emprender o crecer en el equipo de ventas.</p>
                 <div class="text-left container-button">
                   <a class="button-rounded-brown" href="#talleres">Saber más</a>
+                </div>
+                <div class="flex-icon-plus">
+                  <a href="javascript:void(0);" class="icon-minus icon-minus-three" onclick="ocultarTarjetaThree()"></a>
                 </div>
               </div>
             </div>
@@ -857,6 +873,9 @@
 
     });
    </script>
+
+   <!--Click event-->
+   <script src="js/click-card.js"></script>
 
 </body>
 </html>

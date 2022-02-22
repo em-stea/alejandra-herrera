@@ -9,10 +9,12 @@
 }
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon/icomoon.eot") format("embedded-opentype"),
-    url("../fonts/icomoon/icomoon.ttf") format("truetype"),
-    url("../fonts/icomoon/icomoon.woff") format("woff"),
-    url("../fonts/icomoon/icomoon.svg") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?iibkb0");
+  src: url("../fonts/icomoon/icomoon.eot?iibkb0#iefix")
+      format("embedded-opentype"),
+    url("../fonts/icomoon/icomoon.ttf?iibkb0") format("truetype"),
+    url("../fonts/icomoon/icomoon.woff?iibkb0") format("woff"),
+    url("../fonts/icomoon/icomoon.svg?iibkb0#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -297,23 +299,20 @@ h4 {
 }
 
 /***Coffee***/
-.image-coffee {
-  background-image: url(../img/coffee.jpg);
+.img-back-coffee {
+  background-image: url(../img/bg-coffee.jpg);
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: center center;
   background-size: cover;
-  padding: 15rem 10rem;
 }
-.content-coffee {
-  padding: 8.5rem 10rem;
-}
-.tarjeta-coffee {
+
+.tarjeta-one {
   position: relative;
   transform-style: preserve-3d;
   height: 30rem;
 }
-.adelante-coffee,
-.atras-coffee {
+.adelante,
+.atras {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -326,17 +325,20 @@ h4 {
   align-items: center;
   justify-content: center;
 }
-.adelante-coffee h1 {
+.atras {
+  display: none;
+}
+.adelante h1 {
   width: 80%;
 }
-.atras-coffee p,
+.atras p,
 h4 {
   width: 80%;
 }
-.atras-coffee h4 {
+.atras h4 {
   line-height: 3rem;
 }
-.atras-coffee p {
+.atras p {
   font-size: 20px;
   color: $colour-darker;
 }
@@ -347,17 +349,12 @@ h4 {
   padding-right: 1rem;
   line-height: 2rem;
 }
-.atras-coffee {
-  transform: rotateY(180deg);
-}
-.tarjeta-wrap:hover .tarjeta-coffee {
-  transform: rotateY(180deg);
-}
-.img-back-coffee {
-  background-image: url(../img/bg-coffee.jpg);
-  background-position: center;
+.image-coffee {
+  background-image: url(../img/coffee.jpg);
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
+  padding: 15rem 10rem;
 }
 .image-back-coffee {
   background-image: url(../img/coffee-back.jpg);
@@ -368,7 +365,7 @@ h4 {
 .text-decides {
   font-size: 8rem;
 }
-.atras-coffee-two {
+.atras-two {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -380,22 +377,24 @@ h4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transform: rotateY(180deg);
   padding-left: 5rem;
 }
-.atras-coffee-two h1 {
+.atras-two {
+  display: none;
+}
+.atras-two h1 {
   text-align: left;
   margin-right: 16rem;
   margin-bottom: 2rem;
   color: $colour-dark-brown;
 }
-.atras-coffee-two p {
+.atras-two p {
   color: white;
   font-size: 26px;
   font-weight: 800;
   margin-bottom: 1rem;
 }
-.atras-coffee-two h2 {
+.atras-two h2 {
   font-size: 2.5rem;
   text-align: left;
   color: $colour-darker;
@@ -456,12 +455,10 @@ h4 {
   padding-left: 7rem;
   justify-content: center;
 }
-.tarjeta-wrap:hover .tarjeta-hackea {
-  transform: rotateY(180deg);
-}
 .atras-hackea {
-  transform: rotateY(180deg);
+  display: none;
 }
+
 .adelante-hackea h1,
 h2,
 p {
@@ -1139,9 +1136,17 @@ p {
   width: 100%;
 }
 .link-teilen {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: $colour-dark-brown;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 0.5rem 3rem;
   text-decoration: none;
-  color: white;
   &:hover {
+    background-color: $colour-light-pink;
     color: $colour-dark-brown;
   }
 }
@@ -1242,8 +1247,12 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 85vh;
+  width: 70%;
+  height: 79vh;
+  margin: auto;
+  padding: 0.5rem;
   text-align: center;
+  margin-top: 3rem;
 }
 .proximamente-section-1 h1 {
   color: white;
@@ -1318,6 +1327,7 @@ p {
 }
 
 /*Buttons click responsive*/
+/*
 .button-rounded-click {
   background-color: $colour-light-pink;
   width: 35px;
@@ -1376,4 +1386,4 @@ p {
   100% {
     opacity: 1;
   }
-}
+}*/
