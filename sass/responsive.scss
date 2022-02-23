@@ -307,6 +307,27 @@
   .modal-top-talleres {
     top: 59px;
   }
+  .modal {
+    padding-right: 0;
+  }
+  .modal-body {
+    padding: 0;
+  }
+  .card {
+    width: 250px;
+    height: 640px;
+  }
+  .front h1 {
+    font-size: 1rem;
+    line-height: 3rem !important;
+  }
+  .icon-bullhorn {
+    font-size: 1rem;
+  }
+  .card p {
+    width: 80%;
+    margin-top: 1rem;
+  }
   /*Hackea tu vida*/
   .text-control {
     padding-right: 2rem;
@@ -482,6 +503,29 @@
   }
   .adelante-hackea {
     padding-left: 3rem;
+  }
+  /*Talleres*/
+  .modal {
+    padding-right: 0;
+  }
+  .modal-body {
+    padding: 0;
+  }
+  .card {
+    width: 367px;
+    height: 510px;
+  }
+  .front h1 {
+    font-size: 1rem;
+    line-height: 3rem !important;
+    padding-top: 0;
+  }
+  .icon-bullhorn {
+    font-size: 1rem;
+  }
+  .card p {
+    width: 80%;
+    margin-top: 1rem;
   }
 }
 @media screen and (min-width: 476px) and (max-width: 600px) {
