@@ -113,6 +113,20 @@
     width: 80%;
     margin-top: 1rem;
   }
+  /*Mi contenido*/
+  .img-content-1,
+  .img-content-2 {
+    height: 23rem;
+  }
+  .ancho-col-talleres {
+    padding: 1.2rem 0.5rem 0 1rem;
+  }
+  .ancho-col-small {
+    padding: 0.5rem 0 0 0;
+  }
+  .ancho-col-small-02 {
+    padding: 0.5rem 0 0.5rem 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -328,6 +342,26 @@
     width: 80%;
     margin-top: 1rem;
   }
+  .img-content-2 h2 {
+    font-size: 2rem;
+  }
+  .img-content-4 h1 {
+    font-size: 2rem;
+    line-height: normal !important;
+  }
+  .img-content-1,
+  .img-content-2 {
+    height: 23rem;
+  }
+  .ancho-col-talleres {
+    padding: 1.2rem 0.5rem 0 1rem;
+  }
+  .ancho-col-small {
+    padding: 0.5rem 0 0 0;
+  }
+  .ancho-col-small-02 {
+    padding: 0.5rem 0 0.5rem 0;
+  }
   /*Hackea tu vida*/
   .text-control {
     padding-right: 2rem;
@@ -486,6 +520,26 @@
   .front h1 {
     padding-top: 2.8rem;
   }
+  .img-content-2 h2 {
+    font-size: 2.5rem;
+  }
+  .img-content-4 h1 {
+    font-size: 2.5rem;
+    line-height: normal !important;
+  }
+  .img-content-1,
+  .img-content-2 {
+    height: 23rem;
+  }
+  .ancho-col-talleres {
+    padding: 1.2rem 0.5rem 0 1rem;
+  }
+  .ancho-col-small {
+    padding: 0.5rem 0 0 0;
+  }
+  .ancho-col-small-02 {
+    padding: 0.5rem 0 0.5rem 0;
+  }
   /*Hackea tu vida*/
   .text-control {
     padding-right: 2rem;
@@ -637,6 +691,26 @@
   .card h1 {
     margin-bottom: 0;
   }
+  .img-content-2 h2 {
+    font-size: 2.5rem;
+  }
+  .img-content-4 h1 {
+    font-size: 2.6rem;
+    line-height: normal !important;
+  }
+  .img-content-1,
+  .img-content-2 {
+    height: 23rem;
+  }
+  .ancho-col-talleres {
+    padding: 1.2rem 0.5rem 0 1rem;
+  }
+  .ancho-col-small {
+    padding: 0.5rem 0 0 0;
+  }
+  .ancho-col-small-02 {
+    padding: 0.5rem 0 0.5rem 0;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 740px) {
@@ -720,6 +794,31 @@
   }
   .bg-colour-06 {
     height: 18rem;
+  }
+  /*Talleres*/
+  .img-content-1 h1,
+  .img-content-3 h1 {
+    font-size: 3rem;
+  }
+  .img-content-2 h2 {
+    font-size: 2.5rem;
+  }
+  .img-content-4 h1 {
+    font-size: 2.6rem;
+    line-height: normal !important;
+  }
+  .img-content-1,
+  .img-content-2 {
+    height: 23rem;
+  }
+  .ancho-col-talleres {
+    padding: 1.2rem 0.5rem 0 1rem;
+  }
+  .ancho-col-small {
+    padding: 0.5rem 0 0 0;
+  }
+  .ancho-col-small-02 {
+    padding: 0.5rem 0 0.5rem 0;
   }
 }
 
@@ -942,6 +1041,25 @@
   /*Sobre mi*/
   .gallery {
     padding: 50px 0;
+  }
+  /*Talleres*/
+  .img-content-4 h1 {
+    font-size: 1.5rem;
+    line-height: normal !important;
+  }
+  .img-content-1 {
+    height: 36rem;
+  }
+  .img-content-2 {
+    height: 17.6rem;
+  }
+  .img-content-2 h2 {
+    margin-bottom: 0;
+  }
+  .img-content-2,
+  .img-content-3,
+  .img-content-4 {
+    height: 17.6rem;
   }
 }
 /*desktop*/
@@ -1263,7 +1381,6 @@
   .img-content-2,
   .img-content-3 {
     width: 100%;
-    height: 36rem;
   }
 }
 

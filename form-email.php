@@ -10,7 +10,7 @@ $email = $_POST['email'];
 $mensaje=$_POST['mensaje'];
 
 /*guardo los datos en la db*/
-$sql = 'insert into datos (nombre, email) values (?, ?)'; //nombres de las columnas de la db
+$sql = 'insert into contacto (nombre, email) values (?, ?)'; //nombres de las columnas de la db
 $sql_params = [$nombre, $email];
 
 $st = $db->prepare($sql);

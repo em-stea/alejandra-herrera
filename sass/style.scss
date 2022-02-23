@@ -851,6 +851,7 @@ p {
   background-image: url(../img/image-texture.jpg);
   background-size: cover;
   padding-bottom: 4rem;
+  padding: 0 2rem 7rem 2rem;
 }
 .title-content {
   font-size: 7rem;
@@ -869,7 +870,7 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  margin: 1rem 0.3rem;
+  //margin: 1rem 0.7rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -880,21 +881,36 @@ p {
 .img-content-1 {
   background-image: url(../img/image-content-01.jpg);
   @extend %module-img-content;
-  height: 40rem;
+  height: 40.2rem;
 }
 .img-content-2 {
   background-image: url(../img/image-content-02.jpg);
   @extend %module-img-content;
   height: 19.7rem;
   width: 100%;
-  margin-bottom: 0.3rem;
 }
 .img-content-3 {
   background-image: url(../img/image-content-03.jpg);
   @extend %module-img-content;
   height: 19.7rem;
-  width: 100%;
+  //width: 100%;
   margin-top: 0.3rem;
+}
+.img-content-4 {
+  background-image: url(../img/image-content-04.jpg);
+  @extend %module-img-content;
+  height: 19.7rem;
+  //width: 100%;
+  margin-top: 0.3rem;
+}
+.ancho-col-talleres {
+  padding: 0 1rem 0 2rem;
+}
+.ancho-col-small {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+.ancho-col-small-02 {
+  padding: 0.5rem 0 0.5rem 0.5rem;
 }
 
 /***Contactame***/
@@ -929,22 +945,22 @@ p {
   color: white;
   border-radius: 0;
 }
-::placeholder {
+.form-control::placeholder {
   color: white !important;
   font-size: 1.3rem;
 }
 /* IE 10+ */
-:-ms-input-placeholder {
+.form-control:-ms-input-placeholder {
   color: white;
   font-size: 1.3rem;
 }
 /* WebKit */
-::-webkit-input-placeholder {
+.form-control::-webkit-input-placeholder {
   color: white;
   font-size: 1.3rem;
 }
 /* Firefox 19+ */
-::-moz-placeholder {
+.form-control::-moz-placeholder {
   color: white;
   font-size: 1.3rem;
 }
@@ -997,7 +1013,8 @@ textarea.form-control {
 }
 .icon-instagram,
 .icon-twitter,
-.icon-youtube .icon-facebook {
+.icon-youtube,
+.icon-facebook {
   font-size: 1.5rem;
   margin: 0 0.8rem;
   &:hover {
@@ -1133,6 +1150,12 @@ p {
   border-top: 1px solid #e3e2e2;
   padding-top: 3rem;
   margin-bottom: 4rem;
+}
+.icon-facebook:before {
+  padding: 0.2rem;
+}
+.icon-instagram:before {
+  padding: 0.1rem;
 }
 /*Certificaciones*/
 .text-certificaciones {
@@ -1404,3 +1427,120 @@ p {
     opacity: 1;
   }
 }*/
+
+/*Material Descargable*/
+.bg-material {
+  height: auto;
+  padding-bottom: 4rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+.bg-material h2 {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  font-weight: 900;
+  line-height: 2.8rem !important;
+  color: white;
+}
+.free-text {
+  font-size: 2.9rem;
+  margin-bottom: 1rem;
+}
+.bg-material .text-cursive {
+  font-size: 7rem;
+  color: $colour-orange;
+  padding-left: 1.8rem;
+} /*
+.img-material {
+  background-image: url(../img/bg-material.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5rem;
+  padding: 4rem 0;
+}*/
+.img-material {
+  background-color: $colour-green;
+  padding: 8rem 0 2rem 0;
+}
+.img-material > p:nth-child(1n) {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  color: white;
+  margin-top: 0.1rem;
+}
+.img-material p:last-child {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: -3rem;
+}
+.box-download {
+  margin-top: 2rem;
+}
+.box-download img:hover {
+  transform: scale(1.1);
+}
+.title-material {
+  margin-top: 2rem;
+  color: $colour-orange;
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+.text-material {
+  width: 30%;
+  margin-bottom: 1rem;
+}
+.img-material-descargable {
+  width: 15%;
+  margin-top: 2rem;
+}
+.btn-download {
+  background-color: $colour-green;
+  border-radius: 50px;
+  padding: 0.5rem 3rem;
+  color: white;
+  &:hover {
+    background-color: $colour-brown;
+    color: white;
+  }
+}
+.form-control-material {
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+}
+.btn-material {
+  background-color: $colour-orange;
+  color: $colour-darker;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin: 0;
+  &:hover {
+    background-color: $colour-light-brown;
+  }
+}
+.modal-button {
+  border-top: none;
+  padding: 1rem 0;
+}
+.form-control-material::placeholder {
+  color: #828282 !important;
+  font-size: 1rem;
+}
+/* IE 10+ */
+.form-control-material:-ms-input-placeholder {
+  color: #828282;
+  font-size: 1rem;
+}
+/* WebKit */
+.form-control-material::-webkit-input-placeholder {
+  color: #828282;
+  font-size: 1rem;
+}
+/* Firefox 19+ */
+.form-control-material::-moz-placeholder {
+  color: #828282;
+  font-size: 1rem;
+}

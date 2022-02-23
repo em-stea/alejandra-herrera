@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mentora y motivadora para crecimiento personal y profesional. Adicta a emprender">
+    <meta name="keywords" content="alejandra herrera calida motivadora cercana resiliente inspiradora sinceridad lealtad amor sanar evolucionar mentora motivadora coach talleres capacitaciones crecimiento personal profesional programas formacion empresas">
+    <title>Alejandra Herrera</title>
+    <link rel="icon" type="img/png" href="img/favicon.png">
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,600&display=swap" rel="stylesheet">
+
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive style  -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css\icomoon.css">
+
+    <!-- Link Swiper's CSS Talleres-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!--AOS Library--> <!--Animaciones JS para scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--Estilos Plugin Super Simple Slider Testimonios-->
+    <link rel="stylesheet" href="sss/sss.css">
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+        
+</head>
+<body>
+  <header>
+    <div class="container-fluid px-0">
+      <!--Navbar-->
+      <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo-alejandra.png" alt="logo alejandra herrera" class="d-inline-block align-text-top logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="sobre-mi.html">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Hackeá tu vida</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Talleres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Mi Contenido</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Contáctame</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.salomonboss.com/teilen" target="_blank">Método TEILEN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container-fluid bg-material">
+    <div class="img-material">
+        <h2>Aquí encontrarás</h2> 
+        <h2>
+            <span class="dark free-text">material gratuito</span>
+        </h2>
+        <br>
+        <p>que te ayudará a analizar tus propósitos de manera consciente y a generar una estrategia que funcione</p> 
+        <p>
+            <span class="text-cursive" data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="150">para ti</span>
+        </p>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center d-flex justify-content-center- align-items-center flex-column box-download">
+            <img src="img/material-descargable.jpg" alt="rueda de la vida" class="img-material-descargable">
+            <p class="title-material">Rueda de la Vida</p>
+            <p class="text-material">Herramienta que te ayudará a visualizar todos los aspectos de tu vida y conocer qué tan equilibrado y satisfecho estás con ellos.</p>
+             <!-- Button Buyer modal -->
+            <button type="button" class="btn btn-download" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Descargar
+            </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="mb-4">Ingresa tu nombre y correo para descargar el material de manera gratuita</p>
+                        <!--Form-->
+                        <form action="form-procesar.php" method="post">
+                            <div class="mb-3">
+                                <input type="text" class="form-control form-control-material" name="nombre" placeholder="Nombre" title="Se necesita un nombre" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control form-control-material" name="email" placeholder="Email" title="Se necesita un Correo Electrónico" required/>
+                            </div>
+                            <div class="modal-footer modal-button">
+                                <button type="submit" class="btn btn-material">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+  <!--Footer-->
+  <footer>
+    <div class="container-fluid bg-footer">
+      <div class="wrapper-footer">
+        <img src="img/logo-alejandra-blanco.png" alt="logo alejandra herrera" class="logo-footer">
+        <a href="mailto:hola@alejandraherrera.com.ec" class="link-footer">
+          hola@alejandraherrera.com.ec
+        </a>
+        <div>
+          <a href="https://instagram.com/alejandra.herrera.f?utm_medium=copy_link" class="icon-instagram"
+          target="_blank"></a>
+          <a href="https://twitter.com/Alejand66126655" class="icon-twitter" target="_blank"></a>
+          <a href="https://www.facebook.com/Alejandra-Herrera-105550535346405" class="icon-facebook fb-icon-footer" target="_blank"></a>
+          <!--
+          <a href="" class="icon-youtube" target="_blank"></a>-->
+        </div>
+        <a href="politica-de-privacidad.html" class="link-footer">
+          Políticas de Privacidad
+        </a>
+      </div>
+      <a href="https://www.telocreo.studio/" target="_blank">
+        © 2022 Telocreo.studio
+      </a>
+    </div>
+  </footer>
+
+  <!--Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script src="js/swiper.js"></script>
+
+   <!--AOS Library--> <!--Animaciones JS para scroll-->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+   <!--Initialize AOS Library--> <!--Animaciones JS para scroll-->
+   <script>
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+      
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: true, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    });
+   </script>
+
+</body>
+</html>
