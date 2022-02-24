@@ -982,12 +982,17 @@ textarea.form-control {
   }
 }
 .mail-sent {
-  background-color: $colour-green;
-  padding: 10px;
-  border-radius: 7px;
+  background-color: white;
+  padding: 2rem 0;
   margin-top: 2em;
   text-align: center;
   font-weight: 400;
+}
+.mail-sent p {
+  width: 100%;
+  color: $colour-green;
+  font-weight: 900;
+  margin-bottom: 0;
 }
 
 /***Footer***/

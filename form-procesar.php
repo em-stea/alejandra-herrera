@@ -7,7 +7,7 @@ $db = new PDO($db_dsn, $db_user, $db_pass, $db_options);
 $nombre = $_POST['nombre'];
 $email = $_POST['email'];
 
-$sql = 'insert into datos (nombre, email) values (?, ?)'; //nombres de las columnas de la db
+$sql = 'insert into contacto (nombre, email) values (?, ?)'; //nombres de las columnas de la db
 $sql_params = [$nombre, $email];
 
 $st = $db->prepare($sql);
