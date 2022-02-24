@@ -91,9 +91,9 @@
             <span class="text-cursive" data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="150">para ti</span>
         </p>
     </div>
-    <div class="row">
+    <div class="">
         <div class="col-12 text-center d-flex justify-content-center- align-items-center flex-column box-download">
-            <img src="img/material-descargable.jpg" alt="rueda de la vida" class="img-material-descargable">
+           <img src="img/material-descargable.jpg" alt="rueda de la vida" class="img-material-descargable">
             <p class="title-material">Rueda de la Vida</p>
             <p class="text-material">Herramienta que te ayudará a visualizar todos los aspectos de tu vida y conocer qué tan equilibrado y satisfecho estás con ellos.</p>
              <!-- Button Buyer modal -->
@@ -103,16 +103,16 @@
         </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade modal-content-material" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body modal-material">
                         <p class="mb-4">Ingresa tu nombre y correo para descargar el material de manera gratuita</p>
                         <!--Form-->
-                        <form action="form-procesar.php" method="post">
+                        <form action="form-procesar.php" method="post" class="form-material">
                             <div class="mb-3">
                                 <input type="text" class="form-control form-control-material" name="nombre" placeholder="Nombre" title="Se necesita un nombre" required/>
                             </div>
