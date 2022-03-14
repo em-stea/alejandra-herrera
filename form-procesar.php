@@ -14,7 +14,7 @@ $st = $db->prepare($sql);
 $st->execute($sql_params);
 
 //header('Location: ' . 'form-success.php');
-header('Location: ' . 'pdf/Ebook-BuyerPersona.pdf');
+header('Location: ' . 'pdf/Rueda-de-la-vida.pdf');
 
 
 // fin
