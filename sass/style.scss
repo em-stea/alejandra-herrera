@@ -1551,3 +1551,655 @@ p {
   color: #828282;
   font-size: 1rem;
 }
+
+/*Pagina Teilen*/
+.box-teilen {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.box-buttons {
+  position: absolute;
+  top: 16rem;
+}
+.box-buttons a {
+  text-decoration: none;
+  background-color: white;
+  color: $colour-darker;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  margin-right: 1rem;
+  font-weight: 800;
+  box-shadow: 7px 6px 10px 5px rgba(5, 5, 5, 0.5);
+  &:hover {
+    background-color: $colour-light-brown;
+    color: white;
+  }
+}
+.img-teilen-01 {
+  background-image: url(../img/teilen-01.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+}
+.title-teilen h1 {
+  text-align: center;
+  font-weight: 800;
+  line-height: 3.5rem !important;
+  margin: 5rem 0;
+}
+.title-teilen span {
+  color: $colour-orange;
+  font-size: 5rem;
+  padding-left: 1rem;
+}
+.tarjetilla {
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.2);
+  &:hover {
+    transform: scale(1.111);
+  }
+}
+.card-box {
+  display: flex;
+  padding: 0 5rem 5rem 5rem;
+}
+.card-box .tarjetilla {
+  width: 40rem;
+  margin-right: 2rem;
+}
+.tarjetilla-body h3,
+.tarjetilla-text {
+  text-align: center !important;
+}
+.tarjetilla-text {
+  width: 100% !important;
+  margin-left: auto;
+  margin-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+.tarjetilla-body span {
+  font-size: 3.5rem;
+  padding-left: 0.5rem;
+  line-height: 0rem;
+  color: $colour-green;
+}
+
+.img-screen {
+  background-image: url(../img/screen-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30rem;
+  margin-bottom: 13rem;
+  margin-top: 7rem;
+  position: relative;
+}
+.caja-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 13%;
+  padding: 3rem 0;
+  background-color: #fcfcfc;
+  box-shadow: 2px 5px 5px 2px rgba(5, 5, 5, 0.2);
+  border-radius: 10px;
+  position: absolute;
+  z-index: 2;
+  //&:hover {
+  //transform: scale(1.1);
+  //transition: 0.2s linear;
+  //}
+}
+.caja-icon a {
+  text-decoration: none;
+  color: $colour-green;
+  &:hover {
+    color: $colour-dark-brown;
+  }
+}
+.caja-icon span {
+  color: $colour-light-pink;
+  &:hover {
+    color: $colour-dark-brown;
+  }
+}
+.caja-01 {
+  top: 91rem;
+  left: 27rem;
+}
+.caja-02 {
+  top: 91rem;
+  left: 42rem;
+}
+.caja-03 {
+  top: 91rem;
+  left: 57rem;
+}
+.caja-icon span {
+  font-size: 3rem;
+}
+.caja-04 {
+  top: 117rem;
+  left: 27rem;
+}
+.caja-05 {
+  top: 117rem;
+  left: 42rem;
+}
+.caja-06 {
+  top: 117rem;
+  left: 57rem;
+}
+.caja-icon h2 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+}
+
+//Estudio
+.img-estudio {
+  background-image: url(../img/teilen-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 27rem;
+}
+.box-estudio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box-estudio p {
+  font-size: 1rem;
+}
+.box-estudio h1 {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+  color: $colour-orange;
+}
+//Cuadro Sinoptico
+.row-cuadro {
+  height: 37rem;
+}
+.row-cuadro:nth-child(2) {
+  margin-top: 10rem;
+}
+
+%module-img-cuadro {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 15rem;
+  width: 15rem;
+  position: relative;
+}
+//Cuadro-1
+.img-teilen-cuadro {
+  @extend %module-img-cuadro;
+  background-image: url(../img/teilen-cuadro-01.jpg);
+}
+.cuadro-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box-cuadro p {
+  width: 20%;
+  font-size: 1rem;
+}
+.cuadro-1 p {
+  margin-top: 8rem;
+  text-align: center;
+}
+//Cuadro-2
+.img-teilen-cuadro-2 {
+  @extend %module-img-cuadro;
+  background-image: url(../img/teilen-cuadro-02.jpg);
+}
+.cuadro-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  top: -6.5rem;
+  left: 7rem;
+}
+.cuadro-2 p {
+  padding-right: 1.5rem;
+  text-align: end;
+}
+//Cuadro-3
+.img-teilen-cuadro-3 {
+  @extend %module-img-cuadro;
+  background-image: url(../img/teilen-cuadro-03.jpg);
+}
+.cuadro-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  top: -21.5rem;
+  right: 7rem;
+}
+.cuadro-3 p {
+  padding-left: 1.5rem;
+  text-align: start;
+}
+//Cuadro-4
+.img-teilen-cuadro-4 {
+  @extend %module-img-cuadro;
+  background-image: url(../img/teilen-cuadro-04.jpg);
+}
+.cuadro-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 5;
+}
+.cuadro-4 p {
+  padding-top: 1.5rem;
+  text-align: center;
+}
+//Cuadro-5
+.img-teilen-cuadro-5 {
+  @extend %module-img-cuadro;
+  background-image: url(../img/teilen-cuadro-05.jpg);
+}
+.cuadro-5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  top: -30rem;
+  left: 7rem;
+}
+.cuadro-5 p {
+  padding-right: 1.5rem;
+  text-align: end;
+}
+//Cuadro-6
+.img-teilen-cuadro-6 {
+  @extend %module-img-cuadro;
+  background-image: url(../img/teilen-cuadro-06.jpg);
+}
+.cuadro-6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  top: -45rem;
+  right: 7rem;
+}
+.cuadro-6 p {
+  padding-left: 1.5rem;
+  text-align: start;
+}
+
+/*Metodo*/
+.bg-metodo {
+  background-image: url(../img/bg-taller-02.jpg);
+  background-position: top center;
+}
+.img-metodo {
+  background-image: url(../img/teilen-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45rem;
+}
+.box-metodo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box-metodo h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  padding-top: 1.1rem;
+  color: $colour-orange;
+}
+ol li::marker {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: $colour-brown;
+}
+.box-ul-metodo {
+  padding: 0 4.5rem;
+}
+.box-ul-metodo li {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+/*Beneficios*/
+.img-beneficios {
+  background-image: url(../img/teilen-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+}
+.box-beneficios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 0 4.5rem;
+}
+.box-beneficios h1 {
+  font-size: 7rem;
+  margin-bottom: 3rem;
+  color: $colour-orange;
+}
+.box-ul-beneficios li {
+  margin-bottom: 1rem;
+}
+
+/*Clientes*/
+.bg-clientes {
+  background-image: url(../img/bg-material.jpg);
+  background-position: center;
+}
+.img-clientes {
+  background-image: url(../img/teilen-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+}
+.box-clientes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 0 4.5rem;
+}
+.box-clientes h1 {
+  font-size: 7rem;
+  margin-bottom: 3rem;
+  color: $colour-orange;
+}
+.box-ul-clientes li {
+  margin-bottom: 1rem;
+}
+
+/*Especialistas*/
+.img-especialistas {
+  background-image: url(../img/teilen-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+}
+.box-especialistas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;
+}
+.box-especialistas h1 {
+  font-size: 7rem;
+  color: white;
+  text-align: center;
+}
+.box-flags {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.box-flags a {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 1.5rem;
+}
+
+%module-flag {
+  height: 4rem;
+  width: 4rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  box-shadow: 3px 3px 5px 5px rgba(5, 5, 5, 0.35);
+  border-radius: 50px;
+  &:hover {
+    transform: scale(1.2);
+    transition: 0.1s ease-in;
+  }
+}
+.bandera-01 {
+  background-image: url(../img/flag-01-ue.png);
+  @extend %module-flag;
+}
+.bandera-02 {
+  background-image: url(../img/flag-02-usa.png);
+  @extend %module-flag;
+}
+.bandera-03 {
+  background-image: url(../img/flag-03-bol.png);
+  @extend %module-flag;
+}
+.bandera-04 {
+  background-image: url(../img/flag-04-col.png);
+  @extend %module-flag;
+}
+.bandera-05 {
+  background-image: url(../img/flag-05-pe.png);
+  @extend %module-flag;
+}
+.bandera-06 {
+  background-image: url(../img/flag-06-ec.png);
+  @extend %module-flag;
+}
+.bandera-07 {
+  background-image: url(../img/flag-07-arg.png);
+  @extend %module-flag;
+}
+.bandera-08 {
+  background-image: url(../img/flag-08-nic.png);
+  @extend %module-flag;
+}
+
+/*Especialistas page*/
+.especialistas-page {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+.card-img-especialista {
+  //border-radius: 50%;
+  width: 15rem;
+  //box-shadow: 5px 5px 5px 5px rgba(5, 5, 5, 0.1);
+}
+.box-icon-especialista {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.box-icon-especialista a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: $colour-orange;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: flex-end;
+  &:hover {
+    color: $colour-light-brown;
+  }
+}
+.text-bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+}
+.box-card-especialista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-title-especialista {
+  font-weight: 900;
+  color: $colour-brown;
+}
+.btn {
+  width: 100%;
+}
+.btn-bio {
+  color: $colour-green;
+  font-weight: 700;
+}
+
+/*Contacto*/
+.contacto-teilen h2 {
+  font-weight: 900;
+  text-align: center;
+  padding-top: 4rem;
+}
+.box-contact-teilen {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.box-contact-teilen a {
+  text-decoration: none;
+  color: $colour-brown;
+  font-size: 1.5rem;
+  margin: 2rem 1rem 4rem 0;
+  background-color: rgba(5, 5, 5, 0.1);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    color: $colour-darker;
+    background-color: rgba(5, 5, 5, 0.2);
+  }
+}
+
+/*Guia de uso*/
+.img-guia {
+  background-image: url(../img/teilen-07.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 27rem;
+}
+.box-guia {
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.box-guia h1 {
+  color: $colour-orange;
+  font-size: 8rem;
+  margin-bottom: 3rem;
+  padding-top: 4rem;
+}
+.box-guia p {
+  width: 85%;
+  margin: 0 auto;
+  color: white;
+}
+.box-text-guia p {
+  font-size: 1rem;
+}
+.row-guia {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+%module-teilen-guia {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.img-guia-01 {
+  background-image: url(../img/teilen-guia-01.jpg);
+  height: 13rem;
+  @extend %module-teilen-guia;
+}
+.box-text-guia {
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  margin-bottom: 7rem;
+}
+.box-text-guia h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: $colour-light-brown;
+}
+.container-img-guia {
+  height: 25rem;
+  margin-top: 3rem;
+}
+.container-img-guia-02 {
+  height: 15rem;
+}
+.img-guia-02 {
+  background-image: url(../img/teilen-guia-02.jpg);
+  height: 24rem;
+  @extend %module-teilen-guia;
+}
+.img-guia-03 {
+  background-image: url(../img/teilen-guia-03.jpg);
+  height: 15rem;
+  @extend %module-teilen-guia;
+}
+.img-guia-04 {
+  background-image: url(../img/teilen-guia-04.jpg);
+  height: 19rem;
+  @extend %module-teilen-guia;
+}
+.img-guia-05 {
+  background-image: url(../img/teilen-guia-05.jpg);
+  height: 15rem;
+  @extend %module-teilen-guia;
+}
+.button-register-teilen {
+  text-align: center;
+  margin: 2rem 0 6rem 0;
+}
+.button-register-teilen a {
+  text-decoration: none;
+  font-weight: 900;
+  color: $colour-green;
+  font-size: 2rem;
+  background-color: rgba(5, 5, 5, 0.1);
+  border-radius: 50px;
+  padding: 1rem 3rem;
+  box-shadow: 7px 9px 7px -4px rgba(5, 5, 5, 0.2);
+  &:hover {
+    background-color: rgba(5, 5, 5, 0.2);
+    color: $colour-darker;
+    box-shadow: 7px 9px 7px -4px rgba(5, 5, 5, 0.3);
+  }
+}

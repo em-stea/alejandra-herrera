@@ -1,19 +1,18 @@
 @font-face {
-  font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?9hden3");
-  src: url("../fonts/icomoon.eot?9hden3#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?9hden3") format("truetype"),
-    url("../fonts/icomoon.woff?9hden3") format("woff"),
-    url("../fonts/icomoon.svg?9hden3#icomoon") format("svg");
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?b0yz92');
+  src:  url('fonts/icomoon.eot?b0yz92#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?b0yz92') format('truetype'),
+    url('fonts/icomoon.woff?b0yz92') format('woff'),
+    url('fonts/icomoon.svg?b0yz92#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
+  font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -26,20 +25,41 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-check:before {
+.icon-mail:before {
   content: "\e900";
 }
-.icon-keyboard_arrow_down:before {
+.icon-chart-bar:before {
   content: "\e901";
 }
-.icon-plus:before {
+.icon-pencil:before {
+  content: "\e906";
+}
+.icon-eye:before {
   content: "\e902";
 }
-.icon-minus:before {
+.icon-check:before {
   content: "\e903";
 }
 .icon-bullhorn:before {
   content: "\e904";
+}
+.icon-keyboard_arrow_down:before {
+  content: "\e905";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-user-plus:before {
+  content: "\e973";
+}
+.icon-stats-dots:before {
+  content: "\e99b";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-minus:before {
+  content: "\ea0b";
 }
 .icon-facebook:before {
   content: "\ea90";
@@ -47,11 +67,11 @@
 .icon-instagram:before {
   content: "\ea92";
 }
+.icon-whatsapp:before {
+  content: "\ea93";
+}
 .icon-twitter:before {
   content: "\ea96";
-}
-.icon-youtube:before {
-  content: "\ea9d";
 }
 .icon-linkedin2:before {
   content: "\eaca";

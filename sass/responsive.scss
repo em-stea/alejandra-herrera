@@ -129,8 +129,22 @@
     padding: 0.5rem 0 0.5rem 0;
   }
   /*Footer*/
+  .logo-footer {
+    width: 4rem;
+  }
   .link-footer {
     font-size: 1rem;
+  }
+  .bg-footer a {
+    margin: 1.5rem 0.4rem;
+  }
+  .icon-instagram,
+  .icon-twitter,
+  .icon-youtube,
+  .icon-facebook,
+  .icon-pinterest,
+  .icon-linkedin2 {
+    font-size: 1.2rem;
   }
   /*Material descargable*/
   .title-material {
@@ -162,6 +176,181 @@
   .form-material div {
     width: 90%;
     margin: auto;
+  }
+  /*Pagina Teilen*/
+  .box-buttons {
+    top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  .box-buttons a {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .img-teilen-01 {
+    height: 20rem;
+  }
+  .card-box {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-box .tarjetilla {
+    margin-right: 0;
+    width: auto;
+  }
+  .tarjetilla {
+    height: 490px;
+    margin-bottom: 2rem;
+  }
+  .img-screen {
+    margin: 3rem 0;
+    height: 9rem;
+  }
+  .caja-icon {
+    width: 90%;
+    padding: 1rem 0;
+    position: inherit;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box-estudio h1 {
+    margin: 3rem 0;
+  }
+  .box-estudio p:last-child {
+    padding-bottom: 2rem;
+  }
+  /*Cuadro Sinoptico*/
+  .box-cuadro p {
+    width: auto;
+  }
+  .cuadro-1 p,
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+  }
+  .cuadro-2,
+  .cuadro-5 {
+    flex-direction: column;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .cuadro-3,
+  .cuadro-4,
+  .cuadro-6 {
+    flex-direction: column-reverse;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .row-cuadro {
+    height: auto;
+  }
+  .row-cuadro:nth-child(2) {
+    margin-top: auto;
+  }
+  #metodo,
+  #clientes {
+    flex-direction: column-reverse;
+  }
+  .bg-metodo {
+    margin-top: 4rem;
+  }
+  .box-ul-metodo {
+    padding: 0 1rem 0 1.3rem;
+  }
+  .img-metodo,
+  .img-beneficios,
+  .img-clientes {
+    height: 17rem;
+  }
+  .box-beneficios,
+  .box-clientes {
+    padding: 0 0.5rem;
+  }
+  .box-beneficios h1,
+  .box-clientes h1,
+  .box-especialistas h1 {
+    font-size: 5.5rem;
+    padding-top: 2rem;
+  }
+  .box-flags a {
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 2rem;
+  }
+  .bandera-01,
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
+    height: 3rem;
+    width: 3rem;
+  }
+  /*Especialistas*/
+  .img-especialistas,
+  .box-especialistas {
+    height: 15rem;
+  }
+  .box-especialistas h1 {
+    padding-top: 0;
+  }
+  .card-body {
+    padding: 1rem 0.5rem;
+  }
+  /*Guia*/
+  .img-guia {
+    height: 32rem;
+  }
+  .row-guia,
+  .box-text-guia {
+    margin-bottom: 0;
+  }
+  .box-text-guia p {
+    width: 95%;
+  }
+  .container-img-guia {
+    height: auto;
+  }
+  .img-guia-01 {
+    height: 10rem;
+  }
+  .img-guia-02 {
+    height: 18rem;
+  }
+  .img-guia-03 {
+    margin-top: 1rem;
+  }
+  .img-guia-04 {
+    height: 14rem;
+    margin-top: 3rem;
+  }
+  .img-guia-05 {
+    height: 11rem;
+    margin-top: 3rem;
+  }
+  .button-register-teilen a {
+    font-size: 1.2rem;
   }
 }
 
@@ -450,6 +639,24 @@
     width: 90%;
     margin: auto;
   }
+  /*Pagina Teilen*/
+  .box-buttons {
+    top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  .box-buttons a {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .img-teilen-01 {
+    height: 20rem;
+  }
 }
 @media screen and (min-width: 380px) and (max-width: 475px) {
   /*Navbar*/
@@ -682,6 +889,24 @@
   .form-material div {
     width: 90%;
     margin: auto;
+  }
+  /*Pagina Teilen*/
+  .box-buttons {
+    top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  .box-buttons a {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .img-teilen-01 {
+    height: 20rem;
   }
 }
 @media screen and (min-width: 476px) and (max-width: 600px) {
