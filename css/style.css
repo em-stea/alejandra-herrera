@@ -1586,7 +1586,8 @@ p {
   background-color: white;
   border: 1px solid white;
   border-radius: 50px;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 0rem !important;
+  width: 40% !important;
 }
 
 .button-aval:hover {
