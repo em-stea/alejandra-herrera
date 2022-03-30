@@ -218,14 +218,13 @@
             justify-content: center;
   }
   .card-box .tarjetilla {
-    margin-right: 0;
-    width: auto;
-  }
-  .tarjetilla {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     height: 490px;
     margin-bottom: 2rem;
   }
-  .tarjetilla:hover {
+  .card-box .tarjetilla:hover {
     -webkit-transform: none;
             transform: none;
   }
@@ -715,14 +714,13 @@
             justify-content: center;
   }
   .card-box .tarjetilla {
-    margin-right: 0;
-    width: auto;
-  }
-  .tarjetilla {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     height: 553px;
     margin-bottom: 2rem;
   }
-  .tarjetilla:hover {
+  .card-box .tarjetilla:hover {
     -webkit-transform: none;
             transform: none;
   }
@@ -1164,14 +1162,13 @@
             justify-content: center;
   }
   .card-box .tarjetilla {
-    margin-right: 0;
-    width: auto;
-  }
-  .tarjetilla {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     height: 603px;
     margin-bottom: 2rem;
   }
-  .tarjetilla:hover {
+  .card-box .tarjetilla:hover {
     -webkit-transform: none;
             transform: none;
   }
@@ -1547,14 +1544,13 @@
             justify-content: center;
   }
   .card-box .tarjetilla {
-    margin-right: 0;
-    width: auto;
-  }
-  .tarjetilla {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     height: 709px;
     margin-bottom: 2rem;
   }
-  .tarjetilla:hover {
+  .card-box .tarjetilla:hover {
     -webkit-transform: none;
             transform: none;
   }
@@ -1922,14 +1918,13 @@
             justify-content: center;
   }
   .card-box .tarjetilla {
-    margin-right: 0;
-    width: auto;
-  }
-  .tarjetilla {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     height: 750px;
     margin-bottom: 2rem;
   }
-  .tarjetilla:hover {
+  .card-box .tarjetilla:hover {
     -webkit-transform: none;
             transform: none;
   }
@@ -2352,14 +2347,13 @@
             justify-content: center;
   }
   .card-box .tarjetilla {
-    margin-right: 0;
-    width: auto;
-  }
-  .tarjetilla {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     height: 750px;
     margin-bottom: 2rem;
   }
-  .tarjetilla:hover {
+  .card-box .tarjetilla:hover {
     -webkit-transform: none;
             transform: none;
   }
@@ -2694,14 +2688,13 @@
             justify-content: center;
   }
   .card-box .tarjetilla {
-    margin-right: 0;
-    width: auto;
-  }
-  .tarjetilla {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     height: 944px;
     margin-bottom: 2rem;
   }
-  .tarjetilla:hover {
+  .card-box .tarjetilla:hover {
     -webkit-transform: none;
             transform: none;
   }
