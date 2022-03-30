@@ -2800,9 +2800,13 @@ ol li::marker {
 
 .box-guia h1 {
   color: #f6a021;
-  font-size: 8rem;
-  margin-bottom: 3rem;
+  font-size: 4rem;
+  margin-bottom: 1rem;
   padding-top: 4rem;
+}
+
+.box-guia span {
+  font-size: 6rem;
 }
 
 .box-guia p {
