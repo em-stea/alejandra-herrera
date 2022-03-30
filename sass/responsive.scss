@@ -310,7 +310,7 @@
   /*Especialistas*/
   .img-especialistas,
   .box-especialistas {
-    height: 15rem;
+    height: 29rem;
   }
   .box-especialistas h1 {
     padding-top: 0;
@@ -657,6 +657,173 @@
   .img-teilen-01 {
     height: 20rem;
   }
+
+  .card-box {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-box .tarjetilla {
+    margin-right: 0;
+    width: auto;
+  }
+  .tarjetilla {
+    height: 553px;
+    margin-bottom: 2rem;
+  }
+  .img-screen {
+    margin: 5rem 0;
+    height: 11rem;
+  }
+  .caja-icon {
+    width: 90%;
+    padding: 1rem 0;
+    position: inherit;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box-metodo h1 {
+    padding-top: 1.7rem;
+  }
+  .box-estudio h1 {
+    margin: 3rem 0;
+  }
+  .box-estudio p:last-child {
+    padding-bottom: 2rem;
+  }
+  /*Cuadro Sinoptico*/
+  .box-cuadro p {
+    width: auto;
+  }
+  .cuadro-1 p,
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+  }
+  .cuadro-2,
+  .cuadro-5 {
+    flex-direction: column;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .cuadro-3,
+  .cuadro-4,
+  .cuadro-6 {
+    flex-direction: column-reverse;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .row-cuadro {
+    height: auto;
+  }
+  .row-cuadro:nth-child(2) {
+    margin-top: auto;
+  }
+  #metodo,
+  #clientes {
+    flex-direction: column-reverse;
+  }
+  .bg-metodo {
+    margin-top: 4rem;
+  }
+  .box-ul-metodo {
+    padding: 0 1rem 0 1.3rem;
+  }
+  .img-metodo,
+  .img-beneficios,
+  .img-clientes {
+    height: 17rem;
+  }
+  .box-beneficios,
+  .box-clientes {
+    padding: 0 0.5rem;
+  }
+  .box-beneficios h1,
+  .box-clientes h1,
+  .box-especialistas h1 {
+    font-size: 5.5rem;
+    padding-top: 2rem;
+  }
+  .box-flags a {
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 2rem;
+  }
+  .bandera-01,
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
+    height: 3rem;
+    width: 3rem;
+  }
+  /*Especialistas*/
+  .img-especialistas,
+  .box-especialistas {
+    height: 23rem;
+  }
+  .box-especialistas h1 {
+    padding-top: 0;
+  }
+  .box-flags {
+    margin-bottom: 0;
+  }
+  .box-flags a {
+    margin-right: 2rem;
+  }
+  .card-body {
+    padding: 1rem 0.5rem;
+  }
+  /*Guia*/
+  .img-guia {
+    height: 32rem;
+  }
+  .row-guia,
+  .box-text-guia {
+    margin-bottom: 0;
+  }
+  .box-text-guia p {
+    width: 95%;
+  }
+  .container-img-guia {
+    height: auto;
+  }
+  .img-guia-01 {
+    height: 10rem;
+  }
+  .img-guia-02 {
+    height: 18rem;
+  }
+  .img-guia-03 {
+    margin-top: 1rem;
+  }
+  .img-guia-04 {
+    height: 14rem;
+    margin-top: 3rem;
+  }
+  .img-guia-05 {
+    height: 11rem;
+    margin-top: 3rem;
+  }
+  .button-register-teilen a {
+    font-size: 1.2rem;
+  }
 }
 @media screen and (min-width: 380px) and (max-width: 475px) {
   /*Navbar*/
@@ -908,6 +1075,172 @@
   .img-teilen-01 {
     height: 20rem;
   }
+  .card-box {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-box .tarjetilla {
+    margin-right: 0;
+    width: auto;
+  }
+  .tarjetilla {
+    height: 603px;
+    margin-bottom: 2rem;
+  }
+  .img-screen {
+    margin: 5rem 0;
+    height: 13rem;
+  }
+  .caja-icon {
+    width: 90%;
+    padding: 1rem 0;
+    position: inherit;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box-metodo h1 {
+    padding-top: 1.7rem;
+  }
+  .box-estudio h1 {
+    margin: 3rem 0;
+  }
+  .box-estudio p:last-child {
+    padding-bottom: 2rem;
+  }
+  /*Cuadro Sinoptico*/
+  .box-cuadro p {
+    width: auto;
+  }
+  .cuadro-1 p,
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+  }
+  .cuadro-2,
+  .cuadro-5 {
+    flex-direction: column;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .cuadro-3,
+  .cuadro-4,
+  .cuadro-6 {
+    flex-direction: column-reverse;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .row-cuadro {
+    height: auto;
+  }
+  .row-cuadro:nth-child(2) {
+    margin-top: auto;
+  }
+  #metodo,
+  #clientes {
+    flex-direction: column-reverse;
+  }
+  .bg-metodo {
+    margin-top: 4rem;
+  }
+  .box-ul-metodo {
+    padding: 0 1rem 0 1.3rem;
+  }
+  .img-metodo,
+  .img-beneficios,
+  .img-clientes {
+    height: 17rem;
+  }
+  .box-beneficios,
+  .box-clientes {
+    padding: 0 0.5rem;
+  }
+  .box-beneficios h1,
+  .box-clientes h1,
+  .box-especialistas h1 {
+    font-size: 5.5rem;
+    padding-top: 2rem;
+  }
+  .box-flags a {
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-bottom: 2rem;
+  }
+  .bandera-01,
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  /*Especialistas*/
+  .img-especialistas,
+  .box-especialistas {
+    height: 23rem;
+  }
+  .box-especialistas h1 {
+    padding-top: 0;
+  }
+  .box-flags {
+    margin-bottom: 0;
+  }
+  .box-flags a {
+    margin-right: 2rem;
+  }
+  .card-body {
+    padding: 1rem 0.5rem;
+  }
+  /*Guia*/
+  .img-guia {
+    height: 32rem;
+  }
+  .row-guia,
+  .box-text-guia {
+    margin-bottom: 0;
+  }
+  .box-text-guia p {
+    width: 95%;
+  }
+  .container-img-guia {
+    height: auto;
+  }
+  .img-guia-01 {
+    height: 10rem;
+  }
+  .img-guia-02 {
+    height: 18rem;
+  }
+  .img-guia-03 {
+    margin-top: 1rem;
+  }
+  .img-guia-04 {
+    height: 14rem;
+    margin-top: 3rem;
+  }
+  .img-guia-05 {
+    height: 11rem;
+    margin-top: 3rem;
+  }
+  .button-register-teilen a {
+    font-size: 1.2rem;
+  }
 }
 @media screen and (min-width: 476px) and (max-width: 600px) {
   /*Navbar*/
@@ -1072,6 +1405,208 @@
     width: auto;
     margin: auto;
   }
+  /*Pagina Teilen*/
+  .box-buttons {
+    top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+  }
+  .box-buttons a {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .title-teilen h1 {
+    padding: 0 2rem;
+  }
+  .img-teilen-01 {
+    height: 20rem;
+  }
+  .card-box {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-box .tarjetilla {
+    margin-right: 0;
+    width: auto;
+  }
+  .tarjetilla {
+    height: 709px;
+    margin-bottom: 2rem;
+  }
+  .tarjetilla-body h3 {
+    font-size: 2.5rem;
+  }
+  .tarjetilla-body span {
+    font-size: 4.5rem;
+  }
+  .img-screen {
+    margin: 5rem 0;
+    height: 15rem;
+  }
+  .caja-icon {
+    width: 90%;
+    padding: 1rem 0;
+    position: inherit;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box-metodo h1 {
+    padding-top: 1.7rem;
+  }
+  .box-estudio h1 {
+    margin: 3rem 0;
+  }
+  .box-estudio p:last-child {
+    padding-bottom: 2rem;
+  }
+  /*Cuadro Sinoptico*/
+  .box-cuadro p {
+    width: auto;
+  }
+  .cuadro-1 p,
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 21rem;
+  }
+  .cuadro-2,
+  .cuadro-5 {
+    flex-direction: column;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .cuadro-3,
+  .cuadro-4,
+  .cuadro-6 {
+    flex-direction: column-reverse;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .row-cuadro {
+    height: auto;
+  }
+  .row-cuadro:nth-child(2) {
+    margin-top: auto;
+  }
+  #metodo,
+  #clientes {
+    flex-direction: column-reverse;
+  }
+  .bg-metodo {
+    margin-top: 4rem;
+  }
+  .box-ul-metodo {
+    padding: 0 1rem 0 1.3rem;
+  }
+  .img-metodo,
+  .img-beneficios,
+  .img-clientes {
+    height: 17rem;
+  }
+  .box-beneficios,
+  .box-clientes {
+    padding: 0 0.5rem;
+  }
+  .box-beneficios h1,
+  .box-clientes h1,
+  .box-especialistas h1 {
+    font-size: 7.5rem;
+    padding-top: 2rem;
+  }
+  .box-flags a {
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 2rem;
+  }
+  .bandera-01,
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+  .contacto-teilen h2 {
+    font-size: 2rem;
+  }
+  /*Especialistas*/
+  .img-especialistas,
+  .box-especialistas {
+    height: 29rem;
+  }
+  .box-especialistas h1 {
+    padding-top: 0;
+  }
+  .box-flags {
+    margin-bottom: 0;
+  }
+  .box-flags a {
+    margin-right: 2rem;
+  }
+  .card-body {
+    padding: 1rem 0.5rem;
+  }
+  /*Guia*/
+  .img-guia {
+    height: 32rem;
+  }
+  .row-guia,
+  .box-text-guia {
+    margin-bottom: 0;
+  }
+  .box-text-guia p {
+    width: 95%;
+  }
+  .container-img-guia {
+    height: auto;
+  }
+  .img-guia-01 {
+    height: 10rem;
+  }
+  .img-guia-02 {
+    height: 18rem;
+  }
+  .img-guia-03 {
+    margin-top: 1rem;
+  }
+  .img-guia-04 {
+    height: 14rem;
+    margin-top: 3rem;
+  }
+  .img-guia-05 {
+    height: 11rem;
+    margin-top: 3rem;
+  }
+  .button-register-teilen a {
+    font-size: 1.2rem;
+  }
+  .box-contact-teilen a {
+    font-size: 2rem;
+    width: 70px;
+    height: 70px;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 740px) {
@@ -1211,6 +1746,209 @@
   .form-material div {
     width: auto;
     margin: auto;
+  }
+  /*Pagina Teilen*/
+  .box-buttons {
+    top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
+  .box-buttons a {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .title-teilen h1 {
+    padding: 0 5rem;
+    font-size: 2.5rem;
+  }
+  .img-teilen-01 {
+    height: 20rem;
+  }
+  .card-box {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-box .tarjetilla {
+    margin-right: 0;
+    width: auto;
+  }
+  .tarjetilla {
+    height: 750px;
+    margin-bottom: 2rem;
+  }
+  .tarjetilla-body h3 {
+    font-size: 3rem;
+  }
+  .tarjetilla-body span {
+    font-size: 4.5rem;
+  }
+  .img-screen {
+    margin: 5rem 0;
+    height: 16rem;
+  }
+  .caja-icon {
+    width: 90%;
+    padding: 1rem 0;
+    position: inherit;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box-metodo h1 {
+    padding-top: 1.7rem;
+  }
+  .box-estudio h1 {
+    margin: 3rem 0;
+  }
+  .box-estudio p:last-child {
+    padding-bottom: 2rem;
+  }
+  /*Cuadro Sinoptico*/
+  .box-cuadro p {
+    width: auto;
+  }
+  .cuadro-1 p,
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 21rem;
+  }
+  .cuadro-2,
+  .cuadro-5 {
+    flex-direction: column;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .cuadro-3,
+  .cuadro-4,
+  .cuadro-6 {
+    flex-direction: column-reverse;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .row-cuadro {
+    height: auto;
+  }
+  .row-cuadro:nth-child(2) {
+    margin-top: auto;
+  }
+  #metodo,
+  #clientes {
+    flex-direction: column-reverse;
+  }
+  .bg-metodo {
+    margin-top: 4rem;
+  }
+  .box-ul-metodo {
+    padding: 0 1rem 0 1.3rem;
+  }
+  .img-metodo,
+  .img-beneficios,
+  .img-clientes {
+    height: 17rem;
+  }
+  .box-beneficios,
+  .box-clientes {
+    padding: 0 0.5rem;
+  }
+  .box-beneficios h1,
+  .box-clientes h1,
+  .box-especialistas h1 {
+    font-size: 7.5rem;
+    padding-top: 2rem;
+  }
+  .box-flags a {
+    height: 6.5rem;
+    width: 6.5rem;
+    margin-bottom: 2rem;
+  }
+  .bandera-01,
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
+    height: 5.5rem;
+    width: 5.5rem;
+  }
+  .contacto-teilen h2 {
+    font-size: 2.5rem;
+  }
+  /*Especialistas*/
+  .img-especialistas,
+  .box-especialistas {
+    height: 29rem;
+  }
+  .box-especialistas h1 {
+    padding-top: 0;
+  }
+  .box-flags {
+    margin-bottom: 0;
+  }
+  .box-flags a {
+    margin-right: 2rem;
+  }
+  .card-body {
+    padding: 1rem 0.5rem;
+  }
+  /*Guia*/
+  .img-guia {
+    height: 32rem;
+  }
+  .row-guia,
+  .box-text-guia {
+    margin-bottom: 0;
+  }
+  .box-text-guia p {
+    width: 95%;
+  }
+  .container-img-guia {
+    height: auto;
+  }
+  .img-guia-01 {
+    height: 10rem;
+  }
+  .img-guia-02 {
+    height: 18rem;
+  }
+  .img-guia-03 {
+    margin-top: 1rem;
+  }
+  .img-guia-04 {
+    height: 14rem;
+    margin-top: 3rem;
+  }
+  .img-guia-05 {
+    height: 11rem;
+    margin-top: 3rem;
+  }
+  .button-register-teilen a {
+    font-size: 1.2rem;
+  }
+  .box-contact-teilen a {
+    font-size: 2rem;
+    width: 70px;
+    height: 70px;
   }
 }
 
@@ -1409,6 +2147,209 @@
     width: auto;
     margin: auto;
   }
+  /*Pagina Teilen*/
+  .box-buttons {
+    top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
+  .box-buttons a {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .title-teilen h1 {
+    padding: 0 5rem;
+    font-size: 2.5rem;
+  }
+  .img-teilen-01 {
+    height: 25rem;
+  }
+  .card-box {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-box .tarjetilla {
+    margin-right: 0;
+    width: auto;
+  }
+  .tarjetilla {
+    height: 750px;
+    margin-bottom: 2rem;
+  }
+  .tarjetilla-body h3 {
+    font-size: 3rem;
+  }
+  .tarjetilla-body span {
+    font-size: 4.5rem;
+  }
+  .img-screen {
+    margin: 5rem 0;
+    height: 16rem;
+  }
+  .caja-icon {
+    width: 90%;
+    padding: 1rem 0;
+    position: inherit;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box-metodo h1 {
+    padding-top: 1.7rem;
+  }
+  .box-estudio h1 {
+    margin: 3rem 0;
+  }
+  .box-estudio p:last-child {
+    padding-bottom: 2rem;
+  }
+  /*Cuadro Sinoptico*/
+  .box-cuadro p {
+    width: auto;
+  }
+  .cuadro-1 p,
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 21rem;
+  }
+  .cuadro-2,
+  .cuadro-5 {
+    flex-direction: column;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .cuadro-3,
+  .cuadro-4,
+  .cuadro-6 {
+    flex-direction: column-reverse;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .row-cuadro {
+    height: auto;
+  }
+  .row-cuadro:nth-child(2) {
+    margin-top: auto;
+  }
+  #metodo,
+  #clientes {
+    flex-direction: column-reverse;
+  }
+  .bg-metodo {
+    margin-top: 4rem;
+  }
+  .box-ul-metodo {
+    padding: 0 1rem 0 1.3rem;
+  }
+  .img-metodo,
+  .img-beneficios,
+  .img-clientes {
+    height: 17rem;
+  }
+  .box-beneficios,
+  .box-clientes {
+    padding: 0 0.5rem;
+  }
+  .box-beneficios h1,
+  .box-clientes h1,
+  .box-especialistas h1 {
+    font-size: 7.5rem;
+    padding-top: 2rem;
+  }
+  .box-flags a {
+    height: 7.5rem;
+    width: 7.5rem;
+    margin-bottom: 2rem;
+  }
+  .bandera-01,
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
+    height: 6rem;
+    width: 6rem;
+  }
+  .contacto-teilen h2 {
+    font-size: 2.5rem;
+  }
+  /*Especialistas*/
+  .img-especialistas,
+  .box-especialistas {
+    height: 33rem;
+  }
+  .box-especialistas h1 {
+    padding-top: 0;
+  }
+  .box-flags {
+    margin-bottom: 0;
+  }
+  .box-flags a {
+    margin-right: 2rem;
+  }
+  .card-body {
+    padding: 1rem 0.5rem;
+  }
+  /*Guia*/
+  .img-guia {
+    height: 32rem;
+  }
+  .row-guia,
+  .box-text-guia {
+    margin-bottom: 0;
+  }
+  .box-text-guia p {
+    width: 95%;
+  }
+  .container-img-guia {
+    height: auto;
+  }
+  .img-guia-01 {
+    height: 10rem;
+  }
+  .img-guia-02 {
+    height: 18rem;
+  }
+  .img-guia-03 {
+    margin-top: 1rem;
+  }
+  .img-guia-04 {
+    height: 14rem;
+    margin-top: 3rem;
+  }
+  .img-guia-05 {
+    height: 11rem;
+    margin-top: 3rem;
+  }
+  .button-register-teilen a {
+    font-size: 1.2rem;
+  }
+  .box-contact-teilen a {
+    font-size: 2rem;
+    width: 70px;
+    height: 70px;
+  }
 }
 @media screen and (min-width: 781px) and (max-width: 1000px) {
   /*Carousel*/
@@ -1514,6 +2455,212 @@
   .form-material div {
     width: auto;
     margin: auto;
+  }
+  /*Pagina Teilen*/
+  .box-buttons {
+    top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
+  .box-buttons a {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .title-teilen h1 {
+    padding: 0 5rem;
+    font-size: 2.5rem;
+  }
+  .img-teilen-01 {
+    height: 25rem;
+  }
+  .card-box {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-box .tarjetilla {
+    margin-right: 0;
+    width: auto;
+  }
+  .tarjetilla {
+    height: 944px;
+    margin-bottom: 2rem;
+  }
+  .tarjetilla-body h3 {
+    font-size: 3rem;
+  }
+  .tarjetilla-body span {
+    font-size: 4.5rem;
+  }
+  .img-screen {
+    margin: 5rem 0;
+    height: 16rem;
+  }
+  .caja-icon {
+    width: 90%;
+    padding: 1rem 0;
+    position: inherit;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box-metodo h1 {
+    padding-top: 1.7rem;
+  }
+  .img-estudio {
+    height: 29rem;
+  }
+  .box-estudio h1 {
+    margin: 3rem 0;
+  }
+  .box-estudio p:last-child {
+    padding-bottom: 2rem;
+  }
+  /*Cuadro Sinoptico*/
+  .box-cuadro p {
+    width: auto;
+  }
+  .cuadro-1 p,
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 21rem;
+  }
+  .cuadro-2,
+  .cuadro-5 {
+    flex-direction: column;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .cuadro-3,
+  .cuadro-4,
+  .cuadro-6 {
+    flex-direction: column-reverse;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+  .row-cuadro {
+    height: auto;
+  }
+  .row-cuadro:nth-child(2) {
+    margin-top: auto;
+  }
+  #metodo,
+  #clientes {
+    flex-direction: row;
+  }
+  .bg-metodo {
+    margin-top: 4rem;
+  }
+  .box-ul-metodo {
+    padding: 0 1rem 0 1.3rem;
+  }
+  .img-metodo,
+  .img-beneficios,
+  .img-clientes {
+    height: auto;
+  }
+  .box-beneficios,
+  .box-clientes {
+    padding: 0 0.5rem;
+  }
+  .box-beneficios h1,
+  .box-clientes h1,
+  .box-especialistas h1 {
+    font-size: 7.5rem;
+    padding-top: 2rem;
+  }
+  .box-flags a {
+    height: 8.5rem;
+    width: 8.5rem;
+    margin-bottom: 2rem;
+  }
+  .bandera-01,
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
+    height: 6.5rem;
+    width: 6.5rem;
+  }
+  .contacto-teilen h2 {
+    font-size: 2.5rem;
+  }
+  /*Especialistas*/
+  .img-especialistas,
+  .box-especialistas {
+    height: 33rem;
+  }
+  .box-especialistas h1 {
+    padding-top: 0;
+  }
+  .box-flags {
+    margin-bottom: 0;
+  }
+  .box-flags a {
+    margin-right: 2rem;
+  }
+  .card-body {
+    padding: 1rem 0.5rem;
+  }
+  /*Guia*/
+  .img-guia {
+    height: 32rem;
+  }
+  .row-guia,
+  .box-text-guia {
+    margin-bottom: 0;
+  }
+  .box-text-guia p {
+    width: 95%;
+  }
+  .container-img-guia {
+    height: auto;
+  }
+  .img-guia-01 {
+    height: 10rem;
+  }
+  .img-guia-02 {
+    height: 18rem;
+  }
+  .img-guia-03 {
+    margin-top: 1rem;
+  }
+  .img-guia-04 {
+    height: 14rem;
+    margin-top: 3rem;
+  }
+  .img-guia-05 {
+    height: 11rem;
+    margin-top: 3rem;
+  }
+  .button-register-teilen a {
+    font-size: 1.2rem;
+  }
+  .box-contact-teilen a {
+    font-size: 2rem;
+    width: 70px;
+    height: 70px;
   }
 }
 /*desktop*/
@@ -1952,5 +3099,91 @@
   }
   .tarjeta-wrap:hover .tarjeta-hackea {
     transform: rotateY(180deg);
+  }
+}
+
+/*Responsive desktop Teilen*/
+@media screen and (min-width: 1600px) and (max-width: 1700px) {
+  .caja-01,
+  .caja-04 {
+    left: 32rem;
+  }
+  .caja-02,
+  .caja-05 {
+    left: 47rem;
+  }
+  .caja-03,
+  .caja-06 {
+    left: 62rem;
+  }
+}
+@media screen and (min-width: 1701px) and (max-width: 1800px) {
+  .caja-01,
+  .caja-04 {
+    left: 35rem;
+  }
+  .caja-02,
+  .caja-05 {
+    left: 50rem;
+  }
+  .caja-03,
+  .caja-06 {
+    left: 65rem;
+  }
+}
+@media screen and (min-width: 1801px) and (max-width: 1900px) {
+  .caja-01,
+  .caja-04 {
+    left: 35rem;
+  }
+  .caja-02,
+  .caja-05 {
+    left: 51rem;
+  }
+  .caja-03,
+  .caja-06 {
+    left: 67rem;
+  }
+}
+@media screen and (min-width: 1901px) and (max-width: 2000px) {
+  .caja-01,
+  .caja-04 {
+    left: 36rem;
+  }
+  .caja-02,
+  .caja-05 {
+    left: 53rem;
+  }
+  .caja-03,
+  .caja-06 {
+    left: 70rem;
+  }
+}
+@media screen and (min-width: 2001px) and (max-width: 3000px) {
+  .caja-01,
+  .caja-04 {
+    left: 38rem;
+  }
+  .caja-02,
+  .caja-05 {
+    left: 55rem;
+  }
+  .caja-03,
+  .caja-06 {
+    left: 72rem;
+  }
+}
+@media screen and (min-width: 3001px) and (max-width: 4000px) {
+  .caja-01,
+  .caja-04 {
+    left: 57rem;
+  }
+  .caja-02,
+  .caja-05 {
+    left: 83rem;
+  }
+  .caja-03,
+  .caja-06 {
+    left: 109rem;
   }
 }
