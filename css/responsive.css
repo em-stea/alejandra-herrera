@@ -143,6 +143,9 @@
     font-size: 1.2rem;
   }
   /*Material descargable*/
+  .btn-download {
+    width: 80% !important;
+  }
   .title-material {
     font-size: 1.6rem;
   }
@@ -639,6 +642,9 @@
     height: 20rem;
   }
   /*Material descargable*/
+  .btn-download {
+    width: 80% !important;
+  }
   .title-material {
     font-size: 1.6rem;
   }
@@ -1087,6 +1093,9 @@
     margin-top: 1rem;
   }
   /*Material descargable*/
+  .btn-download {
+    width: 80% !important;
+  }
   .title-material {
     font-size: 1.6rem;
   }
@@ -1466,6 +1475,9 @@
     padding: 0.5rem 0 0.5rem 0;
   }
   /*Material descargable*/
+  .btn-download {
+    width: 80% !important;
+  }
   .title-material {
     font-size: 1.6rem;
   }
@@ -1839,6 +1851,9 @@
     padding: 0.5rem 0 0.5rem 0;
   }
   /*Material descargable*/
+  .btn-download {
+    width: 80% !important;
+  }
   .title-material {
     font-size: 1.6rem;
   }
@@ -2268,6 +2283,9 @@
     padding: 50px 0;
   }
   /*Material descargable*/
+  .btn-download {
+    width: 80% !important;
+  }
   .title-material {
     font-size: 1.6rem;
   }
@@ -2609,6 +2627,9 @@
     height: 17.6rem;
   }
   /*Material descargable*/
+  .btn-download {
+    width: 80% !important;
+  }
   .title-material {
     font-size: 1.6rem;
   }

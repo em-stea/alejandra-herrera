@@ -1914,6 +1914,7 @@ p {
   background-color: #8a7c62;
   border-radius: 50px;
   padding: 0.5rem 3rem;
+  width: 15% !important;
   color: white;
 }
 
