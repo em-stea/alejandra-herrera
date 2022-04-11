@@ -47,7 +47,7 @@
   /*Mi historia*/
   .tarjeta {
     width: 90%;
-    height: 51rem;
+    height: 55rem;
     padding-left: 1rem;
   }
   .tarjeta p {
@@ -82,11 +82,17 @@
   }
   .img-content-1 h1,
   .img-content-2 h2 {
-    font-size: 1.7rem !important;
+    font-size: 1.2rem !important;
     line-height: 3rem !important;
   }
   .img-content-3 h1 {
     font-size: 2rem !important;
+  }
+  .text-estancada{
+    font-size: 5.5rem;
+  }
+  .adelante-hackea h1{
+    font-size: 1.3rem;
   }
   /*Mi contenido*/
   .title-content {
@@ -380,9 +386,6 @@
   .proximamente-section-2 h1 {
     font-size: 1.3rem;
     width: auto;
-  }
-  .img-content-2 h2 {
-    font-size: 1.6rem !important;
   }
   /*contactame*/
   .bg-contactame h1 {
