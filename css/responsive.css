@@ -974,6 +974,9 @@
   .atras-two {
     padding-left: 2rem;
   }
+  .atras-two h1 {
+    margin-right: 0;
+  }
   /*sobre mi*/
   audio {
     width: 100%;
