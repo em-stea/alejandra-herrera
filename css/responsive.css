@@ -965,6 +965,7 @@
   .tarjeta {
     width: 90%;
     padding-left: 2rem;
+    height: 43rem;
   }
   /*Coffee*/
   .tarjeta-one {
@@ -1041,7 +1042,7 @@
     padding-top: 2.8rem;
   }
   .img-content-2 h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .img-content-4 h1 {
     font-size: 2.5rem;
