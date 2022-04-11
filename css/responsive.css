@@ -537,9 +537,12 @@
     font-size: 6.5rem;
   }
   .text-analizando {
-    font-size: 6.8rem;
+    font-size: 6.2rem;
   }
   /*Coffee*/
+  .image-coffee {
+    padding: 0;
+  }
   .tarjeta-one {
     height: 37rem;
   }
@@ -547,7 +550,10 @@
     font-size: 5rem;
   }
   .atras-two {
-    padding-left: 0;
+    padding-left: 1.5rem;
+  }
+  .atras-two h1 {
+    margin-right: 0;
   }
   /*Proximamente*/
   .proximamente-section-1 {
@@ -605,7 +611,7 @@
     margin-top: 1rem;
   }
   .img-content-2 h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .img-content-4 h1 {
     font-size: 2rem;
