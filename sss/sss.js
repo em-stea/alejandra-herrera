@@ -1,108 +1,116 @@
 /** Super Simple Slider by @intllgnt **/
 
-;(function($, window, document, undefined ) {
+(function ($, window, document, undefined) {
+  $.fn.sss = function (options) {
+    // Options
 
-$.fn.sss = function(options) {
+    var settings = $.extend(
+      {
+        slideShow: true,
+        startOn: 0,
+        speed: 9000,
+        transition: 400,
+        arrows: true,
+      },
+      options
+    );
 
-// Options
+    return this.each(function () {
+      // Variables
 
-	var settings = $.extend({
-	slideShow : true,
-	startOn : 0,
-	speed : 3500,
-	transition : 400,
-	arrows : true
-	}, options);
+      var wrapper = $(this),
+        slides = wrapper
+          .children()
+          .wrapAll('<div class="sss"/>')
+          .addClass("ssslide"),
+        slider = wrapper.find(".sss"),
+        slide_count = slides.length,
+        transition = settings.transition,
+        starting_slide = settings.startOn,
+        target = starting_slide > slide_count - 1 ? 0 : starting_slide,
+        animating = false,
+        clicked,
+        timer,
+        key,
+        prev,
+        next,
+        // Reset Slideshow
 
-	return this.each(function() {
+        reset_timer = settings.slideShow
+          ? function () {
+              clearTimeout(timer);
+              timer = setTimeout(next_slide, settings.speed);
+            }
+          : $.noop;
 
-// Variables
+      // Animate Slider
 
-	var
-	wrapper = $(this),
-	slides = wrapper.children().wrapAll('<div class="sss"/>').addClass('ssslide'),
-	slider = wrapper.find('.sss'),
-	slide_count = slides.length,
-	transition = settings.transition,
-	starting_slide = settings.startOn,
-	target = starting_slide > slide_count - 1 ? 0 : starting_slide,
-	animating = false,
-	clicked,
-	timer,
-	key,
-	prev,
-	next,
+      function get_height(target) {
+        return (slides.eq(target).height() / slider.width()) * 100 + "%";
+      }
 
-// Reset Slideshow
+      function animate_slide(target) {
+        if (!animating) {
+          animating = true;
+          var target_slide = slides.eq(target);
 
-	reset_timer = settings.slideShow ? function() {
-	clearTimeout(timer);
-	timer = setTimeout(next_slide, settings.speed);
-	} : $.noop;
+          target_slide.fadeIn(transition);
+          slides.not(target_slide).fadeOut(transition);
 
-// Animate Slider
+          slider.animate(
+            { paddingBottom: get_height(target) },
+            transition,
+            function () {
+              animating = false;
+            }
+          );
 
-	function get_height(target) {
-	return ((slides.eq(target).height() / slider.width()) * 100) + '%';
-	}
+          reset_timer();
+        }
+      }
 
-	function animate_slide(target) {
-	if (!animating) {
-	animating = true;
-	var target_slide = slides.eq(target);
+      // Next Slide
 
-	target_slide.fadeIn(transition);
-	slides.not(target_slide).fadeOut(transition);
+      function next_slide() {
+        target = target === slide_count - 1 ? 0 : target + 1;
+        animate_slide(target);
+      }
 
-	slider.animate({paddingBottom: get_height(target)}, transition,  function() {
-	animating = false;
-	});
+      // Prev Slide
 
-	reset_timer();
+      function prev_slide() {
+        target = target === 0 ? slide_count - 1 : target - 1;
+        animate_slide(target);
+      }
 
-	}};
+      if (settings.arrows) {
+        slider.append('<div class="sssprev"/>', '<div class="sssnext"/>');
+      }
 
-// Next Slide
+      (next = slider.find(".sssnext")), (prev = slider.find(".sssprev"));
 
-	function next_slide() {
-	target = target === slide_count - 1 ? 0 : target + 1;
-	animate_slide(target);
-	}
+      $(window).load(function () {
+        slider.css({ paddingBottom: get_height(target) }).click(function (e) {
+          clicked = $(e.target);
+          if (clicked.is(next)) {
+            next_slide();
+          } else if (clicked.is(prev)) {
+            prev_slide();
+          }
+        });
 
-// Prev Slide
+        animate_slide(target);
 
-	function prev_slide() {
-	target = target === 0 ? slide_count - 1 : target - 1;
-	animate_slide(target);
-	}
-
-	if (settings.arrows) {
-	slider.append('<div class="sssprev"/>', '<div class="sssnext"/>');
-	}
-
-	next = slider.find('.sssnext'),
-	prev = slider.find('.sssprev');
-
-	$(window).load(function() {
-
-	slider.css({paddingBottom: get_height(target)}).click(function(e) {
-	clicked = $(e.target);
-	if (clicked.is(next)) { next_slide() }
-	else if (clicked.is(prev)) { prev_slide() }
-	});
-
-	animate_slide(target);
-
-	$(document).keydown(function(e) {
-	key = e.keyCode;
-	if (key === 39) { next_slide() }
-	else if (key === 37) { prev_slide() }
-	});
-
-	});
-// End
-
-});
-
-};
+        $(document).keydown(function (e) {
+          key = e.keyCode;
+          if (key === 39) {
+            next_slide();
+          } else if (key === 37) {
+            prev_slide();
+          }
+        });
+      });
+      // End
+    });
+  };
 })(jQuery, window, document);

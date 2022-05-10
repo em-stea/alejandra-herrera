@@ -2891,7 +2891,7 @@ ol li::marker {
   text-decoration: none;
   font-weight: 900;
   color: #8a7c62;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: rgba(5, 5, 5, 0.1);
   border-radius: 50px;
   padding: 1rem 3rem;
@@ -2904,4 +2904,131 @@ ol li::marker {
   color: #4f4f4f;
   -webkit-box-shadow: 7px 9px 7px -4px rgba(5, 5, 5, 0.3);
           box-shadow: 7px 9px 7px -4px rgba(5, 5, 5, 0.3);
+}
+
+/*Desbloquea tu mente - Barras de access*/
+.box-text-unlock {
+  margin-top: 2rem;
+  padding-right: 1rem;
+}
+
+.barras-access {
+  background-image: url(../img/barrasdeaccess.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+}
+
+.barras-access h2, .barras-access h1 {
+  color: white;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.barras-access h1 {
+  font-weight: 900;
+}
+
+.text-unlock {
+  font-size: 5.5rem;
+}
+
+.box-title-unlock {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.text-number {
+  font-size: 5rem;
+  color: #b9887d;
+}
+
+.box-title-unlock h1 {
+  font-weight: 900;
+}
+
+.box-title-unlock h3 span {
+  font-size: 5rem;
+  padding-left: 1rem;
+  line-height: 0;
+}
+
+.accordion-unlock {
+  width: 55%;
+  margin: 3rem auto;
+}
+
+.accordion-button-unlock {
+  font-size: 1.3rem;
+  font-weight: 900 !important;
+  padding: 1.5rem;
+  color: #a4593c;
+  background-color: #F4F4F4;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #a4593c;
+  background-color: #EEEEEE;
+}
+
+.accordion-body-unlock {
+  padding: 2rem 3rem;
+}
+
+.box-frase h4 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.box-frase span {
+  font-size: 4rem;
+  padding-left: .5rem;
+  line-height: 2.5rem;
+}
+
+/***Slider Cierre***/
+.wrapper-unlock {
+  width: 100%;
+  background: #a4593c;
+  padding: 40px 0 1px 0;
+  position: relative;
+}
+
+.slider-testimonial {
+  width: 85%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.slider-text {
+  padding: 71px 60px 30px 60px;
+  color: white;
+  position: relative;
+  top: -34px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slider-text {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  font-weight: 900;
+}
+
+.slider-text p {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+.slider-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.slider-text a:hover {
+  color: #d7c4bf;
 }

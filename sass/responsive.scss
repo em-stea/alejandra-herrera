@@ -54,15 +54,21 @@
     width: 90%;
   }
   .text-comienzos {
-    font-size: 5rem;
+    font-size: 4.6rem;
   }
   .text-analizando {
-    font-size: 6rem;
+    font-size: 5.3rem;
+  }
+  .image-bg-01 h1{
+    font-size: 2.8rem;
   }
   /*Coffee*/
   //Columna-1
   .text-oportunity {
     font-size: 5.5rem;
+  }
+  .image-coffee{
+    padding: 10rem 9rem;
   }
   //Columna-2
   .atras-two {
@@ -80,19 +86,13 @@
   .atras-hackea {
     padding-left: 2rem;
   }
-  .img-content-1 h1,
-  .img-content-2 h2 {
-    font-size: 1.2rem !important;
-    line-height: 3rem !important;
-  }
-  .img-content-3 h1 {
-    font-size: 2rem !important;
-  }
+
   .text-estancada{
     font-size: 5.5rem;
   }
   .adelante-hackea h1{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    line-height: 3rem !important;
   }
   /*Mi contenido*/
   .title-content {
@@ -120,10 +120,27 @@
     width: 80%;
     margin-top: 1rem;
   }
+  .card-title h4{
+    font-size: 1.1rem;
+  }
+  .text-taller-1, .text-taller-2, .text-taller-3, .text-taller-4, .text-taller-5{
+    font-size: 1.5rem;
+  }
   /*Mi contenido*/
   .img-content-1,
   .img-content-2 {
     height: 23rem;
+  }
+  .img-content-1 h1,
+  .img-content-2 h2 {
+    font-size: 1.2rem !important;
+    line-height: 2rem !important;
+  }
+  .img-content-3 h1 {
+    font-size: 2rem !important;
+  }
+  .img-content-4 h1{
+    line-height: 2rem !important
   }
   .ancho-col-talleres {
     padding: 1.2rem 0.5rem 0 1rem;
@@ -133,6 +150,10 @@
   }
   .ancho-col-small-02 {
     padding: 0.5rem 0 0.5rem 0;
+  }
+  /*Contactame*/
+  .textarea.form-control{
+    padding-bottom: 0;
   }
   /*Footer*/
   .logo-footer {
@@ -318,17 +339,6 @@
     height: 3rem;
     width: 3rem;
   }
-  /*Especialistas*/
-  .img-especialistas,
-  .box-especialistas {
-    height: 29rem;
-  }
-  .box-especialistas h1 {
-    padding-top: 0;
-  }
-  .card-body {
-    padding: 1rem 0.5rem;
-  }
   /*Guia*/
   .img-guia {
     height: 32rem;
@@ -362,6 +372,56 @@
   }
   .button-register-teilen a {
     font-size: 1.2rem;
+  }
+  /*Sobre mi*/
+  .text-sobremi h3{
+    line-height: 4rem;
+    padding-bottom: 3rem;
+  }
+  .text-sobremi h2{
+    font-size: 1.4rem;
+  }
+  .row-redes{
+    margin: 4rem 1rem 0 1rem
+  }
+  .container-redes p{
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+  .container-redes{
+    flex-direction: column;
+  }
+  .redes a{
+    margin: 0.1rem;
+  }
+  .row-padding-cert{
+    padding: 0;
+  }
+  .bg-colour-06{
+    height: 18rem;
+  }
+  /*Desbloquea tu mente*/
+  .accordion-unlock{
+    width: 95%;
+  }
+  .accordion-body-unlock{
+    padding: 1rem 1.5rem;
+  }
+  .slider-text{
+    padding: 71px 10px 30px 10px;
+  }
+  .slider-text a{
+    font-size: 1rem;
+  }
+  .slider-text a .icon-whatsapp{
+    font-size: 1rem;
+    padding-right: .5rem;
+  }
+  .sssprev{
+    left: 0 !important;
+  }
+  .sssnext{
+    right: 0 !important;
   }
 }
 
@@ -842,6 +902,35 @@
   .button-register-teilen a {
     font-size: 1.2rem;
   }
+  /*Desbloquea tu mente*/
+  .accordion-unlock{
+    width: 95%;
+  }
+  .accordion-body-unlock{
+    padding: 1rem 1.5rem;
+  }
+  .accordion-button-unlock{
+    font-size: 1.15rem;
+  }
+  .slider-text{
+    padding: 71px 10px 30px 10px;
+  }
+  .slider-text a{
+    font-size: 1rem;
+  }
+  .slider-text a .icon-whatsapp{
+    font-size: 1rem;
+    padding-right: .5rem;
+  }
+  .sssprev{
+    left: 0 !important;
+  }
+  .sssnext{
+    right: 0 !important;
+  }
+  .box-frase h4{
+    width: 90%;
+  }
 }
 @media screen and (min-width: 380px) and (max-width: 475px) {
   /*Navbar*/
@@ -953,6 +1042,12 @@
   }
   .bg-colour-06 {
     height: 19rem;
+  }
+  .container-redes{
+    flex-direction: column;
+  }
+  .container-redes p{
+    margin-bottom: 1rem;
   }
   /*Proximamente*/
   .proximamente-section-1 {
@@ -1267,6 +1362,31 @@
   }
   .button-register-teilen a {
     font-size: 1.2rem;
+  }
+   /*Desbloquea tu mente*/
+   .accordion-unlock{
+    width: 95%;
+  }
+  .accordion-body-unlock{
+    padding: 1rem 1.5rem;
+  }
+  .accordion-button-unlock{
+    font-size: 1.15rem;
+  }
+  .slider-text{
+    padding: 71px 10px 30px 10px;
+  }
+  .slider-text a .icon-whatsapp{
+    padding-right: .5rem;
+  }
+  .sssprev{
+    left: 0 !important;
+  }
+  .sssnext{
+    right: 0 !important;
+  }
+  .box-frase h4{
+    width: 90%;
   }
 }
 @media screen and (min-width: 476px) and (max-width: 600px) {
@@ -1639,6 +1759,31 @@
     width: 70px;
     height: 70px;
   }
+   /*Desbloquea tu mente*/
+   .accordion-unlock{
+    width: 95%;
+  }
+  .accordion-body-unlock{
+    padding: 1rem 1.5rem;
+  }
+  .accordion-button-unlock{
+    font-size: 1.15rem;
+  }
+  .slider-text{
+    padding: 71px 10px 30px 10px;
+  }
+  .slider-text a .icon-whatsapp{
+    padding-right: .5rem;
+  }
+  .sssprev{
+    left: 0 !important;
+  }
+  .sssnext{
+    right: 0 !important;
+  }
+  .box-frase h4{
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 740px) {
@@ -1986,6 +2131,31 @@
     font-size: 2rem;
     width: 70px;
     height: 70px;
+  }
+  /*Desbloquea tu mente*/
+  .accordion-unlock{
+    width: 95%;
+  }
+  .accordion-body-unlock{
+    padding: 1rem 1.5rem;
+  }
+  .accordion-button-unlock{
+    font-size: 1.15rem;
+  }
+  .slider-text{
+    padding: 71px 10px 30px 10px;
+  }
+  .slider-text a .icon-whatsapp{
+    padding-right: .5rem;
+  }
+  .sssprev{
+    left: 0 !important;
+  }
+  .sssnext{
+    right: 0 !important;
+  }
+  .box-frase h4{
+    width: 90%;
   }
 }
 
@@ -2392,6 +2562,31 @@
     width: 70px;
     height: 70px;
   }
+  /*Desbloquea tu mente*/
+  .accordion-unlock{
+    width: 95%;
+  }
+  .accordion-body-unlock{
+    padding: 1rem 1.5rem;
+  }
+  .accordion-button-unlock{
+    font-size: 1.15rem;
+  }
+  .slider-text{
+    padding: 71px 10px 30px 10px;
+  }
+  .slider-text a .icon-whatsapp{
+    padding-right: .5rem;
+  }
+  .sssprev{
+    left: 0 !important;
+  }
+  .sssnext{
+    right: 0 !important;
+  }
+  .box-frase h4{
+    width: 90%;
+  }
 }
 @media screen and (min-width: 781px) and (max-width: 1000px) {
   /*Carousel*/
@@ -2709,6 +2904,31 @@
     width: 70px;
     height: 70px;
   }
+  /*Desbloquea tu mente*/
+  .accordion-unlock{
+    width: 95%;
+  }
+  .accordion-body-unlock{
+    padding: 1rem 1.5rem;
+  }
+  .accordion-button-unlock{
+    font-size: 1.15rem;
+  }
+  .slider-text{
+    padding: 71px 10px 30px 10px;
+  }
+  .slider-text a .icon-whatsapp{
+    padding-right: .5rem;
+  }
+  .sssprev{
+    left: 0 !important;
+  }
+  .sssnext{
+    right: 0 !important;
+  }
+  .box-frase h4{
+    width: 90%;
+  }
 }
 /*desktop*/
 @media screen and (min-width: 1001px) and (max-width: 1600px) {
@@ -2740,7 +2960,7 @@
     left: 20%;
   }
   .caption3 > h1 {
-    font-size: 2.8rem;
+    font-size: 1.8rem;
   }
   .caption3 span {
     font-size: 5rem;
