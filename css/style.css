@@ -106,7 +106,7 @@ body {
 #navbarNav {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: end;
+          justify-content: flex-end;
 }
 
 .navbar-light .navbar-toggler {
@@ -2908,7 +2908,7 @@ ol li::marker {
 
 /*Desbloquea tu mente - Barras de access*/
 .box-text-unlock {
-  margin-top: 2rem;
+  margin-top: 3.5rem;
   padding-right: 1rem;
 }
 
@@ -2920,6 +2920,10 @@ ol li::marker {
   height: 30rem;
 }
 
+.barras-access h2 {
+  line-height: 3rem;
+}
+
 .barras-access h2, .barras-access h1 {
   color: white;
   margin-bottom: 0;
@@ -2928,6 +2932,7 @@ ol li::marker {
 
 .barras-access h1 {
   font-weight: 900;
+  font-size: 3.5rem;
 }
 
 .text-unlock {
@@ -3022,13 +3027,21 @@ ol li::marker {
   margin: auto;
   text-align: center;
   width: 90%;
+  margin-bottom: 1rem;
 }
 
 .slider-text a {
-  color: white;
+  color: #4f4f4f;
   text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  padding: .4rem 2.2rem;
 }
 
 .slider-text a:hover {
-  color: #d7c4bf;
+  color: white;
+}
+
+.slider-text a i {
+  padding-right: .5rem;
 }
