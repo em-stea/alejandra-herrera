@@ -411,7 +411,8 @@
     padding: 71px 10px 30px 10px;
   }
   .slider-text a{
-    font-size: 1rem;
+    font-size: .8rem;
+    padding: .4rem .6rem;
   }
   .slider-text a .icon-whatsapp{
     font-size: 1rem;
@@ -422,6 +423,21 @@
   }
   .sssnext{
     right: 0 !important;
+  }
+  /*Galeria Grid*/
+  .galeria{
+    width: 95%;
+    grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+  }
+  .light-box img{
+    width: 70vw;
+  }
+  .close{
+    top: 20px;
+    right: 20px;
+  }
+  .next{
+    margin: 0 .3rem;
   }
 }
 
@@ -931,6 +947,21 @@
   .box-frase h4{
     width: 90%;
   }
+  /*Galeria Grid*/
+  .galeria{
+    width: 95%;
+    grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+  }
+  .light-box img{
+    width: 75vw;
+  }
+  .close{
+    top: 20px;
+    right: 20px;
+  }
+  .next{
+    margin: 0 .3rem;
+  }
 }
 @media screen and (min-width: 380px) and (max-width: 475px) {
   /*Navbar*/
@@ -1388,6 +1419,21 @@
   .box-frase h4{
     width: 90%;
   }
+  /*Galeria Grid*/
+  .galeria{
+    width: 95%;
+    grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+  }
+  .light-box img{
+    width: 80vw;
+  }
+  .close{
+    top: 20px;
+    right: 20px;
+  }
+  .next{
+    margin: 0 .3rem;
+  }
 }
 @media screen and (min-width: 476px) and (max-width: 600px) {
   /*Navbar*/
@@ -1784,6 +1830,21 @@
   .box-frase h4{
     width: 90%;
   }
+  /*Galeria Grid*/
+  .galeria{
+    width: 95%;
+    grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+  }
+  .light-box img{
+    width: 85vw;
+  }
+  .close{
+    top: 20px;
+    right: 20px;
+  }
+  .next{
+    margin: 0 .3rem;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 740px) {
@@ -2156,6 +2217,21 @@
   }
   .box-frase h4{
     width: 90%;
+  }
+  /*Galeria Grid*/
+  .galeria{
+    width: 95%;
+    grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+  }
+  .light-box img{
+    width: 85vw;
+  }
+  .close{
+    top: 20px;
+    right: 20px;
+  }
+  .next{
+    margin: 0 .3rem;
   }
 }
 
@@ -2587,6 +2663,21 @@
   .box-frase h4{
     width: 90%;
   }
+    /*Galeria Grid*/
+    .galeria{
+      width: 95%;
+      grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+    }
+    .light-box img{
+      width: 85vw;
+    }
+    .close{
+      top: 20px;
+      right: 20px;
+    }
+    .next{
+      margin: 0 .3rem;
+    }
 }
 @media screen and (min-width: 781px) and (max-width: 1000px) {
   /*Carousel*/
