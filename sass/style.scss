@@ -2333,6 +2333,16 @@ ol li::marker {
 .slider-text a i{
   padding-right: .5rem;
 }
+.box-video{
+  padding-right: 0;
+  padding-left: 0;
+}
+.ratio{
+  height: 100%;
+}
+.ratio>*{
+  height: auto;
+}
 
 /*Galery Grid*/
 .galeria{

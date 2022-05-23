@@ -451,6 +451,9 @@
   .sssnext {
     right: 0 !important;
   }
+  .ratio {
+    height: 42vh;
+  }
   /*Galeria Grid*/
   .galeria {
     width: 95%;
@@ -1007,6 +1010,9 @@
   .box-frase h4 {
     width: 90%;
   }
+  .ratio {
+    height: 57vh;
+  }
   /*Galeria Grid*/
   .galeria {
     width: 95%;
@@ -1515,6 +1521,9 @@
   .slider-text a {
     font-size: 1.1rem;
   }
+  .ratio {
+    height: 72vh;
+  }
   /*Galeria Grid*/
   .galeria {
     width: 95%;
@@ -1956,6 +1965,9 @@
   .box-frase h4 {
     width: 90%;
   }
+  .ratio {
+    height: 89vh;
+  }
   /*Galeria Grid*/
   .galeria {
     width: 95%;
@@ -2373,6 +2385,9 @@
   }
   .box-frase h4 {
     width: 90%;
+  }
+  .ratio {
+    height: 110vh;
   }
   /*Galeria Grid*/
   .galeria {
@@ -2846,6 +2861,9 @@
   }
   .box-frase h4 {
     width: 90%;
+  }
+  .ratio {
+    height: 110vh;
   }
   /*Galeria Grid*/
   .galeria {
