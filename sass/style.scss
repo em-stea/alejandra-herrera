@@ -1179,7 +1179,7 @@ p {
   top: 6rem;
 }
 .row-padding-cert {
-  padding: 0 10rem;
+  padding: 0 7rem;
   margin-bottom: 4rem;
 }
 .img-certificacion {
@@ -1224,11 +1224,15 @@ p {
   @extend %module_bg-color;
 }
 .bg-colour-05 {
-  background-color: $colour-dark-brown;
+  background-color: $colour-green;
   @extend %module_bg-color;
 }
 .bg-colour-06 {
   background-color: $colour-light-brown;
+  @extend %module_bg-color;
+}
+.bg-colour-07 {
+  background-color: $colour-brown;
   @extend %module_bg-color;
 }
 .button-aval {
