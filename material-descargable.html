@@ -94,8 +94,12 @@
             <span class="text-cursive" data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="150">para ti</span>
         </p>
     </div>
-    <div class="">
-        <div class="col-12 text-center d-flex justify-content-center- align-items-center flex-column box-download">
+  </div> 
+
+  <!--Descargable Rueda de la vida-->
+  <div class="container box-mat-download">
+    <div class="row">
+        <div class="col-12 col-md-6 text-center d-flex justify-content-center- align-items-center flex-column box-download">
            <img src="img/material-descargable.jpg" alt="rueda de la vida" class="img-material-descargable">
             <p class="title-material">Rueda de la Vida</p>
             <p class="text-material">Herramienta que te ayudará a visualizar todos los aspectos de tu vida y conocer qué tan equilibrado y satisfecho estás con ellos.</p>
@@ -130,6 +134,43 @@
                 </div>
             </div>
         </div>
+
+      <!--Descargable Guia practica-->
+      <div class="col-12 col-md-6 text-center d-flex justify-content-center- align-items-center flex-column box-download">
+         <img src="img/material-descargable-02.jpg" alt="rueda de la vida" class="img-material-descargable">
+          <p class="title-material">Guía Práctica de la Idea a la Acción</p>
+          <p class="text-material">Herramienta que te ayudará a visualizar todos los aspectos de tu vida y conocer qué tan equilibrado y satisfecho estás con ellos.</p>
+           <!-- Button Buyer modal -->
+          <button type="button" class="btn btn-download" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+              Descargar
+          </button>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade modal-content-material" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body modal-material">
+                      <p class="mb-4">Ingresa tu nombre y correo para descargar el material de manera gratuita</p>
+                      <!--Form-->
+                      <form action="form-procesar-02.php" method="post" class="form-material">
+                          <div class="mb-3">
+                              <input type="text" class="form-control form-control-material" name="nombre" placeholder="Nombre" title="Se necesita un nombre" required/>
+                          </div>
+                          <div class="mb-3">
+                              <input type="email" class="form-control form-control-material" name="email" placeholder="Email" title="Se necesita un Correo Electrónico" required/>
+                          </div>
+                          <div class="modal-footer modal-button">
+                              <button type="submit" class="btn btn-material">Enviar</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
     </div>
   </div>
 
