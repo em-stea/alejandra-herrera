@@ -1361,7 +1361,7 @@ p {
   color: #61463c;
 }
 
-.bg-colour-07, .bg-colour-06, .bg-colour-05, .bg-colour-04, .bg-colour-03, .bg-colour-02, .bg-colour-01 {
+.bg-colour-06, .bg-colour-05, .bg-colour-04, .bg-colour-03, .bg-colour-02, .bg-colour-01 {
   height: 15rem;
   display: flex;
   justify-content: center;
@@ -1374,11 +1374,11 @@ p {
 }
 
 .bg-colour-02 {
-  background-color: #d7c4bf;
+  background-color: #b9887d;
 }
 
 .bg-colour-03 {
-  background-color: #f6a021;
+  background-color: #d7c4bf;
 }
 
 .bg-colour-04 {
@@ -1386,15 +1386,11 @@ p {
 }
 
 .bg-colour-05 {
-  background-color: #b9887d;
+  background-color: #61463c;
 }
 
 .bg-colour-06 {
-  background-color: #8a7c62;
-}
-
-.bg-colour-07 {
-  background-color: #a4593c;
+  background-color: #b9887d;
 }
 
 .button-aval {
