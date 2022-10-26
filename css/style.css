@@ -1774,8 +1774,7 @@ p {
 }
 
 .box-buttons {
-  position: absolute;
-  top: 16rem;
+  margin-top: 5rem;
 }
 
 .box-buttons a {

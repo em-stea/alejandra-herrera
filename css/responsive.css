@@ -204,7 +204,7 @@
   }
   /*Pagina Teilen*/
   .box-buttons {
-    top: 8rem;
+    margin-top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -728,7 +728,7 @@ p {
   }
   /*Pagina Teilen*/
   .box-buttons {
-    top: 8rem;
+    margin-top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1206,7 +1206,7 @@ p {
   }
   /*Pagina Teilen*/
   .box-buttons {
-    top: 8rem;
+    margin-top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1604,7 +1604,7 @@ p {
   }
   /*Pagina Teilen*/
   .box-buttons {
-    top: 8rem;
+    margin-top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1993,7 +1993,7 @@ p {
   }
   /*Pagina Teilen*/
   .box-buttons {
-    top: 8rem;
+    margin-top: 0;
     display: flex;
     justify-content: center;
     align-items: center;

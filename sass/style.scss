@@ -1573,8 +1573,9 @@ p {
   padding: 0;
 }
 .box-buttons {
-  position: absolute;
-  top: 16rem;
+  //position: absolute;
+  //top: 20rem;
+  margin-top: 5rem;
 }
 .box-buttons a {
   text-decoration: none;
