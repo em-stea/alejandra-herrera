@@ -218,7 +218,7 @@ h1 {
   line-height: 2.5rem;
 }
 .bgcolor-historia {
-  background-image: url(../img/image-historia.jpg);
+  background-image: url(../img/image-historia.webp);
 }
 .tarjeta {
   height: 39rem;
@@ -268,14 +268,14 @@ h4 {
   padding: 13rem 9rem;
 }
 .image-bg-01 {
-  background-image: url(../img/image-bg-01.jpg);
+  background-image: url(../img/image-bg-01.webp);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
   padding: 8rem 9rem;
 }
 .image-bg-02 {
-  background-image: url(../img/image-bg-02.jpg);
+  background-image: url(../img/image-bg-02.webp);
   @extend %module-img-bg-history;
 }
 .button-rounded-white {
@@ -300,7 +300,7 @@ h4 {
 
 /***Coffee***/
 .img-back-coffee {
-  background-image: url(../img/bg-coffee.jpg);
+  background-image: url(../img/bg-coffee.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -350,14 +350,14 @@ h4 {
   line-height: 2rem;
 }
 .image-coffee {
-  background-image: url(../img/coffee.jpg);
+  background-image: url(../img/coffee.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   padding: 15rem 10rem;
 }
 .image-back-coffee {
-  background-image: url(../img/coffee-back.jpg);
+  background-image: url(../img/coffee-back.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -428,7 +428,7 @@ h4 {
   line-height: 3rem;
 }
 .image-bg-03 {
-  background-image: url(../img/image-bg-03.jpg);
+  background-image: url(../img/image-bg-03.webp);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -474,13 +474,13 @@ p {
   margin-bottom: 2.5rem;
 }
 .bg-hackea-front {
-  background-image: url(../img/bg-taller-04.jpg);
+  background-image: url(../img/bg-taller-04.webp);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
 }
 .bg-hackea {
-  background-image: url(../img/bg-hackea.jpg);
+  background-image: url(../img/bg-hackea.webp);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -626,23 +626,23 @@ p {
 }
 
 .img-taller-1 {
-  background-image: url(../img/image-taller-01.jpg);
+  background-image: url(../img/image-taller-01.webp);
   @extend %module-img-taller;
 }
 .img-taller-2 {
-  background-image: url(../img/image-taller-02.jpg);
+  background-image: url(../img/image-taller-02.webp);
   @extend %module-img-taller;
 }
 .img-taller-3 {
-  background-image: url(../img/image-taller-03.jpg);
+  background-image: url(../img/image-taller-03.webp);
   @extend %module-img-taller;
 }
 .img-taller-4 {
-  background-image: url(../img/image-taller-04.jpg);
+  background-image: url(../img/image-taller-04.webp);
   @extend %module-img-taller;
 }
 .img-taller-5 {
-  background-image: url(../img/image-taller-05.jpg);
+  background-image: url(../img/image-taller-05.webp);
   @extend %module-img-taller;
 }
 
@@ -854,7 +854,7 @@ p {
   border-bottom: 1.5px solid white;
 }
 .bg-content {
-  background-image: url(../img/image-texture.jpg);
+  background-image: url(../img/image-texture.webp);
   background-size: cover;
   padding-bottom: 4rem;
   padding: 0 2rem 7rem 2rem;
@@ -885,25 +885,25 @@ p {
   border-radius: 15px;
 }
 .img-content-1 {
-  background-image: url(../img/image-content-01.jpg);
+  background-image: url(../img/image-content-01.webp);
   @extend %module-img-content;
   height: 40.2rem;
 }
 .img-content-2 {
-  background-image: url(../img/image-content-02.jpg);
+  background-image: url(../img/image-content-02.webp);
   @extend %module-img-content;
   height: 19.7rem;
   width: 100%;
 }
 .img-content-3 {
-  background-image: url(../img/image-content-03.jpg);
+  background-image: url(../img/image-content-03.webp);
   @extend %module-img-content;
   height: 19.7rem;
   //width: 100%;
   margin-top: 0.3rem;
 }
 .img-content-4 {
-  background-image: url(../img/image-content-04.jpg);
+  background-image: url(../img/image-content-04.webp);
   @extend %module-img-content;
   height: 19.7rem;
   //width: 100%;
@@ -1046,18 +1046,10 @@ textarea.form-control {
 }
 
 /*Sobre mi*/
-
 audio {
   width: 70.5%;
-} /*
-.image-sobre-mi {
-  background: url(../img/image-sobre-mi.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top center;
-  height: auto;
-  margin-top: 9rem;
-}*/
+} 
+
 .text-play {
   font-weight: 800;
   color: $colour-dark-brown;
@@ -1303,7 +1295,7 @@ p {
   margin: auto;
   padding: 0.5rem;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 4.4rem;
 }
 .proximamente-section-1 h1 {
   color: white;
@@ -1353,12 +1345,12 @@ p {
   color: $colour-orange;
 }
 .bg-proximamente {
-  background: url(../img/bg-taller-04.jpg);
+  background: url(../img/bg-taller-04.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .proximamente-section-3 {
-  background: url(../img/bg-taller-04.jpg);
+  background: url(../img/bg-taller-04.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1464,7 +1456,7 @@ p {
   padding-left: 1.8rem;
 } /*
 .img-material {
-  background-image: url(../img/bg-material.jpg);
+  background-image: url(../img/bg-material.webp);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1592,7 +1584,7 @@ p {
   }
 }
 .img-teilen-01 {
-  background-image: url(../img/teilen-01.jpg);
+  background-image: url(../img/teilen-01.webp);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1642,7 +1634,7 @@ p {
 }
 
 .img-screen {
-  background-image: url(../img/screen-1.jpg);
+  background-image: url(../img/screen-1.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1720,7 +1712,7 @@ p {
 
 //Estudio
 .img-estudio {
-  background-image: url(../img/teilen-02.jpg);
+  background-image: url(../img/teilen-02.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1759,7 +1751,7 @@ p {
 //Cuadro-1
 .img-teilen-cuadro {
   @extend %module-img-cuadro;
-  background-image: url(../img/teilen-cuadro-01.jpg);
+  background-image: url(../img/teilen-cuadro-01.webp);
 }
 .cuadro-1 {
   display: flex;
@@ -1778,7 +1770,7 @@ p {
 //Cuadro-2
 .img-teilen-cuadro-2 {
   @extend %module-img-cuadro;
-  background-image: url(../img/teilen-cuadro-02.jpg);
+  background-image: url(../img/teilen-cuadro-02.webp);
 }
 .cuadro-2 {
   display: flex;
@@ -1796,7 +1788,7 @@ p {
 //Cuadro-3
 .img-teilen-cuadro-3 {
   @extend %module-img-cuadro;
-  background-image: url(../img/teilen-cuadro-03.jpg);
+  background-image: url(../img/teilen-cuadro-03.webp);
 }
 .cuadro-3 {
   display: flex;
@@ -1814,7 +1806,7 @@ p {
 //Cuadro-4
 .img-teilen-cuadro-4 {
   @extend %module-img-cuadro;
-  background-image: url(../img/teilen-cuadro-04.jpg);
+  background-image: url(../img/teilen-cuadro-04.webp);
 }
 .cuadro-4 {
   display: flex;
@@ -1831,7 +1823,7 @@ p {
 //Cuadro-5
 .img-teilen-cuadro-5 {
   @extend %module-img-cuadro;
-  background-image: url(../img/teilen-cuadro-05.jpg);
+  background-image: url(../img/teilen-cuadro-05.webp);
 }
 .cuadro-5 {
   display: flex;
@@ -1849,7 +1841,7 @@ p {
 //Cuadro-6
 .img-teilen-cuadro-6 {
   @extend %module-img-cuadro;
-  background-image: url(../img/teilen-cuadro-06.jpg);
+  background-image: url(../img/teilen-cuadro-06.webp);
 }
 .cuadro-6 {
   display: flex;
@@ -1867,11 +1859,11 @@ p {
 
 /*Metodo*/
 .bg-metodo {
-  background-image: url(../img/bg-taller-02.jpg);
+  background-image: url(../img/bg-taller-02.webp);
   background-position: top center;
 }
 .img-metodo {
-  background-image: url(../img/teilen-03.jpg);
+  background-image: url(../img/teilen-03.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1904,7 +1896,7 @@ ol li::marker {
 }
 /*Beneficios*/
 .img-beneficios {
-  background-image: url(../img/teilen-04.jpg);
+  background-image: url(../img/teilen-04.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1933,7 +1925,7 @@ ol li::marker {
   background-position: center;
 }
 .img-clientes {
-  background-image: url(../img/teilen-05.jpg);
+  background-image: url(../img/teilen-05.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1958,7 +1950,7 @@ ol li::marker {
 
 /*Especialistas*/
 .img-especialistas {
-  background-image: url(../img/teilen-06.jpg);
+  background-image: url(../img/teilen-06.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2120,7 +2112,7 @@ ol li::marker {
 
 /*Guia de uso*/
 .img-guia {
-  background-image: url(../img/teilen-07.jpg);
+  background-image: url(../img/teilen-07.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2161,7 +2153,7 @@ ol li::marker {
   background-size: contain;
 }
 .img-guia-01 {
-  background-image: url(../img/teilen-guia-01.jpg);
+  background-image: url(../img/teilen-guia-01.webp);
   height: 13rem;
   @extend %module-teilen-guia;
 }
@@ -2183,22 +2175,22 @@ ol li::marker {
   height: 15rem;
 }
 .img-guia-02 {
-  background-image: url(../img/teilen-guia-02.jpg);
+  background-image: url(../img/teilen-guia-02.webp);
   height: 24rem;
   @extend %module-teilen-guia;
 }
 .img-guia-03 {
-  background-image: url(../img/teilen-guia-03.jpg);
+  background-image: url(../img/teilen-guia-03.webp);
   height: 15rem;
   @extend %module-teilen-guia;
 }
 .img-guia-04 {
-  background-image: url(../img/teilen-guia-04.jpg);
+  background-image: url(../img/teilen-guia-04.webp);
   height: 19rem;
   @extend %module-teilen-guia;
 }
 .img-guia-05 {
-  background-image: url(../img/teilen-guia-05.jpg);
+  background-image: url(../img/teilen-guia-05.webp);
   height: 15rem;
   @extend %module-teilen-guia;
 }
@@ -2227,7 +2219,7 @@ ol li::marker {
   padding-right: 1rem;
 }
 .barras-access {
-  background-image: url(../img/barrasdeaccess.jpg);
+  background-image: url(../img/barrasdeaccess.webp);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
