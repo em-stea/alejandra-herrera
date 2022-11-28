@@ -455,6 +455,7 @@
   }
   .btn-brunch-01 {
     padding: 0.8rem 1.5rem;
+    font-size: 1rem;
   }
   .section-start {
     margin: 0 auto;
@@ -462,11 +463,15 @@
   .img-brunch-02 {
     height: 37vh;
   }
+  .img-brunch-04 {
+    top: 0;
+  }
   .text-brunch-02 h1 span {
     font-size: 4.5rem;
   }
   .box-include {
     padding-left: 0;
+    padding-bottom: 3rem;
   }
   .box-include .box-include-flex {
     padding-left: 1rem;
@@ -497,16 +502,18 @@
   }
   .img-brunch-03 {
     position: inherit;
-    height: 28rem;
+    height: 21rem;
   }
   .box-icon-enjoy {
     padding-right: 0;
   }
   .img-brunch-04 {
-    height: 35vh;
+    height: 25vh;
+    top: 0;
+    background-size: cover;
   }
   .box-jornada {
-    padding: 0;
+    padding: 3rem 0;
   }
   .box-jornada h1 {
     line-height: 2rem !important;
@@ -1061,6 +1068,115 @@ p {
   .next {
     margin: 0 0.3rem;
   }
+  /*Brunch Madre e Hija*/
+  /*Countdown*/
+  #countdown {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  .simply-section {
+    margin: 15px auto;
+  }
+  .text-brunch-01 {
+    padding-left: 2rem;
+  }
+  .img-brunch-01 {
+    height: 38vh;
+    margin-top: 4rem;
+  }
+  .btn-brunch-01 {
+    padding: 0.8rem 1.5rem;
+  }
+  .section-start {
+    margin: 0 auto;
+  }
+  .img-brunch-02 {
+    height: 37vh;
+  }
+  .text-brunch-02 h1 span {
+    font-size: 4.5rem;
+  }
+  .box-include {
+    padding-left: 0;
+    padding-bottom: 3rem;
+  }
+  .box-include .box-include-flex {
+    padding-left: 1rem;
+  }
+  .box-include h1 {
+    line-height: 2rem !important;
+    text-align: center;
+    padding-top: 4rem;
+  }
+  .box-container-enjoy {
+    padding: 0 1rem;
+  }
+  .row-enjoy h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-home {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 4rem;
+  }
+  .box-home p {
+    margin-bottom: 1rem;
+  }
+  .container-button {
+    text-align: center;
+    margin: auto;
+  }
+  .img-brunch-03 {
+    position: inherit;
+    height: 28rem;
+    background-size: cover;
+  }
+  .box-icon-enjoy {
+    padding-right: 0;
+  }
+  .img-brunch-04 {
+    height: 35vh;
+    top: 0;
+  }
+  .box-jornada {
+    padding: 0;
+  }
+  .box-jornada h1 {
+    line-height: 2rem !important;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .box-jornada .row:nth-child(3) {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .box-include-flex-02 {
+    padding-left: 0;
+  }
+  .img-banner {
+    margin-top: 5rem;
+  }
+  .bg-color-02 {
+    padding-bottom: 2rem;
+  }
+  .bg-color-03 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .bg-color-03 h1 {
+    line-height: 2rem !important;
+  }
+  .box-cierre {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .box-cierre div {
+    width: 100%;
+  }
+  .box-cierre div:nth-child(2) {
+    margin-top: 2rem;
+  }
 }
 @media screen and (min-width: 380px) and (max-width: 475px) {
   /*Navbar*/
@@ -1538,6 +1654,229 @@ p {
   .next {
     margin: 0 0.3rem;
   }
+  /*Brunch Madre e Hija*/
+  /*Countdown*/
+  #countdown {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  .simply-section {
+    margin: 15px auto;
+  }
+  .text-brunch-01 {
+    padding-left: 2rem;
+  }
+  .img-brunch-01 {
+    height: 38vh;
+    margin-top: 4rem;
+  }
+  .btn-brunch-01 {
+    padding: 0.8rem 1.5rem;
+  }
+  .text-brunch-02 h1 {
+    margin-top: 2rem;
+  }
+  .section-start {
+    margin: 0 auto;
+  }
+  .img-brunch-02 {
+    height: 37vh;
+  }
+  .img-brunch-03 {
+    background-size: cover;
+  }
+  .text-brunch-02 h1 span {
+    font-size: 4.5rem;
+  }
+  .box-include {
+    padding-left: 0;
+    padding-bottom: 3rem;
+  }
+  .box-include .box-include-flex {
+    padding-left: 1rem;
+  }
+  .box-include h1 {
+    line-height: 2rem !important;
+    text-align: center;
+    padding-top: 4rem;
+  }
+  .box-container-enjoy {
+    padding: 0 1rem;
+  }
+  .row-enjoy h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-home {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 4rem;
+  }
+  .box-home p {
+    margin-bottom: 1rem;
+  }
+  .container-button {
+    text-align: center;
+    margin: auto;
+  }
+  .img-brunch-03 {
+    position: inherit;
+    height: 28rem;
+  }
+  .box-icon-enjoy {
+    padding-right: 0;
+  }
+  .img-brunch-04 {
+    height: 35vh;
+  }
+  .box-jornada {
+    padding: 3rem 0;
+  }
+  .box-jornada h1 {
+    line-height: 2rem !important;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .box-jornada .row:nth-child(3) {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .box-include-flex-02 {
+    padding-left: 0;
+  }
+  .img-banner {
+    margin-top: 5rem;
+  }
+  .bg-color-02 {
+    padding-bottom: 2rem;
+  }
+  .bg-color-03 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .bg-color-03 h1 {
+    line-height: 2rem !important;
+  }
+  .box-cierre {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .box-cierre div {
+    width: 100%;
+  }
+  .box-cierre div:nth-child(2) {
+    margin-top: 2rem;
+  }
+  /*Brunch Madre e Hija*/
+  /*Countdown*/
+  #countdown {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  .simply-section {
+    margin: 15px auto;
+  }
+  .text-brunch-01 {
+    padding-left: 2rem;
+  }
+  .img-brunch-01 {
+    height: 38vh;
+    margin-top: 4rem;
+  }
+  .btn-brunch-01 {
+    padding: 0.8rem 1.5rem;
+  }
+  .section-start {
+    margin: 0 auto;
+  }
+  .img-brunch-02 {
+    height: 47vh;
+  }
+  .text-brunch-02 h1 span {
+    font-size: 4.5rem;
+  }
+  .box-include {
+    padding-left: 0;
+    padding-bottom: 3rem;
+  }
+  .box-include .box-include-flex {
+    padding-left: 1rem;
+  }
+  .box-include h1 {
+    line-height: 2rem !important;
+    text-align: center;
+    padding-top: 4rem;
+  }
+  .box-container-enjoy {
+    padding: 0 1rem;
+  }
+  .row-enjoy h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-home {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 4rem;
+  }
+  .box-home p {
+    margin-bottom: 1rem;
+  }
+  .container-button {
+    text-align: center;
+    margin: auto;
+  }
+  .img-brunch-03 {
+    position: inherit;
+    height: 28rem;
+    background-size: cover;
+  }
+  .box-icon-enjoy {
+    padding-right: 0;
+  }
+  .img-brunch-04 {
+    height: 35vh;
+    top: 0;
+    background-size: cover;
+  }
+  .box-jornada {
+    padding: 0;
+  }
+  .box-jornada h1 {
+    line-height: 2rem !important;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+  }
+  .box-jornada .row:nth-child(3) {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .box-include-flex-02 {
+    padding-left: 0;
+  }
+  .img-banner {
+    margin-top: 5rem;
+  }
+  .bg-color-02 {
+    padding-bottom: 2rem;
+  }
+  .bg-color-03 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .bg-color-03 h1 {
+    line-height: 2rem !important;
+  }
+  .box-cierre {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .box-cierre div {
+    width: 100%;
+  }
+  .box-cierre div:nth-child(2) {
+    margin-top: 2rem;
+  }
 }
 @media screen and (min-width: 476px) and (max-width: 600px) {
   /*Navbar*/
@@ -1951,6 +2290,118 @@ p {
   .next {
     margin: 0 0.3rem;
   }
+  /*Brunch Madre e Hija*/
+  /*Countdown*/
+  #countdown {
+    flex-direction: row;
+    padding: 1rem 0;
+  }
+  .simply-section {
+    margin: 15px auto;
+    width: 120px;
+    height: 130px;
+  }
+  .text-brunch-01 {
+    padding-left: 2rem;
+  }
+  .img-brunch-01 {
+    height: 54vh;
+    margin-top: 4rem;
+  }
+  .btn-brunch-01 {
+    padding: 0.8rem 1.5rem;
+  }
+  .section-start {
+    margin: 0 auto;
+  }
+  .img-brunch-02 {
+    height: 56vh;
+  }
+  .text-brunch-02 h1 span {
+    font-size: 4.5rem;
+  }
+  .box-include {
+    padding-left: 0;
+    padding-bottom: 3rem;
+  }
+  .box-include .box-include-flex {
+    padding-left: 1rem;
+  }
+  .box-include h1 {
+    line-height: 2rem !important;
+    text-align: center;
+    padding-top: 4rem;
+  }
+  .box-container-enjoy {
+    padding: 0 1rem;
+  }
+  .row-enjoy h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-home {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 4rem;
+  }
+  .box-home p {
+    margin-bottom: 1rem;
+  }
+  .container-button {
+    text-align: center;
+    margin: auto;
+  }
+  .img-brunch-03 {
+    position: inherit;
+    height: 28rem;
+    background-size: cover;
+  }
+  .box-icon-enjoy {
+    padding-right: 0;
+  }
+  .img-brunch-04 {
+    height: 46vh;
+    top: 0;
+    background-size: cover;
+  }
+  .box-jornada {
+    padding: 0;
+  }
+  .box-jornada h1 {
+    line-height: 2.5rem !important;
+    padding-top: 3rem;
+    font-size: 2rem;
+  }
+  .box-jornada .row:nth-child(3) {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .box-include-flex-02 {
+    padding-left: 0;
+  }
+  .img-banner {
+    margin-top: 5rem;
+  }
+  .bg-color-02 {
+    padding-bottom: 2rem;
+  }
+  .bg-color-03 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .bg-color-03 h1 {
+    line-height: 2rem !important;
+  }
+  .box-cierre {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .box-cierre div {
+    width: 100%;
+  }
+  .box-cierre div:nth-child(2) {
+    margin-top: 2rem;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 740px) {
   /*Navbar*/
@@ -2340,6 +2791,116 @@ p {
   }
   .next {
     margin: 0 0.3rem;
+  }
+  /*Brunch Madre e Hija*/
+  /*Countdown*/
+  #countdown {
+    flex-direction: row;
+    padding: 1rem 0;
+  }
+  .simply-section {
+    margin: 15px auto;
+  }
+  .text-brunch-01 {
+    padding-left: 2rem;
+  }
+  .img-brunch-01 {
+    height: 54vh;
+    margin-top: 4rem;
+  }
+  .btn-brunch-01 {
+    padding: 0.8rem 1.5rem;
+  }
+  .section-start {
+    margin: 0 auto;
+  }
+  .img-brunch-02 {
+    height: 71vh;
+  }
+  .text-brunch-02 h1 span {
+    font-size: 4.5rem;
+  }
+  .box-include {
+    padding-left: 0;
+    padding-bottom: 3rem;
+  }
+  .box-include .box-include-flex {
+    padding-left: 13rem;
+  }
+  .box-include h1 {
+    line-height: 2rem !important;
+    text-align: center;
+    padding-top: 4rem;
+  }
+  .box-container-enjoy {
+    padding: 0 1rem;
+  }
+  .row-enjoy h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-home {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 4rem;
+  }
+  .box-home p {
+    margin-bottom: 1rem;
+  }
+  .container-button {
+    text-align: center;
+    margin: auto;
+  }
+  .img-brunch-03 {
+    position: inherit;
+    height: 45rem;
+    background-size: cover;
+  }
+  .box-icon-enjoy {
+    padding-right: 0;
+  }
+  .img-brunch-04 {
+    height: 65vh;
+    top: 0;
+    background-size: cover;
+  }
+  .box-jornada {
+    padding: 0;
+  }
+  .box-jornada h1 {
+    line-height: 2.5rem !important;
+    padding-top: 3rem;
+    font-size: 2rem;
+  }
+  .box-jornada .row:nth-child(3) {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .box-include-flex-02 {
+    padding-left: 0;
+  }
+  .img-banner {
+    margin-top: 5rem;
+  }
+  .bg-color-02 {
+    padding-bottom: 2rem;
+  }
+  .bg-color-03 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .bg-color-03 h1 {
+    line-height: 2rem !important;
+  }
+  .box-cierre {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .box-cierre div {
+    width: 100%;
+  }
+  .box-cierre div:nth-child(2) {
+    margin-top: 2rem;
   }
 }
 @media screen and (max-width: 560px) {
@@ -2779,6 +3340,116 @@ p {
   .next {
     margin: 0 0.3rem;
   }
+  /*Brunch Madre e Hija*/
+  /*Countdown*/
+  #countdown {
+    flex-direction: row;
+    padding: 1rem 0;
+  }
+  .simply-section {
+    margin: 15px auto;
+  }
+  .text-brunch-01 {
+    padding-left: 2rem;
+  }
+  .img-brunch-01 {
+    height: 54vh;
+    margin-top: 4rem;
+  }
+  .btn-brunch-01 {
+    padding: 0.8rem 1.5rem;
+  }
+  .section-start {
+    margin: 0 auto;
+  }
+  .img-brunch-02 {
+    height: 71vh;
+  }
+  .text-brunch-02 h1 span {
+    font-size: 4.5rem;
+  }
+  .box-include {
+    padding-left: 0;
+    padding-bottom: 3rem;
+  }
+  .box-include .box-include-flex {
+    padding-left: 4rem;
+  }
+  .box-include h1 {
+    line-height: 2rem !important;
+    text-align: center;
+    padding-top: 4rem;
+  }
+  .box-container-enjoy {
+    padding: 0 1rem;
+  }
+  .row-enjoy h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-home {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 4rem;
+  }
+  .box-home p {
+    margin-bottom: 1rem;
+  }
+  .container-button {
+    text-align: center;
+    margin: auto;
+  }
+  .img-brunch-03 {
+    position: inherit;
+    height: 45rem;
+    background-size: cover;
+  }
+  .box-icon-enjoy {
+    padding-right: 0;
+  }
+  .img-brunch-04 {
+    height: 65vh;
+    top: 0;
+    background-size: cover;
+  }
+  .box-jornada {
+    padding: 0;
+  }
+  .box-jornada h1 {
+    line-height: 2.5rem !important;
+    padding-top: 3rem;
+    font-size: 2rem;
+  }
+  .box-jornada .row:nth-child(3) {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .box-include-flex-02 {
+    padding-left: 0;
+  }
+  .img-banner {
+    margin-top: 5rem;
+  }
+  .bg-color-02 {
+    padding-bottom: 2rem;
+  }
+  .bg-color-03 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .bg-color-03 h1 {
+    line-height: 2rem !important;
+  }
+  .box-cierre {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .box-cierre div {
+    width: 100%;
+  }
+  .box-cierre div:nth-child(2) {
+    margin-top: 2rem;
+  }
 }
 @media screen and (min-width: 781px) and (max-width: 1000px) {
   /*Carousel*/
@@ -3120,6 +3791,116 @@ p {
   }
   .box-frase h4 {
     width: 90%;
+  }
+  /*Brunch Madre e Hija*/
+  /*Countdown*/
+  #countdown {
+    flex-direction: row;
+    padding: 1rem 0;
+  }
+  .simply-section {
+    margin: 15px auto;
+  }
+  .text-brunch-01 {
+    padding-left: 2rem;
+  }
+  .img-brunch-01 {
+    height: 54vh;
+    margin-top: 4rem;
+  }
+  .btn-brunch-01 {
+    padding: 0.8rem 1.5rem;
+  }
+  .section-start {
+    margin: 0 auto;
+  }
+  .img-brunch-02 {
+    height: 71vh;
+  }
+  .text-brunch-02 h1 span {
+    font-size: 4.5rem;
+  }
+  .box-include {
+    padding-left: 0;
+    padding-bottom: 3rem;
+  }
+  .box-include .box-include-flex {
+    padding-left: 4rem;
+  }
+  .box-include h1 {
+    line-height: 2rem !important;
+    text-align: center;
+    padding-top: 4rem;
+  }
+  .box-container-enjoy {
+    padding: 0 1rem;
+  }
+  .row-enjoy h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-home {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 4rem;
+  }
+  .box-home p {
+    margin-bottom: 1rem;
+  }
+  .container-button {
+    text-align: center;
+    margin: auto;
+  }
+  .img-brunch-03 {
+    position: inherit;
+    height: 45rem;
+    background-size: cover;
+  }
+  .box-icon-enjoy {
+    padding-right: 0;
+  }
+  .img-brunch-04 {
+    height: 65vh;
+    top: 0;
+    background-size: cover;
+  }
+  .box-jornada {
+    padding: 0;
+  }
+  .box-jornada h1 {
+    line-height: 2.5rem !important;
+    padding-top: 3rem;
+    font-size: 2rem;
+  }
+  .box-jornada .row:nth-child(3) {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .box-include-flex-02 {
+    padding-left: 0;
+  }
+  .img-banner {
+    margin-top: 5rem;
+  }
+  .bg-color-02 {
+    padding-bottom: 2rem;
+  }
+  .bg-color-03 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .bg-color-03 h1 {
+    line-height: 2rem !important;
+  }
+  .box-cierre {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .box-cierre div {
+    width: 100%;
+  }
+  .box-cierre div:nth-child(2) {
+    margin-top: 2rem;
   }
 }
 /*desktop*/
@@ -3637,5 +4418,10 @@ p {
   .caja-03,
 .caja-06 {
     left: 109rem;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1193px) {
+  .nav-link {
+    font-size: 0.7rem;
   }
 }

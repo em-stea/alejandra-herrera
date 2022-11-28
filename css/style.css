@@ -3117,6 +3117,12 @@ p {
   color: #525252;
 }
 
+.cajas-jornada {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
 .box-jornada {
   margin: auto;
   padding: 3rem 4rem 3rem 0;
@@ -3168,7 +3174,8 @@ p {
 /*Cierre brunch*/
 .bg-color-03 {
   background-color: #F4EAE6;
-  padding: 6rem 0;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   color: #525252;
 }
 
