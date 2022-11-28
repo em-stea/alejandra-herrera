@@ -145,6 +145,15 @@ body {
   transform: scaleX(1);
 }
 
+.dropdown-menu {
+  border: none;
+  background-color: #D8D8D8;
+}
+
+.dropdown-item:active {
+  background-color: #8a7c62;
+}
+
 /***carousel-home***/
 .text-construir {
   font-size: 10rem !important;
@@ -2754,4 +2763,446 @@ ol li::marker {
   padding-right: 3rem;
   border-radius: 1rem 0 0 1rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+}
+
+/*brunch madre hija*/
+.bg-container-brunch {
+  background-color: #FAFAFA;
+}
+
+.img-brunch-01 {
+  background-image: url(../img/brunch-01.webp);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.text-brunch-01 {
+  margin: auto;
+  color: #525252;
+  padding-left: 8rem;
+  padding-top: 2rem;
+}
+
+.text-brunch-01 h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  margin: 1.5rem 0;
+}
+
+.text-brunch-01 p {
+  margin-bottom: 3rem;
+}
+
+.btn-brunch-01 {
+  text-align: start;
+  text-decoration: none;
+  color: white;
+  background-color: #8a7c62;
+  border-radius: 50px;
+  padding: 0.8rem 3.5rem;
+}
+.btn-brunch-01:hover {
+  color: white;
+  background-color: #645A46;
+}
+
+/*Countdown Counter*/
+.countdown-row {
+  background: #E3D8D4;
+  color: #525252;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+}
+
+.text-countdown {
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  padding-top: 1.5em;
+}
+
+.simply-section {
+  background-color: #fafafa;
+  width: 150px;
+  height: 150px;
+  margin: 40px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simply-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.simply-amount {
+  display: block;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.simply-word {
+  font-size: 20px;
+}
+
+/*Final Countdown counter*/
+.section-start {
+  margin: 8rem auto;
+}
+
+.img-brunch-02 {
+  background-image: url(../img/brunch-02.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 80vh;
+}
+
+.text-brunch-02 {
+  margin: auto;
+}
+
+.text-brunch-02 h1 {
+  color: #B1A1BE;
+  line-height: 2.7rem !important;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.text-brunch-02 h1 span {
+  color: #A36A5A;
+  font-family: "Serenity";
+  font-size: 6rem;
+  padding-left: 0.8rem;
+}
+
+.text-brunch-02 p {
+  margin-bottom: 3rem;
+  color: #525252;
+}
+
+.text-brunch-02 p span {
+  font-weight: 700;
+}
+
+/*Rotador*/
+.box-contenedor {
+  height: 15rem;
+}
+
+.box-home {
+  font-size: 35px;
+  font-weight: 900;
+  text-align: left;
+  color: #525252;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 2rem;
+}
+
+.box-text, .box-home p {
+  height: 34px;
+  text-align: center;
+}
+
+.box-home p {
+  width: auto;
+  height: 43px;
+  font-size: 35px;
+}
+
+.box-text {
+  line-height: 35px;
+  display: flex;
+  overflow: hidden;
+}
+
+.box-text ul {
+  list-style: none;
+  padding: 0 17px;
+  color: #8a7c62;
+  -webkit-animation: rotator-text 7s infinite;
+          animation: rotator-text 7s infinite;
+}
+
+.box-text ul,
+p {
+  margin: 0;
+}
+
+@-webkit-keyframes rotator-text {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  15% {
+    margin-top: -35px;
+  }
+  25% {
+    margin-top: -35px;
+  }
+  35% {
+    margin-top: -35px;
+  }
+  45% {
+    margin-top: -70px;
+  }
+  50% {
+    margin-top: -70px;
+  }
+  60% {
+    margin-top: -70px;
+  }
+  70% {
+    margin-top: -35px;
+  }
+  80% {
+    margin-top: -35px;
+  }
+  90% {
+    margin-top: -35px;
+  }
+  95% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+@keyframes rotator-text {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  15% {
+    margin-top: -35px;
+  }
+  25% {
+    margin-top: -35px;
+  }
+  35% {
+    margin-top: -35px;
+  }
+  45% {
+    margin-top: -70px;
+  }
+  50% {
+    margin-top: -70px;
+  }
+  60% {
+    margin-top: -70px;
+  }
+  70% {
+    margin-top: -35px;
+  }
+  80% {
+    margin-top: -35px;
+  }
+  90% {
+    margin-top: -35px;
+  }
+  95% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+/*Que incluye*/
+.img-brunch-03 {
+  background-image: url(../img/brunch-03.webp);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 45rem;
+  position: relative;
+  bottom: 5rem;
+}
+
+.bg-color-01 {
+  background-color: #D6D7DC;
+  color: #525252;
+}
+
+.bg-color-01 h1 {
+  font-weight: 900;
+}
+
+.box-include {
+  padding-left: 14rem;
+  margin: auto;
+}
+
+.box-include h1 {
+  margin-bottom: 2rem;
+}
+
+.box-include-flex {
+  margin-bottom: 1rem;
+}
+
+.box-include-flex span {
+  background-color: white;
+  border-radius: 50px;
+  padding: 0.6rem;
+  font-size: 1.5rem;
+}
+
+.box-include-flex:nth-child(6) {
+  margin-bottom: 4rem;
+}
+
+/*Disfrutar de*/
+.box-container-enjoy {
+  padding: 0 7rem;
+}
+
+.row-enjoy {
+  color: #525252;
+  padding: 7rem 0;
+}
+
+.row-enjoy h1 {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.box-icon-enjoy {
+  margin-top: 2rem;
+}
+
+.box-icon-enjoy p {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+
+.box-icon-enjoy p span {
+  font-weight: 700;
+}
+
+.box-icon-enjoy img {
+  width: 20%;
+  margin-bottom: 0.5rem;
+}
+
+/*Que conseguiremos en esta jornada*/
+.img-brunch-04 {
+  background-image: url(../img/brunch-04.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70vh;
+  position: relative;
+  top: 7rem;
+}
+
+.bg-color-02 {
+  background-color: #F2F2F2;
+  color: #525252;
+}
+
+.box-jornada {
+  margin: auto;
+  padding: 3rem 4rem 3rem 0;
+}
+
+.box-jornada .row:nth-child(3) {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.box-jornada h1 {
+  font-weight: 900;
+  line-height: 3.5rem !important;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.box-include-flex-02 {
+  margin-bottom: 1rem;
+}
+
+.box-include-flex-02 .icon-check {
+  background-color: #B1A1BE;
+  color: white;
+  border-radius: 50px;
+  padding: 0.6rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.box-include-flex-02 p {
+  text-align: center;
+  font-size: 17px;
+}
+
+.box-include-flex-02 p span {
+  font-weight: 600;
+}
+
+.img-banner {
+  background-image: url(../img/brunch-banner.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 28rem;
+  margin-top: 12rem;
+}
+
+/*Cierre brunch*/
+.bg-color-03 {
+  background-color: #F4EAE6;
+  padding: 6rem 0;
+  color: #525252;
+}
+
+.bg-color-03 h1 {
+  font-weight: 800;
+  line-height: 3rem !important;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.bg-color-03 p {
+  padding: 0 0 3rem 0;
+  margin: auto;
+  text-align: center;
+}
+
+.box-cierre div {
+  width: 25%;
+}
+
+.box-cierre h2 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.box-cierre div p {
+  text-align: center;
+  padding-bottom: 0 !important;
+}
+
+.box-cierre span {
+  color: #8a7c62;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
