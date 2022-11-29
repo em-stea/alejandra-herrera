@@ -546,6 +546,99 @@
   .box-cierre div:nth-child(2) {
     margin-top: 2rem;
   }
+  /*brunch emprendedores*/
+  .img-brunch-emp-01 {
+    height: 41vh;
+  }
+  .img-brunch-emp-01 h1 {
+    font-size: 2rem;
+    line-height: 2.5rem !important;
+  }
+  .btn-brunch-02 {
+    padding: 0.8rem 3rem;
+  }
+  .text-brunch-emp p {
+    margin-top: 3rem;
+    width: 100%;
+  }
+  .box-btn-brunch {
+    margin-left: 1rem;
+  }
+  .btn-brunch-03 {
+    padding: 0.8rem 2.3rem;
+    text-align: center;
+  }
+  .img-brunch-emp-02 {
+    height: 41vh;
+  }
+  .box-camino h1 {
+    font-size: 2rem;
+    line-height: 2.5rem !important;
+  }
+  .img-brunch-emp-03 {
+    height: 11rem;
+  }
+  .box-reset {
+    padding-top: 0;
+  }
+  .img-brunch-emp-04 {
+    height: 18rem;
+  }
+  .box-reset-02 p {
+    margin-bottom: 0;
+    width: 90%;
+  }
+  .bg-color-04 h1 {
+    line-height: 2.5rem !important;
+  }
+  .img-brunch-emp-05 {
+    height: 16rem;
+    top: 0;
+    background-size: cover;
+  }
+  .box-btn-brunch-02 {
+    margin: 5rem 0;
+  }
+  .box-networking h1 {
+    font-size: 2.5rem;
+  }
+  .img-brunch-emp-06 {
+    background-size: cover;
+    height: 24rem;
+  }
+  .bg-color-05 {
+    height: auto;
+  }
+  .bg-color-05 .row .col-12 {
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .box-networking-03 {
+    margin-left: 0;
+  }
+  .box-networking-03 h3 {
+    width: 100%;
+    text-align: center;
+  }
+  .box-calendar {
+    padding: 0 1rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+  .box-calendar .row div:nth-child(1) {
+    margin-bottom: 3rem;
+  }
+  .bg-color-06 {
+    padding-top: 3rem;
+  }
+  .card-speaker {
+    height: 545px;
+    margin-bottom: 2rem;
+    bottom: 0;
+  }
+  .box-cierre-cards h3 {
+    margin-top: 2rem;
+  }
 }
 @media screen and (max-width: 320px) {
   /*Coffee*/
