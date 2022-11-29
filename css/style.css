@@ -2814,7 +2814,7 @@ ol li::marker {
   color: #525252;
 }
 
-#countdown {
+#countdown, #countdown-02 {
   display: flex;
   justify-content: center;
 }
@@ -3212,4 +3212,391 @@ p {
   color: #8a7c62;
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+
+/*brunch emprendedores*/
+.img-brunch-emp-01 {
+  background-image: url(../img/brunch-emprendedor-01.webp);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img-brunch-emp-01 h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.img-brunch-emp-01 p {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.btn-brunch-02 {
+  text-align: start;
+  text-decoration: none;
+  color: #525252;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 50px;
+  padding: 0.8rem 5rem;
+}
+.btn-brunch-02:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*Countdown counter*/
+/*Countdown Counter*/
+.countdown-row {
+  background: #C3CACE;
+  color: #525252;
+}
+
+.img-brunch-emp-02 {
+  background-image: url(../img/brunch-emprendedor-02.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 80vh;
+}
+
+.text-brunch-emp {
+  margin: auto;
+}
+
+.text-brunch-emp p {
+  color: #525252;
+  margin: 0 auto 4rem;
+}
+
+.text-brunch-emp p span {
+  font-weight: 700;
+}
+
+.box-btn-brunch {
+  margin-left: 3.3rem;
+}
+
+.btn-brunch-03 {
+  text-align: start;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  background-color: #B1A1BE;
+  border-radius: 50px;
+  padding: 0.8rem 4.3rem;
+}
+.btn-brunch-03:hover {
+  color: white;
+  background-color: #7F6A90;
+}
+
+.bg-brunch-emp {
+  background-color: #E3D8D4;
+  padding: 7rem 0;
+}
+
+.box-camino {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-camino h1 {
+  color: #525252;
+  font-weight: 800;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.img-brunch-emp-03 {
+  background-image: url(../img/brunch-emprendedor-03.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30rem;
+  width: 70%;
+}
+.img-brunch-emp-03:hover {
+  background-image: url(../img/brunch-emprendedor-03-hover.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 70%;
+  transition: 0.3s ease-in;
+}
+
+.box-camino img:nth-child(3) {
+  width: 45%;
+}
+
+.box-for {
+  color: #525252;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.box-for h1 {
+  font-weight: 800;
+  margin-top: 3rem;
+}
+
+.box-for img {
+  width: 25%;
+}
+.box-for img:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+.box-for .col-12 {
+  margin-top: 2rem;
+}
+
+.box-for .col-12 span {
+  font-weight: 600;
+}
+
+/*Reset*/
+.box-reset {
+  background-color: #FCFCFC;
+  color: #525252;
+  margin-top: 5rem;
+  padding: 8rem 0;
+}
+
+.img-brunch-emp-04 {
+  background-image: url(../img/brunch-emprendedor-05.webp);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 35rem;
+}
+
+.box-reset h1 {
+  font-weight: 800;
+  font-size: 4rem;
+}
+
+.box-reset h2 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  width: auto;
+  margin-bottom: 2rem;
+}
+
+.box-reset span {
+  font-weight: 600;
+}
+
+.img-brunch-emp-05 {
+  background-image: url(../img/brunch-emprendedor-06.webp);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: 38rem;
+  position: relative;
+  top: 5rem;
+}
+
+.bg-color-04 {
+  background-color: #C3CACE;
+  color: #525252;
+  padding-top: 4rem;
+}
+
+.bg-color-04 h1 {
+  text-align: center;
+  font-weight: 800;
+}
+
+.box-jornada-01 {
+  margin: auto;
+  padding: 3rem 0rem 3rem 0;
+}
+
+.box-include-flex-03 {
+  margin-bottom: 1rem;
+}
+
+.box-include-flex-03 .icon-check {
+  background-color: white;
+  color: #B1A1BE;
+  border-radius: 50px;
+  padding: 0.6rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.box-include-flex-03 p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.box-include-flex-03 p span {
+  font-weight: 600;
+}
+
+.box-btn-brunch-02 {
+  margin: 10rem 0 5rem 0;
+}
+
+/*networking*/
+.bg-color-05 {
+  background-color: #E3D8D4;
+  color: #525252;
+  height: 53rem;
+}
+
+.img-brunch-emp-06 {
+  background-image: url(../img/brunch-emprendedor-07.webp);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 37rem;
+  position: relative;
+}
+
+.box-networking {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.box-networking h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+}
+
+.box-networking h2 {
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  margin: auto;
+}
+
+.box-networking p {
+  margin: 1rem auto 0;
+}
+
+.box-networking-02 .icon-check {
+  background-color: #B1A1BE;
+  color: white;
+  border-radius: 50px;
+  padding: 0.6rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.box-networking-03 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
+.box-networking-03 h3 {
+  font-weight: 800;
+  width: 65%;
+  margin: 2.5rem 0;
+}
+
+/*fecha*/
+.box-calendar {
+  margin-top: 10rem;
+  margin-bottom: 26rem;
+  color: #525252;
+  padding: 0 18rem;
+}
+
+.box-calendar span {
+  font-size: 2.5rem;
+  color: #8a7c62;
+}
+.box-calendar span:hover {
+  color: #B1A1BE;
+}
+
+.box-calendar h1 {
+  font-weight: 800;
+}
+
+/*cards presentadores*/
+.bg-color-06 {
+  background-color: #D6D7DC;
+}
+
+.img-speaker {
+  width: 50%;
+  margin-top: 3rem;
+}
+
+.card-speaker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 70%;
+  position: relative;
+  bottom: 15rem;
+  height: 515px;
+}
+
+.gradient-01 {
+  background-image: linear-gradient(139deg, rgb(227, 216, 212) 30%, rgb(255, 255, 255) 70%);
+}
+
+.gradient-02 {
+  background-image: linear-gradient(184deg, rgb(227, 216, 212) 30%, rgb(255, 255, 255) 70%);
+}
+
+.gradient-03 {
+  background-image: linear-gradient(212deg, rgb(227, 216, 212) 30%, rgb(255, 255, 255) 70%);
+}
+
+.card-body-speaker h5 {
+  font-weight: 600;
+  color: #a4593c;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card-body-speaker .card-text {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+}
+
+.card-body-speaker .card-text span {
+  font-weight: 600;
+}
+
+.box-cierre-cards {
+  text-align: center;
+  color: #525252;
+}
+
+.box-cierre-cards h3 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.box-cierre-cards h1 {
+  font-weight: 800;
+  margin-bottom: 2.5rem;
+}
+
+.box-cierre-cards .col-12 div {
+  margin-bottom: 7rem;
 }

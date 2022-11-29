@@ -439,7 +439,7 @@
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown {
+  #countdown, #countdown-02 {
     flex-direction: column;
     padding: 1rem 0;
   }
@@ -1070,7 +1070,7 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown {
+  #countdown, #countdown-02 {
     flex-direction: column;
     padding: 1rem 0;
   }
@@ -1656,7 +1656,7 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown {
+  #countdown, #countdown-02 {
     flex-direction: column;
     padding: 1rem 0;
   }
@@ -1769,7 +1769,7 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown {
+  #countdown, #countdown-02 {
     flex-direction: column;
     padding: 1rem 0;
   }
@@ -2292,7 +2292,7 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown {
+  #countdown, #countdown-02 {
     flex-direction: row;
     padding: 1rem 0;
   }
@@ -2794,7 +2794,7 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown {
+  #countdown, #countdown-02 {
     flex-direction: row;
     padding: 1rem 0;
   }
@@ -3342,7 +3342,7 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown {
+  #countdown, #countdown-02 {
     flex-direction: row;
     padding: 1rem 0;
   }
@@ -3794,7 +3794,7 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown {
+  #countdown, #countdown-02 {
     flex-direction: row;
     padding: 1rem 0;
   }
