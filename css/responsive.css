@@ -643,6 +643,27 @@
   .box-cierre-cards h3 {
     margin-top: 2rem;
   }
+  /*precio*/
+  .bg-color-07 h1, .bg-color-08 h1, .bg-color-09 h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-precio {
+    width: 90%;
+    flex-direction: column;
+  }
+  .box-precio h2 {
+    margin-right: 0;
+  }
+  .box-precio p {
+    text-align: center;
+  }
+  .box-precio-02, .box-precio-04, .box-precio-03 {
+    width: 100%;
+  }
+  .bg-color-10 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 @media screen and (max-width: 320px) {
   /*Coffee*/
@@ -1372,6 +1393,27 @@ p {
   }
   .box-cierre-cards h3 {
     margin-top: 2rem;
+  }
+  /*precio*/
+  .bg-color-07 h1, .bg-color-08 h1, .bg-color-09 h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-precio {
+    width: 90%;
+    flex-direction: column;
+  }
+  .box-precio h2 {
+    margin-right: 0;
+  }
+  .box-precio p {
+    text-align: center;
+  }
+  .box-precio-02, .box-precio-04, .box-precio-03 {
+    width: 100%;
+  }
+  .bg-color-10 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 475px) {
@@ -2178,6 +2220,27 @@ p {
   .box-cierre-cards h3 {
     margin-top: 2rem;
   }
+  /*precio*/
+  .bg-color-07 h1, .bg-color-08 h1, .bg-color-09 h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-precio {
+    width: 90%;
+    flex-direction: column;
+  }
+  .box-precio h2 {
+    margin-right: 0;
+  }
+  .box-precio p {
+    text-align: center;
+  }
+  .box-precio-02, .box-precio-04, .box-precio-03 {
+    width: 100%;
+  }
+  .bg-color-10 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 @media screen and (min-width: 476px) and (max-width: 600px) {
   /*Navbar*/
@@ -2808,6 +2871,27 @@ p {
   .box-cierre-cards h3 {
     margin-top: 2rem;
   }
+  /*precio*/
+  .bg-color-07 h1, .bg-color-08 h1, .bg-color-09 h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-precio {
+    width: 90%;
+    flex-direction: column;
+  }
+  .box-precio h2 {
+    margin-right: 0;
+  }
+  .box-precio p {
+    text-align: center;
+  }
+  .box-precio-02, .box-precio-04, .box-precio-03 {
+    width: 100%;
+  }
+  .bg-color-10 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 740px) {
   /*Navbar*/
@@ -3412,6 +3496,27 @@ p {
   }
   .box-cierre-cards h3 {
     margin-top: 2rem;
+  }
+  /*precio*/
+  .bg-color-07 h1, .bg-color-08 h1, .bg-color-09 h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-precio {
+    width: 90%;
+    flex-direction: column;
+  }
+  .box-precio h2 {
+    margin-right: 0;
+  }
+  .box-precio p {
+    text-align: center;
+  }
+  .box-precio-02, .box-precio-04, .box-precio-03 {
+    width: 100%;
+  }
+  .bg-color-10 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 }
 @media screen and (max-width: 560px) {
@@ -4062,6 +4167,27 @@ p {
   .box-cierre-cards h3 {
     margin-top: 2rem;
   }
+  /*precio*/
+  .bg-color-07 h1, .bg-color-08 h1, .bg-color-09 h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-precio {
+    width: 90%;
+    flex-direction: column;
+  }
+  .box-precio h2 {
+    margin-right: 0;
+  }
+  .box-precio p {
+    text-align: center;
+  }
+  .box-precio-02, .box-precio-04, .box-precio-03 {
+    width: 100%;
+  }
+  .bg-color-10 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 @media screen and (min-width: 781px) and (max-width: 1000px) {
   /*Carousel*/
@@ -4614,6 +4740,23 @@ p {
   }
   .box-cierre-cards h3 {
     margin-top: 2rem;
+  }
+  /*precio*/
+  .bg-color-07 h1, .bg-color-08 h1 {
+    line-height: 2.5rem !important;
+  }
+  .box-precio {
+    width: 90%;
+    flex-direction: column;
+  }
+  .box-precio h2 {
+    margin-right: 0;
+  }
+  .box-precio p {
+    text-align: center;
+  }
+  .box-precio-02 {
+    width: 100%;
   }
 }
 /*desktop*/
