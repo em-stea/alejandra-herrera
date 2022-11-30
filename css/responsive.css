@@ -571,12 +571,16 @@
   .img-brunch-emp-02 {
     height: 41vh;
   }
+  .box-camino img:nth-child(3) {
+    width: 80%;
+  }
   .box-camino h1 {
     font-size: 2rem;
     line-height: 2.5rem !important;
   }
   .img-brunch-emp-03 {
     height: 11rem;
+    width: 90%;
   }
   .box-reset {
     padding-top: 0;
@@ -1301,8 +1305,12 @@ p {
     font-size: 2rem;
     line-height: 2.5rem !important;
   }
+  .box-camino img:nth-child(3) {
+    width: 80%;
+  }
   .img-brunch-emp-03 {
     height: 11rem;
+    width: 90%;
   }
   .box-reset {
     padding-top: 0;
@@ -1968,7 +1976,7 @@ p {
     padding-left: 2rem;
   }
   .img-brunch-01 {
-    height: 38vh;
+    height: 45vh;
     margin-top: 4rem;
   }
   .btn-brunch-01 {
@@ -1982,6 +1990,7 @@ p {
   }
   .text-brunch-02 h1 span {
     font-size: 4.5rem;
+    font-weight: normal;
   }
   .box-include {
     padding-left: 0;
@@ -2023,7 +2032,7 @@ p {
     padding-right: 0;
   }
   .img-brunch-04 {
-    height: 35vh;
+    height: 42vh;
     top: 0;
     background-size: cover;
   }
@@ -2084,6 +2093,7 @@ p {
     margin-left: 0;
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
   }
   .btn-brunch-03 {
     padding: 0.8rem 2.3rem;
@@ -2099,8 +2109,12 @@ p {
   .box-for h1 {
     font-size: 3rem;
   }
+  .box-camino img:nth-child(3) {
+    width: 80%;
+  }
   .img-brunch-emp-03 {
     height: 11rem;
+    width: 90%;
   }
   .box-reset {
     padding-top: 0;
@@ -2122,7 +2136,7 @@ p {
     background-size: cover;
   }
   .box-btn-brunch-02 {
-    margin: 5rem 0;
+    margin: 5rem 0 2rem;
   }
   .box-networking h1 {
     font-size: 2.5rem;
@@ -2708,6 +2722,7 @@ p {
     margin-left: 0;
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
   }
   .btn-brunch-03 {
     padding: 0.8rem 2.3rem;
@@ -2723,8 +2738,12 @@ p {
   .box-for h1 {
     font-size: 3rem;
   }
+  .box-camino img:nth-child(3) {
+    width: 80%;
+  }
   .img-brunch-emp-03 {
     height: 11rem;
+    width: 90%;
   }
   .box-reset {
     padding-top: 0;
@@ -2746,7 +2765,7 @@ p {
     background-size: cover;
   }
   .box-btn-brunch-02 {
-    margin: 5rem 0;
+    margin: 5rem 0 2rem;
   }
   .box-networking h1 {
     font-size: 2.5rem;
@@ -3308,6 +3327,7 @@ p {
     margin-left: 0;
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
   }
   .btn-brunch-03 {
     padding: 0.8rem 2.3rem;
@@ -3323,8 +3343,12 @@ p {
   .box-for h1 {
     font-size: 3rem;
   }
+  .box-camino img:nth-child(3) {
+    width: 80%;
+  }
   .img-brunch-emp-03 {
-    height: 11rem;
+    height: 14rem;
+    width: 90%;
   }
   .box-reset {
     padding-top: 0;
@@ -3346,7 +3370,7 @@ p {
     background-size: cover;
   }
   .box-btn-brunch-02 {
-    margin: 5rem 0;
+    margin: 5rem 0 2rem;
   }
   .box-networking h1 {
     font-size: 2.5rem;
@@ -3972,7 +3996,8 @@ p {
     font-size: 3rem;
   }
   .img-brunch-emp-03 {
-    height: 11rem;
+    height: 14rem;
+    width: 90%;
   }
   .box-reset {
     padding-top: 0;
@@ -4524,7 +4549,8 @@ p {
     font-size: 3rem;
   }
   .img-brunch-emp-03 {
-    height: 11rem;
+    height: 20rem;
+    width: 90%;
   }
   .box-reset {
     padding-top: 6rem;
