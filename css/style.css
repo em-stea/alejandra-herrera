@@ -2787,12 +2787,22 @@ ol li::marker {
 
 .text-brunch-01 h1 {
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin: 1.5rem 0;
+  line-height: 3.7rem !important;
+}
+
+.text-brunch-01 h1 span {
+  color: #A36A5A;
 }
 
 .text-brunch-01 p {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.text-brunch-01 div:nth-child(3) {
+  margin-top: 4rem;
 }
 
 .btn-brunch-01 {
@@ -2876,13 +2886,6 @@ ol li::marker {
   font-weight: 900;
   margin-bottom: 2rem;
   width: 90%;
-}
-
-.text-brunch-02 h1 span {
-  color: #A36A5A;
-  font-family: "Serenity";
-  font-size: 6rem;
-  padding-left: 0.8rem;
 }
 
 .text-brunch-02 p {
@@ -3137,7 +3140,7 @@ p {
 .box-jornada h1 {
   font-weight: 900;
   line-height: 3.5rem !important;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   text-align: center;
 }
 
