@@ -2778,10 +2778,10 @@ ol li::marker {
   height: 100vh;
 }
 
-.text-brunch-01 {
+.text-brunch-01, .text-reset-01 {
   margin: auto;
   color: #525252;
-  padding-left: 8rem;
+  padding-left: 5rem;
   padding-top: 2rem;
 }
 
@@ -2796,7 +2796,7 @@ ol li::marker {
   color: #A36A5A;
 }
 
-.text-brunch-01 p {
+.text-brunch-01 p, .text-reset-01 p {
   margin-bottom: 2rem;
   font-size: 1.5rem;
 }
@@ -2820,11 +2820,21 @@ ol li::marker {
 
 /*Countdown Counter*/
 .countdown-row {
+  background: #C3CACE;
+  color: #525252;
+}
+
+.countdown-row-02 {
   background: #E3D8D4;
   color: #525252;
 }
 
-#countdown, #countdown-02 {
+.countdown-row-03 {
+  background: #d7c4bf;
+  color: #525252;
+}
+
+#countdown, #countdown-02, #countdown-03 {
   display: flex;
   justify-content: center;
 }
@@ -2888,12 +2898,12 @@ ol li::marker {
   width: 90%;
 }
 
-.text-brunch-02 p {
+.text-brunch-02 p, .text-reset-02 p {
   margin-bottom: 3rem;
   color: #525252;
 }
 
-.text-brunch-02 p span {
+.text-brunch-02 p span, .text-reset-02 p span {
   font-weight: 700;
 }
 
@@ -3198,21 +3208,21 @@ p {
   text-align: center;
 }
 
-.box-cierre div {
+.box-cierre div, .box-cierre-02 div {
   width: 25%;
 }
 
-.box-cierre h2 {
+.box-cierre h2, .box-cierre-02 h2 {
   font-weight: 600;
   text-align: center;
 }
 
-.box-cierre div p {
+.box-cierre div p, .box-cierre-02 div p {
   text-align: center;
   padding-bottom: 0 !important;
 }
 
-.box-cierre span {
+.box-cierre span, .box-cierre-02 span {
   color: #8a7c62;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -3795,4 +3805,170 @@ p {
 
 .box-cierre-cards .col-12 div {
   margin-bottom: 7rem;
+}
+
+/*Experiencia Reset*/
+.img-reset-01 {
+  background-image: url(../img/reset-01.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.text-reset-01 h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 1.5rem 0;
+  line-height: 3.7rem !important;
+  color: #8a7c62;
+}
+
+.text-reset-01 p {
+  margin-bottom: 3rem;
+}
+
+.btn-reset-01 {
+  text-align: start;
+  text-decoration: none;
+  color: #4f4f4f;
+  font-weight: 600;
+  background-color: #C3CACE;
+  border-radius: 50px;
+  padding: 0.8rem 3.5rem;
+}
+.btn-reset-01:hover {
+  color: white;
+  background-color: #A6B8C4;
+}
+
+.text-reset-02 {
+  margin: auto;
+  padding-left: 7rem;
+}
+
+.text-reset-02 h1 {
+  color: #8a7c62;
+  line-height: 2.7rem !important;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  width: 90%;
+}
+
+.box-reinicio {
+  text-align: center;
+  background-color: #F7F7F7;
+  padding: 3rem 0 10rem 0;
+}
+
+.box-reinicio h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #4f4f4f;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.box-reinicio h1 span {
+  color: #8a7c62;
+  margin-right: 0.5rem;
+}
+
+.box-reinicio-testimonio {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.box-reinicio-testimonio img {
+  width: 5%;
+}
+
+.box-reinicio-testimonio p:nth-child(2) {
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.box-reinicio-testimonio p:nth-child(3) {
+  font-size: 1rem;
+}
+
+.box-reinicio-testimonio p {
+  margin: auto;
+}
+
+.img-reset-02 {
+  background-image: url(../img/reset-02.webp);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 53rem;
+  position: relative;
+  bottom: 5rem;
+}
+
+.box-include-flex-reset {
+  margin-bottom: 1rem;
+}
+
+.box-include-flex-reset span {
+  background-color: white;
+  border-radius: 50px;
+  padding: 0.6rem;
+  font-size: 1.5rem;
+}
+
+.box-include-flex-reset:nth-child(7) {
+  padding-bottom: 2rem;
+}
+
+.bg-color-11 {
+  background-color: #F4EAE6;
+  color: #4f4f4f;
+  padding-bottom: 2rem;
+}
+
+.bg-color-11 .box-include h1 {
+  font-weight: 900;
+}
+
+.card-speaker-reset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  max-width: 70%;
+  height: 525px;
+}
+
+.container-speakers {
+  padding: 8rem 0;
+}
+
+.bg-cierre-reset {
+  background-color: #F7F7F7;
+  padding: 3rem 0;
+  margin-top: 4rem;
+}
+
+.box-date {
+  padding-left: 10rem;
+}
+
+.box-date-02 {
+  padding-right: 10rem;
+}
+
+.img-reset-03 {
+  background-image: url(../img/reset-03.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 90vh;
 }

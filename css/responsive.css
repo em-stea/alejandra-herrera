@@ -661,6 +661,80 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+  /*Reset*/
+  .img-reset-01 {
+    height: 39vh;
+  }
+  .text-reset-01 {
+    padding-left: 0.5rem;
+  }
+  .btn-reset-01 {
+    padding: 0.8rem 0.5rem;
+  }
+  .countdown-row-03 {
+    margin-top: 4rem;
+  }
+  #countdown-03 {
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .text-reset-02 {
+    padding-left: 1rem;
+    padding-top: 3rem;
+  }
+  .text-reset-02 p {
+    width: auto;
+  }
+  .img-reset-03 {
+    height: 52vh;
+  }
+  .box-reinicio {
+    padding: 3rem 0 5rem 0;
+  }
+  .box-reinicio h1 {
+    font-size: 2rem;
+  }
+  .box-reinicio-testimonio {
+    width: 90%;
+  }
+  .box-reinicio-testimonio img {
+    width: 20%;
+  }
+  .box-include-flex-reset {
+    margin-left: 0.5rem;
+  }
+  .container-button {
+    width: 90%;
+  }
+  .img-reset-02 {
+    height: 26rem;
+    bottom: -3rem;
+  }
+  .box-icon-enjoy img {
+    width: 40%;
+  }
+  .box-date, .box-date-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .box-cierre-02 {
+    flex-direction: column;
+  }
+  .box-cierre-02 div {
+    width: 100%;
+  }
+  .box-date p {
+    margin-bottom: 2rem;
+  }
+  .container-speakers {
+    flex-direction: column;
+  }
+  .card-speaker-reset {
+    margin-bottom: 1.5rem;
+    height: 575px;
+    max-width: 90%;
+  }
 }
 @media screen and (max-width: 320px) {
   /*Coffee*/
@@ -1408,6 +1482,80 @@ p {
   .bg-color-10 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+  /*Reset*/
+  .img-reset-01 {
+    height: 39vh;
+  }
+  .text-reset-01 {
+    padding-left: 0.5rem;
+  }
+  .btn-reset-01 {
+    padding: 0.8rem 1.5rem;
+  }
+  .countdown-row-03 {
+    margin-top: 4rem;
+  }
+  #countdown-03 {
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .text-reset-02 {
+    padding-left: 1rem;
+    padding-top: 3rem;
+  }
+  .text-reset-02 p {
+    width: auto;
+  }
+  .img-reset-03 {
+    height: 63vh;
+  }
+  .box-reinicio {
+    padding: 3rem 0 5rem 0;
+  }
+  .box-reinicio h1 {
+    font-size: 2rem;
+  }
+  .box-reinicio-testimonio {
+    width: 90%;
+  }
+  .box-reinicio-testimonio img {
+    width: 20%;
+  }
+  .box-include-flex-reset {
+    margin-left: 0.5rem;
+  }
+  .container-button {
+    width: 90%;
+  }
+  .img-reset-02 {
+    height: 26rem;
+    bottom: -3rem;
+  }
+  .box-icon-enjoy img {
+    width: 40%;
+  }
+  .box-date, .box-date-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .box-cierre-02 {
+    flex-direction: column;
+  }
+  .box-cierre-02 div {
+    width: 100%;
+  }
+  .box-date p {
+    margin-bottom: 2rem;
+  }
+  .container-speakers {
+    flex-direction: column;
+  }
+  .card-speaker-reset {
+    margin-bottom: 1.5rem;
+    height: 575px;
+    max-width: 90%;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 475px) {
@@ -2228,6 +2376,80 @@ p {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+  /*Reset*/
+  .img-reset-01 {
+    height: 39vh;
+  }
+  .text-reset-01 {
+    padding-left: 0.5rem;
+  }
+  .btn-reset-01 {
+    padding: 0.8rem 1.5rem;
+  }
+  .countdown-row-03 {
+    margin-top: 4rem;
+  }
+  #countdown-03 {
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .text-reset-02 {
+    padding-left: 1rem;
+    padding-top: 3rem;
+  }
+  .text-reset-02 p {
+    width: auto;
+  }
+  .img-reset-03 {
+    height: 63vh;
+  }
+  .box-reinicio {
+    padding: 3rem 0 5rem 0;
+  }
+  .box-reinicio h1 {
+    font-size: 2rem;
+  }
+  .box-reinicio-testimonio {
+    width: 90%;
+  }
+  .box-reinicio-testimonio img {
+    width: 20%;
+  }
+  .box-include-flex-reset {
+    margin-left: 0.5rem;
+  }
+  .container-button {
+    width: 90%;
+  }
+  .img-reset-02 {
+    height: 26rem;
+    bottom: -3rem;
+  }
+  .box-icon-enjoy img {
+    width: 40%;
+  }
+  .box-date, .box-date-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .box-cierre-02 {
+    flex-direction: column;
+  }
+  .box-cierre-02 div {
+    width: 100%;
+  }
+  .box-date p {
+    margin-bottom: 2rem;
+  }
+  .container-speakers {
+    flex-direction: column;
+  }
+  .card-speaker-reset {
+    margin-bottom: 1.5rem;
+    height: 575px;
+    max-width: 90%;
+  }
 }
 @media screen and (min-width: 476px) and (max-width: 600px) {
   /*Navbar*/
@@ -2876,6 +3098,79 @@ p {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+  /*Reset*/
+  .img-reset-01 {
+    height: 39vh;
+  }
+  .text-reset-01 {
+    padding-left: 0.5rem;
+  }
+  .btn-reset-01 {
+    padding: 0.8rem 1.5rem;
+  }
+  .countdown-row-03 {
+    margin-top: 4rem;
+  }
+  #countdown-03 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .text-reset-02 {
+    padding-left: 1rem;
+    padding-top: 3rem;
+  }
+  .text-reset-02 p {
+    width: auto;
+  }
+  .img-reset-03 {
+    height: 86vh;
+  }
+  .box-reinicio {
+    padding: 3rem 0 5rem 0;
+  }
+  .box-reinicio h1 {
+    font-size: 2rem;
+  }
+  .box-reinicio-testimonio {
+    width: 90%;
+  }
+  .box-reinicio-testimonio img {
+    width: 20%;
+  }
+  .box-include-flex-reset {
+    margin-left: 0.5rem;
+  }
+  .container-button {
+    width: 90%;
+  }
+  .img-reset-02 {
+    height: 47rem;
+    bottom: -3rem;
+  }
+  .box-icon-enjoy img {
+    width: 40%;
+  }
+  .box-date, .box-date-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .box-cierre-02 {
+    flex-direction: column;
+  }
+  .box-cierre-02 div {
+    width: 100%;
+  }
+  .box-date p {
+    margin-bottom: 2rem;
+  }
+  .container-speakers {
+    flex-direction: column;
+  }
+  .card-speaker-reset {
+    margin-bottom: 1.5rem;
+    height: 575px;
+    max-width: 90%;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 740px) {
   /*Navbar*/
@@ -3498,6 +3793,82 @@ p {
   .bg-color-10 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+  /*Reset*/
+  .img-reset-01 {
+    height: 39vh;
+  }
+  .simply-section {
+    width: 140px;
+  }
+  .text-reset-01 {
+    padding-left: 0.5rem;
+  }
+  .btn-reset-01 {
+    padding: 0.8rem 1.5rem;
+  }
+  .countdown-row-03 {
+    margin-top: 4rem;
+  }
+  #countdown-03 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .text-reset-02 {
+    padding-left: 1rem;
+    padding-top: 3rem;
+  }
+  .text-reset-02 p {
+    width: auto;
+  }
+  .img-reset-03 {
+    height: 97vh;
+  }
+  .box-reinicio {
+    padding: 3rem 0 5rem 0;
+  }
+  .box-reinicio h1 {
+    font-size: 2rem;
+  }
+  .box-reinicio-testimonio {
+    width: 90%;
+  }
+  .box-reinicio-testimonio img {
+    width: 20%;
+  }
+  .box-include-flex-reset {
+    margin-left: 0.5rem;
+  }
+  .container-button {
+    width: 90%;
+  }
+  .img-reset-02 {
+    height: 47rem;
+    bottom: -3rem;
+  }
+  .box-icon-enjoy img {
+    width: 40%;
+  }
+  .box-date, .box-date-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .box-cierre-02 {
+    flex-direction: column;
+  }
+  .box-cierre-02 div {
+    width: 100%;
+  }
+  .box-date p {
+    margin-bottom: 2rem;
+  }
+  .container-speakers {
+    flex-direction: column;
+  }
+  .card-speaker-reset {
+    margin-bottom: 1.5rem;
+    height: 575px;
+    max-width: 90%;
   }
 }
 @media screen and (max-width: 560px) {
@@ -4166,6 +4537,82 @@ p {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+  /*Reset*/
+  .img-reset-01 {
+    height: 39vh;
+  }
+  .simply-section {
+    width: 140px;
+  }
+  .text-reset-01 {
+    padding-left: 0.5rem;
+  }
+  .btn-reset-01 {
+    padding: 0.8rem 2.5rem;
+  }
+  .countdown-row-03 {
+    margin-top: 4rem;
+  }
+  #countdown-03 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .text-reset-02 {
+    padding-left: 1rem;
+    padding-top: 3rem;
+  }
+  .text-reset-02 p {
+    width: auto;
+  }
+  .img-reset-03 {
+    height: 103vh;
+  }
+  .box-reinicio {
+    padding: 3rem 0 5rem 0;
+  }
+  .box-reinicio h1 {
+    font-size: 2rem;
+  }
+  .box-reinicio-testimonio {
+    width: 90%;
+  }
+  .box-reinicio-testimonio img {
+    width: 20%;
+  }
+  .box-include-flex-reset {
+    margin-left: 0.5rem;
+  }
+  .container-button {
+    width: 90%;
+  }
+  .img-reset-02 {
+    height: 47rem;
+    bottom: -3rem;
+  }
+  .box-icon-enjoy img {
+    width: 40%;
+  }
+  .box-date, .box-date-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .box-cierre-02 {
+    flex-direction: column;
+  }
+  .box-cierre-02 div {
+    width: 100%;
+  }
+  .box-date p {
+    margin-bottom: 2rem;
+  }
+  .container-speakers {
+    flex-direction: column;
+  }
+  .card-speaker-reset {
+    margin-bottom: 1.5rem;
+    height: 575px;
+    max-width: 90%;
+  }
 }
 @media screen and (min-width: 781px) and (max-width: 1000px) {
   /*Carousel*/
@@ -4733,6 +5180,83 @@ p {
   .box-precio-02 {
     width: 100%;
   }
+  /*Reset*/
+  .img-reset-01 {
+    height: 39vh;
+  }
+  .simply-section {
+    width: 140px;
+  }
+  .text-reset-01 {
+    padding-left: 0.5rem;
+  }
+  .btn-reset-01 {
+    padding: 0.8rem 2.5rem;
+  }
+  .countdown-row-03 {
+    margin-top: 4rem;
+  }
+  #countdown-03 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .text-reset-02 {
+    padding-left: 1rem;
+    padding-top: 3rem;
+  }
+  .text-reset-02 p {
+    width: auto;
+  }
+  .img-reset-03 {
+    height: 103vh;
+  }
+  .box-reinicio {
+    padding: 3rem 0 5rem 0;
+  }
+  .box-reinicio h1 {
+    font-size: 2rem;
+  }
+  .box-reinicio-testimonio {
+    width: 90%;
+  }
+  .box-reinicio-testimonio img {
+    width: 20%;
+  }
+  .box-include-flex-reset {
+    margin-left: 0.5rem;
+  }
+  .container-button {
+    width: 90%;
+  }
+  .img-reset-02 {
+    height: 47rem;
+    bottom: -3rem;
+  }
+  .box-icon-enjoy img {
+    width: 40%;
+  }
+  .box-date, .box-date-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .box-cierre-02 {
+    flex-direction: column;
+  }
+  .box-cierre-02 div {
+    width: 100%;
+  }
+  .box-date p {
+    margin-bottom: 2rem;
+  }
+  .container-speakers {
+    flex-direction: column;
+  }
+  .card-speaker-reset {
+    margin-bottom: 1.5rem;
+    height: 575px;
+    max-width: 65%;
+    margin: 0 -2rem;
+  }
 }
 /*desktop*/
 @media screen and (min-width: 1001px) and (max-width: 1600px) {
@@ -5254,5 +5778,16 @@ p {
 @media screen and (min-width: 991px) and (max-width: 1193px) {
   .nav-link {
     font-size: 0.7rem;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1350px) {
+  .container-button {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  /*Reset*/
+  .box-include {
+    padding-left: 5rem;
   }
 }
