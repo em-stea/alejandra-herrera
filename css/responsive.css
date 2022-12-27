@@ -439,9 +439,9 @@
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown, #countdown-02 {
+  #countdown, #countdown-02, #countdown-03, #countdown-04 {
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 3rem 0;
   }
   .simply-section {
     margin: 15px auto;
@@ -674,11 +674,6 @@
   .countdown-row-03 {
     margin-top: 4rem;
   }
-  #countdown-03 {
-    flex-direction: column;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
   .text-reset-02 {
     padding-left: 1rem;
     padding-top: 3rem;
@@ -734,6 +729,121 @@
     margin-bottom: 1.5rem;
     height: 575px;
     max-width: 90%;
+  }
+  /*Retiro Emprendedores*/
+  .box-video-retiro-emp video {
+    width: auto;
+    height: 61vh;
+  }
+  .box-text-retiro-01 h1 {
+    font-size: 2rem;
+    line-height: 2.5rem !important;
+  }
+  .padding-btn {
+    padding: 0.8rem 1rem !important;
+  }
+  .box-video-retiro-emp .box-text-retiro-01 {
+    margin-bottom: 0;
+  }
+  .text-brunch-emp h1 {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  .flex-resp {
+    flex-direction: column-reverse;
+  }
+  .img-retiro-emp {
+    height: 33vh;
+  }
+  .box-containter-retiro {
+    padding: inherit;
+    margin-top: 5rem;
+  }
+  .box-containter-retiro .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container-emp {
+    padding: 4rem 0;
+  }
+  .img-retiro-emp-02 {
+    position: inherit;
+    height: 47vh;
+  }
+  .box-retiro {
+    padding-bottom: 4rem;
+  }
+  .box-retiro h1 {
+    padding: 3rem 0;
+    width: auto;
+    margin-bottom: 0;
+  }
+  .box-for-retiro {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .box-for-retiro h1 {
+    line-height: 2rem !important;
+    margin-top: 0;
+  }
+  .box-infografia h2 {
+    font-size: 2rem;
+  }
+  .button-center {
+    width: 90%;
+    margin: auto;
+  }
+  .button-center a {
+    text-align: center;
+  }
+  .img-retiro-emp-03 {
+    height: 19rem;
+    position: inherit;
+  }
+  .padding-top-resp {
+    padding-top: 0;
+  }
+  .box-retiro-emp {
+    padding: 5rem 0 2rem 0rem;
+    text-align: center;
+  }
+  .box-retiro-emp h1 {
+    font-size: 2rem;
+    line-height: 3rem !important;
+  }
+  .box-retiro-emp-02 img {
+    width: 40%;
+    padding: 0.6rem;
+  }
+  .box-retiro-emp-02 {
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .btn-dark {
+    padding: 0.8rem 1.5rem;
+  }
+  .padding-presentadores {
+    padding-bottom: 2rem;
+  }
+  .bg-color-12 h1 {
+    text-align: center;
+    line-height: 2.5rem !important;
+  }
+  .box-precio-05 {
+    width: 90%;
+  }
+  .early-bird-box {
+    flex-direction: column;
+  }
+  .early-bird-box div {
+    padding-left: 0;
+  }
+  .early-bird-box div h1 {
+    width: auto;
+    text-align: center;
+    margin-top: 1rem;
   }
 }
 @media screen and (max-width: 320px) {
@@ -1259,9 +1369,9 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown, #countdown-02 {
+  #countdown, #countdown-02, #countdown-03, #countdown-04 {
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 3rem 0;
   }
   .simply-section {
     margin: 15px auto;
@@ -1496,11 +1606,6 @@ p {
   .countdown-row-03 {
     margin-top: 4rem;
   }
-  #countdown-03 {
-    flex-direction: column;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
   .text-reset-02 {
     padding-left: 1rem;
     padding-top: 3rem;
@@ -1556,6 +1661,121 @@ p {
     margin-bottom: 1.5rem;
     height: 575px;
     max-width: 90%;
+  }
+  /*Retiro Emprendedores*/
+  .box-video-retiro-emp video {
+    width: auto;
+    height: 61vh;
+  }
+  .box-text-retiro-01 h1 {
+    font-size: 2rem;
+    line-height: 2.5rem !important;
+  }
+  .padding-btn {
+    padding: 0.8rem 1rem !important;
+  }
+  .box-video-retiro-emp .box-text-retiro-01 {
+    margin-bottom: 0;
+  }
+  .text-brunch-emp h1 {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  .flex-resp {
+    flex-direction: column-reverse;
+  }
+  .img-retiro-emp {
+    height: 40vh;
+  }
+  .box-containter-retiro {
+    padding: inherit;
+    margin-top: 5rem;
+  }
+  .box-containter-retiro .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container-emp {
+    padding: 4rem 0;
+  }
+  .img-retiro-emp-02 {
+    position: inherit;
+    height: 58vh;
+  }
+  .box-retiro {
+    padding-bottom: 4rem;
+  }
+  .box-retiro h1 {
+    padding: 3rem 0;
+    width: auto;
+    margin-bottom: 0;
+  }
+  .box-for-retiro {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .box-for-retiro h1 {
+    line-height: 2rem !important;
+    margin-top: 0;
+  }
+  .box-infografia h2 {
+    font-size: 2rem;
+  }
+  .button-center {
+    width: 90%;
+    margin: auto;
+  }
+  .button-center a {
+    text-align: center;
+  }
+  .img-retiro-emp-03 {
+    height: 23rem;
+    position: inherit;
+  }
+  .padding-top-resp {
+    padding-top: 0;
+  }
+  .box-retiro-emp {
+    padding: 5rem 0 2rem 0rem;
+    text-align: center;
+  }
+  .box-retiro-emp h1 {
+    font-size: 2rem;
+    line-height: 3rem !important;
+  }
+  .box-retiro-emp-02 img {
+    width: 40%;
+    padding: 0.6rem;
+  }
+  .box-retiro-emp-02 {
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .btn-dark {
+    padding: 0.8rem 1.5rem;
+  }
+  .padding-presentadores {
+    padding-bottom: 2rem;
+  }
+  .bg-color-12 h1 {
+    text-align: center;
+    line-height: 2.5rem !important;
+  }
+  .box-precio-05 {
+    width: 90%;
+  }
+  .early-bird-box {
+    flex-direction: column;
+  }
+  .early-bird-box div {
+    padding-left: 0;
+  }
+  .early-bird-box div h1 {
+    width: auto;
+    text-align: center;
+    margin-top: 1rem;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 475px) {
@@ -2036,9 +2256,9 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown, #countdown-02 {
+  #countdown, #countdown-02, #countdown-03, #countdown-04 {
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 3rem 0;
   }
   .simply-section {
     margin: 15px auto;
@@ -2145,14 +2365,6 @@ p {
     margin-top: 2rem;
   }
   /*Brunch Madre e Hija*/
-  /*Countdown*/
-  #countdown, #countdown-02 {
-    flex-direction: column;
-    padding: 1rem 0;
-  }
-  .simply-section {
-    margin: 15px auto;
-  }
   .text-brunch-01 {
     padding-left: 2rem;
   }
@@ -2389,11 +2601,6 @@ p {
   .countdown-row-03 {
     margin-top: 4rem;
   }
-  #countdown-03 {
-    flex-direction: column;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
   .text-reset-02 {
     padding-left: 1rem;
     padding-top: 3rem;
@@ -2449,6 +2656,121 @@ p {
     margin-bottom: 1.5rem;
     height: 575px;
     max-width: 90%;
+  }
+  /*Retiro Emprendedores*/
+  .box-video-retiro-emp video {
+    width: auto;
+    height: 61vh;
+  }
+  .box-text-retiro-01 h1 {
+    font-size: 2rem;
+    line-height: 2.5rem !important;
+  }
+  .padding-btn {
+    padding: 0.8rem 1rem !important;
+  }
+  .box-video-retiro-emp .box-text-retiro-01 {
+    margin-bottom: 0;
+  }
+  .text-brunch-emp h1 {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  .flex-resp {
+    flex-direction: column-reverse;
+  }
+  .img-retiro-emp {
+    height: 49vh;
+  }
+  .box-containter-retiro {
+    padding: inherit;
+    margin-top: 5rem;
+  }
+  .box-containter-retiro .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container-emp {
+    padding: 4rem 0;
+  }
+  .img-retiro-emp-02 {
+    position: inherit;
+    height: 70vh;
+  }
+  .box-retiro {
+    padding-bottom: 4rem;
+  }
+  .box-retiro h1 {
+    padding: 3rem 0;
+    width: auto;
+    margin-bottom: 0;
+  }
+  .box-for-retiro {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .box-for-retiro h1 {
+    line-height: 2rem !important;
+    margin-top: 0;
+  }
+  .box-infografia h2 {
+    font-size: 2rem;
+  }
+  .button-center {
+    width: 90%;
+    margin: auto;
+  }
+  .button-center a {
+    text-align: center;
+  }
+  .img-retiro-emp-03 {
+    height: 28rem;
+    position: inherit;
+  }
+  .padding-top-resp {
+    padding-top: 0;
+  }
+  .box-retiro-emp {
+    padding: 5rem 0 2rem 0rem;
+    text-align: center;
+  }
+  .box-retiro-emp h1 {
+    font-size: 2rem;
+    line-height: 3rem !important;
+  }
+  .box-retiro-emp-02 img {
+    width: 40%;
+    padding: 0.6rem;
+  }
+  .box-retiro-emp-02 {
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .btn-dark {
+    padding: 0.8rem 1.5rem;
+  }
+  .padding-presentadores {
+    padding-bottom: 2rem;
+  }
+  .bg-color-12 h1 {
+    text-align: center;
+    line-height: 2.5rem !important;
+  }
+  .box-precio-05 {
+    width: 90%;
+  }
+  .early-bird-box {
+    flex-direction: column;
+  }
+  .early-bird-box div {
+    padding-left: 0;
+  }
+  .early-bird-box div h1 {
+    width: auto;
+    text-align: center;
+    margin-top: 1rem;
   }
 }
 @media screen and (min-width: 476px) and (max-width: 600px) {
@@ -2865,7 +3187,7 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown, #countdown-02 {
+  #countdown, #countdown-02, #countdown-03, #countdown-04 {
     flex-direction: row;
     padding: 1rem 0;
   }
@@ -3170,6 +3492,121 @@ p {
     margin-bottom: 1.5rem;
     height: 575px;
     max-width: 90%;
+  }
+  /*Retiro Emprendedores*/
+  .box-video-retiro-emp video {
+    width: auto;
+    height: 61vh;
+  }
+  .box-text-retiro-01 h1 {
+    font-size: 2rem;
+    line-height: 2.5rem !important;
+  }
+  .padding-btn {
+    padding: 0.8rem 1rem !important;
+  }
+  .box-video-retiro-emp .box-text-retiro-01 {
+    margin-bottom: 0;
+  }
+  .text-brunch-emp h1 {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  .flex-resp {
+    flex-direction: column-reverse;
+  }
+  .img-retiro-emp {
+    height: 61vh;
+  }
+  .box-containter-retiro {
+    padding: inherit;
+    margin-top: 5rem;
+  }
+  .box-containter-retiro .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container-emp {
+    padding: 4rem 0;
+  }
+  .img-retiro-emp-02 {
+    position: inherit;
+    height: 87vh;
+  }
+  .box-retiro {
+    padding-bottom: 4rem;
+  }
+  .box-retiro h1 {
+    padding: 3rem 0;
+    width: auto;
+    margin-bottom: 0;
+  }
+  .box-for-retiro {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .box-for-retiro h1 {
+    line-height: 2rem !important;
+    margin-top: 0;
+  }
+  .box-infografia h2 {
+    font-size: 2rem;
+  }
+  .button-center {
+    width: 90%;
+    margin: auto;
+  }
+  .button-center a {
+    text-align: center;
+  }
+  .img-retiro-emp-03 {
+    height: 35rem;
+    position: inherit;
+  }
+  .padding-top-resp {
+    padding-top: 0;
+  }
+  .box-retiro-emp {
+    padding: 5rem 0 2rem 0rem;
+    text-align: center;
+  }
+  .box-retiro-emp h1 {
+    font-size: 2rem;
+    line-height: 3rem !important;
+  }
+  .box-retiro-emp-02 img {
+    width: 22%;
+    padding: 0.6rem;
+  }
+  .box-retiro-emp-02 {
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .btn-dark {
+    padding: 0.8rem 1.5rem;
+  }
+  .padding-presentadores {
+    padding-bottom: 2rem;
+  }
+  .bg-color-12 h1 {
+    text-align: center;
+    line-height: 2.5rem !important;
+  }
+  .box-precio-05 {
+    width: 90%;
+  }
+  .early-bird-box {
+    flex-direction: column;
+  }
+  .early-bird-box div {
+    padding-left: 0;
+  }
+  .early-bird-box div h1 {
+    width: auto;
+    text-align: center;
+    margin-top: 1rem;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 740px) {
@@ -3563,7 +4000,7 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown, #countdown-02 {
+  #countdown, #countdown-02, #countdown-03, #countdown-04 {
     flex-direction: row;
     padding: 1rem 0;
   }
@@ -3869,6 +4306,111 @@ p {
     margin-bottom: 1.5rem;
     height: 575px;
     max-width: 90%;
+  }
+  /*Retiro Emprendedores*/
+  .box-video-retiro-emp video {
+    width: auto;
+    height: 61vh;
+  }
+  .box-text-retiro-01 h1 {
+    font-size: 2rem;
+    line-height: 2.5rem !important;
+  }
+  .padding-btn {
+    padding: 0.8rem 1rem !important;
+  }
+  .box-video-retiro-emp .box-text-retiro-01 {
+    margin-bottom: 0;
+  }
+  .text-brunch-emp h1 {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  .flex-resp {
+    flex-direction: column-reverse;
+  }
+  .img-retiro-emp {
+    height: 61vh;
+  }
+  .box-containter-retiro {
+    padding: inherit;
+    margin-top: 5rem;
+  }
+  .box-containter-retiro .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container-emp {
+    padding: 4rem 0;
+  }
+  .img-retiro-emp-02 {
+    position: inherit;
+    height: 87vh;
+  }
+  .box-retiro {
+    padding-bottom: 4rem;
+  }
+  .box-retiro h1 {
+    padding: 3rem 0;
+    width: auto;
+    margin-bottom: 0;
+  }
+  .box-for-retiro {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .box-for-retiro h1 {
+    line-height: 2rem !important;
+    margin-top: 0;
+  }
+  .box-infografia h2 {
+    font-size: 2rem;
+  }
+  .button-center {
+    width: 90%;
+    margin: auto;
+  }
+  .button-center a {
+    text-align: center;
+  }
+  .img-retiro-emp-03 {
+    height: 35rem;
+    background-position: center;
+    position: inherit;
+  }
+  .padding-top-resp {
+    padding-top: 0;
+  }
+  .box-retiro-emp {
+    padding: 5rem 0 2rem 0rem;
+    text-align: center;
+  }
+  .box-retiro-emp h1 {
+    font-size: 2rem;
+    line-height: 3rem !important;
+  }
+  .box-retiro-emp-02 img {
+    width: 22%;
+    padding: 0.6rem;
+  }
+  .box-retiro-emp-02 {
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .btn-dark {
+    padding: 0.8rem 1.5rem;
+  }
+  .padding-presentadores {
+    padding-bottom: 2rem;
+  }
+  .bg-color-12 h1 {
+    text-align: center;
+    line-height: 2.5rem !important;
+  }
+  .box-precio-05 {
+    width: 90%;
   }
 }
 @media screen and (max-width: 560px) {

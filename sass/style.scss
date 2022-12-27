@@ -2521,7 +2521,7 @@ ol li::marker {
   color: #525252;
 }
 
-#countdown, #countdown-02, #countdown-03 {
+#countdown, #countdown-02, #countdown-03, #countdown-04 {
   display: flex;
   justify-content: center;
 }
@@ -2804,7 +2804,8 @@ p {
 
 /*Cierre brunch*/
 .bg-color-03{
-  background-color: $colour-lighty;
+  //background-color: $colour-lighty;
+  background-color: white;
   padding-top: 6rem;
   padding-bottom: 6rem;
   color: #525252;
@@ -2919,6 +2920,7 @@ p {
 }
 .btn-precio{
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 .btn-precio-02{
   margin-top: 4rem;
@@ -2951,10 +2953,10 @@ p {
 }
 .box-precio-03{
   background-color: white;
-  width: 70%;
+  width: 65%;
   border-radius: 5px;
   box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.1);
-  padding: 2rem 0;
+  padding: 1.7rem 0;
   font-size: 2rem;
   font-weight: 600;
   margin: auto;
@@ -2973,9 +2975,9 @@ p {
   color: #33C006;
 }
 .box-precio-04{
-  width: 70%;
+  width: 50%;
   background-color: $colour-lighty;
-  padding: 2rem;
+  padding: 1.5rem 1.7rem;
   border-radius: 5px;
   box-shadow: 2px 2px 10px 5px rgba(0,0,0,0.2);
   &:hover{
@@ -2993,12 +2995,11 @@ p {
 .box-precio-04 p{
   text-align: left;
   width: auto;
-}
-.box-precio-04 p{
   margin-left: 1rem;
   font-size: 2rem;
   font-weight: 600;
 }
+
 .box-precio-04 span{
   font-size: 2rem;
   color: #33C006;
@@ -3114,7 +3115,15 @@ p {
     transition: 0.3s ease-in;
   }
 }
-.box-camino img:nth-child(3){
+.img-brunch-emp-03-responsive{
+  background-image: url(../img/brunch-emprendedor-03-responsive.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 39rem;
+  width: 100%;
+}
+.box-camino .arrow-img{
   width: 45%;
 }
 .box-for{
@@ -3122,7 +3131,7 @@ p {
   text-align: center;
   padding: 3rem 0;
 }
-.box-for h1{
+.box-for h1, .box-for-retiro h1{
   font-weight: 800;
   margin-top: 3rem;
 }
@@ -3133,10 +3142,10 @@ p {
     transition: transform 0.2s ease-in;
   }
 }
-.box-for .col-12{
+.box-for .col-12, .box-for-retiro .col-12{
   margin-top: 2rem;
 }
-.box-for .col-12 span{
+.box-for .col-12 span, .box-for-retiro .col-12 span{
   font-weight: 600;
 }
 
@@ -3479,5 +3488,287 @@ p {
   background-size: contain;
   height: 100vh;
 }
+.early-bird-box{
+  display: flex;
+  align-items: center;
+  width: auto;
+  margin: auto;
+  padding: 3rem 0 .5rem 0;
+}
+.early-bird-box img{
+  width: 35%;
+  animation-name: bird-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes bird-animation {
+  0% {
+    bottom: 0;
+    top: 0;
+  }
+  25% {
+    bottom: 0;
+    top: 15px;
+  }
+  50% {
+    bottom: 0;
+    top: 0px;
+  }
+  75% {
+    bottom: 0;
+    top: 15px;
+  }
+  100% {
+    bottom: 0;
+    top: 0px;
+  }
+}
 
+.early-bird-box div{
+  padding-left: 2rem;
+}
+.early-bird-box div h1{
+  font-weight: 800;
+  width: max-content;
+  color: $colour-brown;
+  margin-bottom: 0;
+}
+.early-bird-box div hr{
+  margin: .5rem 0;
+}
+.early-bird-box p{
+  font-weight: 800;
+  font-size: 3rem;
+  color: $colour-darker;
+  width: auto;
+}
 
+/*Retiro Emprendedores*/
+.img-poster{
+  background-image: url(../img/poster-video-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 67vh;
+  width: 100vw;
+}
+.box-video-retiro-emp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-video-retiro-emp video{
+  width: 100vw;
+}
+.box-video-retiro-emp .box-text-retiro-01{
+  z-index: 900;
+  position: absolute;
+  margin-bottom: 7rem;
+  color: white;
+  text-align: center;
+}
+.box-text-retiro-01 h1{
+  font-weight: 800;
+  font-size: 3.5rem;
+}
+.box-text-retiro-01 hr{
+  margin-bottom: 2rem;
+}
+.box-text-retiro-01 p{
+  margin: auto;
+}
+.box-text-retiro-01 p:nth-child(1){
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.box-text-retiro-01 p:nth-child(5){
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.box-text-retiro-01 div{
+  margin-top: 2rem;
+}
+.img-retiro-emp{
+  background-image: url(../img/retiro-emp.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 85vh;
+}
+.text-brunch-emp h1{
+  color: #DFC0B5;
+  font-weight: 800;
+  line-height: 3rem !important;
+  margin-left: 3.1rem;
+  margin-bottom: 2rem;
+}
+.box-containter-retiro{
+  margin-top: 20rem;
+  background-color: #F0F0F0;
+  padding: 0 8rem;
+}
+.img-retiro-emp-02{
+  background-image: url(../img/retiro-emp-01.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 80vh;
+  position: relative;
+  bottom: 6rem;
+}
+.box-retiro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-retiro h1{
+  font-weight: 800;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 3rem;
+  line-height: 3.5rem !important;
+}
+.container-emp{
+  background-color: $colour-pinky;
+  padding: 0 4rem 6rem 4rem;
+}
+.box-for-retiro{
+  color: #525252;
+  text-align: center;
+  padding: 3rem 6rem;
+}
+.box-for-retiro .icon-check{
+  color: $colour-darker;
+  background-color: white;
+  border-radius: 50px;
+  padding: .8rem;
+  margin-bottom: 1rem;
+}
+.btn-dark{
+  text-align: start;
+  text-decoration: none;
+  color: $colour-darker;
+  font-weight: 600;
+  background-color: $colour-darker;
+  color: white;
+  border-radius: 50px;
+  padding: .8rem 3.5rem;
+  &:hover{
+    color: $colour-darker;
+    background-color: white;
+  }
+}
+.infografia-responsive img{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.infografia-responsive p{
+  width: 100%;
+}
+.infografia-responsive p span:nth-child(1){
+  font-size: 1.5rem;
+  color: $colour-light-brown;
+  font-weight: 800;
+}
+.infografia-responsive p span:nth-child(3){
+  font-weight: 800;
+}
+.img-car{
+  background-image: url(../img/infografia-car.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+  margin: 6rem 0;
+}
+.box-infografia{
+  margin: 8rem 0;
+}
+.box-infografia h2, .box-infografia h4{
+  text-align: center;
+  margin: auto;
+}
+.box-infografia h2{
+  font-weight: 800;
+  color: $colour-darker;
+  font-size: 3rem;
+}
+.box-infografia h4:nth-child(3){
+  font-weight: 800;
+  color: $colour-brownTwo;
+}
+.box-infografia span{
+  font-weight: 800;
+}
+.box-retiro-emp{
+  text-align: left;
+  padding: 5rem 0 2rem 2rem;
+}
+.box-retiro-emp h1{
+  font-weight: 800;
+  font-size: 3rem;
+  color: $colour-darker;
+}
+.box-retiro-emp-02 img{
+  width: 10%;
+  padding: .6rem .6rem .2rem .6rem;
+  font-size: 1.5rem;
+}
+.box-retiro-emp-02 p{
+  color: $colour-darker;
+}
+.img-retiro-emp-03{
+  background-image: url(../img/retiro-emp-02.webp);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 45rem;
+  position: relative;
+  top: 5rem;
+}
+.bg-color-12{
+  color: #525252;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 0;
+} 
+.bg-color-12 h1{
+  font-weight: 800;
+  color: $colour-orange;
+  margin-bottom: 1.5rem;
+}
+.bg-color-12 h2{
+  font-weight: 800;
+  text-align: center;
+  width: auto;
+  margin-bottom: 1rem;
+}
+.box-precio-05{
+  width: 25%;
+  background-color: $colour-lighty;
+  padding: 1.5rem 1.7rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 5px rgba(0,0,0,0.2);
+  &:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in;
+  }
+}
+.box-precio-05 p{
+  text-align: left;
+  width: auto;
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.box-precio-05 span{
+  font-size: 2rem;
+  color: #33C006;
+}
