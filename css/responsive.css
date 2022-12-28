@@ -754,6 +754,7 @@
   }
   .img-retiro-emp {
     height: 33vh;
+    background-size: cover;
   }
   .box-containter-retiro {
     padding: inherit;
@@ -769,6 +770,7 @@
   .img-retiro-emp-02 {
     position: inherit;
     height: 47vh;
+    background-size: cover;
   }
   .box-retiro {
     padding-bottom: 4rem;
@@ -800,6 +802,7 @@
   .img-retiro-emp-03 {
     height: 19rem;
     position: inherit;
+    background-size: cover;
   }
   .padding-top-resp {
     padding-top: 0;
@@ -874,6 +877,7 @@
     position: inherit;
     height: 48vh;
     margin-bottom: 4rem;
+    background-size: cover;
   }
   .box-retiro-hilo .d-flex {
     flex-direction: column;
@@ -901,6 +905,7 @@
   .img-retiro-madreHija-02 {
     position: inherit;
     height: 20rem;
+    background-size: cover;
   }
   .box-retiro-madre h1 {
     font-size: 2.5rem;
@@ -1762,6 +1767,7 @@ p {
   }
   .img-retiro-emp {
     height: 40vh;
+    background-size: cover;
   }
   .box-containter-retiro {
     padding: inherit;
@@ -1777,6 +1783,7 @@ p {
   .img-retiro-emp-02 {
     position: inherit;
     height: 58vh;
+    background-size: cover;
   }
   .box-retiro {
     padding-bottom: 4rem;
@@ -1808,6 +1815,7 @@ p {
   .img-retiro-emp-03 {
     height: 23rem;
     position: inherit;
+    background-size: cover;
   }
   .padding-top-resp {
     padding-top: 0;
@@ -1883,6 +1891,7 @@ p {
     position: inherit;
     height: 61vh;
     margin-bottom: 4rem;
+    background-size: cover;
   }
   .box-retiro-hilo .d-flex {
     flex-direction: column;
@@ -1911,6 +1920,7 @@ p {
   .img-retiro-madreHija-02 {
     position: inherit;
     height: 25rem;
+    background-size: cover;
   }
   .box-retiro-madre h1 {
     font-size: 2rem;
@@ -2835,6 +2845,7 @@ p {
   }
   .img-retiro-emp {
     height: 49vh;
+    background-size: cover;
   }
   .box-containter-retiro {
     padding: inherit;
@@ -2850,6 +2861,7 @@ p {
   .img-retiro-emp-02 {
     position: inherit;
     height: 70vh;
+    background-size: cover;
   }
   .box-retiro {
     padding-bottom: 4rem;
@@ -2881,6 +2893,7 @@ p {
   .img-retiro-emp-03 {
     height: 28rem;
     position: inherit;
+    background-size: cover;
   }
   .padding-top-resp {
     padding-top: 0;
@@ -2953,6 +2966,7 @@ p {
   }
   .img-retiro-emp {
     height: 40vh;
+    background-size: cover;
   }
   .box-containter-retiro {
     padding: inherit;
@@ -2968,6 +2982,7 @@ p {
   .img-retiro-emp-02 {
     position: inherit;
     height: 58vh;
+    background-size: cover;
   }
   .box-retiro {
     padding-bottom: 4rem;
@@ -2999,6 +3014,7 @@ p {
   .img-retiro-emp-03 {
     height: 23rem;
     position: inherit;
+    background-size: cover;
   }
   .padding-top-resp {
     padding-top: 0;
@@ -3869,6 +3885,7 @@ p {
   }
   .img-retiro-emp {
     height: 61vh;
+    background-size: cover;
   }
   .box-containter-retiro {
     padding: inherit;
@@ -3884,6 +3901,7 @@ p {
   .img-retiro-emp-02 {
     position: inherit;
     height: 87vh;
+    background-size: cover;
   }
   .box-retiro {
     padding-bottom: 4rem;
@@ -3915,6 +3933,7 @@ p {
   .img-retiro-emp-03 {
     height: 35rem;
     position: inherit;
+    background-size: cover;
   }
   .padding-top-resp {
     padding-top: 0;
@@ -4764,6 +4783,7 @@ p {
   }
   .img-retiro-emp {
     height: 61vh;
+    background-size: cover;
   }
   .box-containter-retiro {
     padding: inherit;
@@ -4779,6 +4799,7 @@ p {
   .img-retiro-emp-02 {
     position: inherit;
     height: 87vh;
+    background-size: cover;
   }
   .box-retiro {
     padding-bottom: 4rem;
@@ -4811,6 +4832,7 @@ p {
     height: 35rem;
     background-position: center;
     position: inherit;
+    background-size: cover;
   }
   .padding-top-resp {
     padding-top: 0;
