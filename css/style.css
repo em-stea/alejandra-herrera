@@ -2834,7 +2834,7 @@ ol li::marker {
   color: #525252;
 }
 
-#countdown, #countdown-02, #countdown-03, #countdown-04 {
+#countdown, #countdown-02, #countdown-03, #countdown-04, #countdown-05 {
   display: flex;
   justify-content: center;
 }
@@ -2923,7 +2923,7 @@ ol li::marker {
   height: 2rem;
 }
 
-.box-text, .box-home p {
+.text-plane-05, .text-plane-04, .text-plane-03, .text-plane-02, .text-plane, .box-text, .box-home p {
   height: 34px;
   text-align: center;
 }
@@ -4070,7 +4070,7 @@ p {
 
 /*Retiro Emprendedores*/
 .img-poster {
-  background-image: url(../img/poster-video-image.jpg);
+  background-image: url(../img/poster-video-image.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -4289,6 +4289,10 @@ p {
   top: 5rem;
 }
 
+.height-row {
+  height: 26rem;
+}
+
 .bg-color-12 {
   color: #525252;
   background-color: #F5F5F5;
@@ -4335,4 +4339,219 @@ p {
 .box-precio-05 span {
   font-size: 2rem;
   color: #33C006;
+}
+
+/*Retiro Madre Hija*/
+.img-poster-02 {
+  background-image: url(../img/poster-video-image-02.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 67vh;
+  width: 100vw;
+}
+
+.padding-row-retiro {
+  padding: 0 15rem;
+}
+
+.img-avion {
+  width: 100%;
+  margin: 8rem 0;
+}
+
+.box-avion {
+  padding: 3rem 0 !important;
+}
+
+.img-avion {
+  background-image: url(../img/avion.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  height: 50vh;
+}
+
+.mb-text {
+  margin-bottom: 9rem;
+}
+
+.margin-button {
+  margin-top: 5rem;
+}
+
+.text-plane-05, .text-plane-04, .text-plane-03, .text-plane-02, .text-plane, .box-home p, .box-text {
+  position: relative;
+  width: 25%;
+  font-size: 16px;
+}
+
+.text-plane {
+  top: 5rem;
+  left: 2rem;
+}
+
+.text-plane-02 {
+  top: -1rem;
+  left: 5rem;
+}
+
+.text-plane-03 {
+  top: -3rem;
+  left: 8rem;
+}
+
+.text-plane-04 {
+  left: 15rem;
+  top: -10rem;
+}
+
+.text-plane-05 {
+  left: 25rem;
+  top: -10rem;
+}
+
+.text-plane p, .text-plane-02 p, .text-plane-03 p, .text-plane-04 p, .text-plane-05 p {
+  width: 100%;
+  margin: auto;
+}
+
+.text-plane h3, .text-plane-02 h3, .text-plane-03 h3, .text-plane-04 h3, .text-plane-05 h3 {
+  font-weight: 800;
+  color: #B1A1BE;
+  font-size: 3rem;
+  border-radius: 50px;
+  margin: 0 auto 1rem;
+}
+
+.text-plane span, .text-plane-02 span, .text-plane-03 span, .text-plane-04 span, .text-plane-05 span {
+  font-weight: 600;
+}
+
+.img-retiro-madreHija {
+  background-image: url(../img/retiro-madreHija.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 95vh;
+  position: relative;
+  bottom: 12rem;
+}
+
+.box-containter-retiro-hilo {
+  margin-top: 15rem;
+  background-color: #F0F0F0;
+  padding: 8rem 8rem 2rem 8rem;
+}
+
+.box-retiro-hilo p {
+  color: #4f4f4f;
+}
+
+.box-retiro-hilo p span {
+  font-weight: 700;
+  color: #4f4f4f;
+}
+
+.box-retiro-hilo img {
+  width: 15%;
+  margin-right: 1.5rem;
+}
+
+.container-actividades {
+  padding-bottom: 6rem;
+  margin-bottom: 5rem;
+}
+
+.box-actividades {
+  margin-bottom: 2rem;
+}
+
+.box-actividades img {
+  width: 15%;
+  margin-bottom: 1rem;
+}
+
+.box-actividades h4 {
+  font-weight: 800;
+  text-align: center;
+  color: #A36A5A;
+}
+
+.box-actividades p {
+  font-size: 17px;
+}
+
+.btn-dark-02 {
+  text-align: start;
+  text-decoration: none;
+  color: #4f4f4f;
+  font-weight: 600;
+  background-color: #4f4f4f;
+  color: white;
+  border-radius: 50px;
+  padding: 0.8rem 3.5rem;
+}
+.btn-dark-02:hover {
+  color: white;
+  background-color: #8a7c62;
+}
+
+.box-padding-actividades {
+  padding: 0 0 0 12rem;
+}
+
+.box-padding-actividades-02 {
+  padding: 0 12rem 0 0;
+}
+
+.box-retiro-madre h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  color: #4f4f4f;
+  padding: 5rem 0 2rem 0;
+  text-align: center;
+  color: #61463c;
+  line-height: 3.5rem !important;
+}
+
+.box-retiro-madreHija {
+  margin-bottom: 1.7rem;
+}
+
+.box-retiro-madreHija p {
+  color: #4f4f4f;
+}
+
+.box-retiro-madreHija p span {
+  font-weight: 600;
+}
+
+.box-retiro-madreHija .icon-check {
+  font-size: 1rem;
+  color: #4f4f4f;
+  padding: 0.5rem;
+}
+
+.img-retiro-madreHija-02 {
+  background-image: url(../img/retiro-madreHija-02.webp);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 45rem;
+  position: relative;
+  top: 5rem;
+}
+
+.container-calendar {
+  background-color: #f5f5f5;
+  padding: 5rem 0;
+}
+
+.calendar-01 {
+  padding: 0 0 0 23rem;
+}
+
+.calendar-02 {
+  padding: 0 23rem 0 0;
 }

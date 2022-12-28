@@ -439,7 +439,7 @@
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown, #countdown-02, #countdown-03, #countdown-04 {
+  #countdown, #countdown-02, #countdown-03, #countdown-04, #countdown-05 {
     flex-direction: column;
     padding: 3rem 0;
   }
@@ -834,6 +834,9 @@
   .box-precio-05 {
     width: 90%;
   }
+  .height-row {
+    height: auto;
+  }
   .early-bird-box {
     flex-direction: column;
   }
@@ -844,6 +847,79 @@
     width: auto;
     text-align: center;
     margin-top: 1rem;
+  }
+  /*Retiro Madre e "Hija*/
+  .mb-text {
+    margin-bottom: 3rem;
+  }
+  .text-plane, .text-plane-02, .text-plane-03, .text-plane-04, .text-plane-05 {
+    position: inherit;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .img-avion {
+    height: 6vh;
+    margin: 4rem 0;
+  }
+  .box-containter-retiro-hilo {
+    padding: 0 0 5rem 0;
+  }
+  .box-containter-retiro-hilo .row {
+    flex-direction: column-reverse;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .img-retiro-madreHija {
+    position: inherit;
+    height: 48vh;
+    margin-bottom: 4rem;
+  }
+  .box-retiro-hilo .d-flex {
+    flex-direction: column;
+  }
+  .box-retiro-hilo .d-flex p, .box-actividades p, .box-retiro-madreHija p {
+    width: 90%;
+  }
+  .box-retiro-hilo img {
+    width: 50%;
+    margin: auto;
+  }
+  .container-actividades {
+    padding-top: 4rem;
+    margin-bottom: 0;
+  }
+  .box-actividades img {
+    width: 23%;
+  }
+  .box-padding-actividades, .box-padding-actividades-02 {
+    padding: 0;
+  }
+  .btn-dark-02 {
+    padding: 0.8rem 1.5rem;
+  }
+  .img-retiro-madreHija-02 {
+    position: inherit;
+    height: 20rem;
+  }
+  .box-retiro-madre h1 {
+    font-size: 2.5rem;
+  }
+  .calendar-01, .calendar-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .calendar-01 {
+    padding-top: 5rem;
+  }
+  .calendar-02 {
+    padding-bottom: 5rem;
+  }
+  .padding-row-retiro {
+    padding: 0;
+  }
+  .btn-precio-resp {
+    margin: 3rem auto;
   }
 }
 @media screen and (max-width: 320px) {
@@ -1369,7 +1445,7 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown, #countdown-02, #countdown-03, #countdown-04 {
+  #countdown, #countdown-02, #countdown-03, #countdown-04, #countdown-05 {
     flex-direction: column;
     padding: 3rem 0;
   }
@@ -1766,6 +1842,9 @@ p {
   .box-precio-05 {
     width: 90%;
   }
+  .height-row {
+    height: auto;
+  }
   .early-bird-box {
     flex-direction: column;
   }
@@ -1776,6 +1855,81 @@ p {
     width: auto;
     text-align: center;
     margin-top: 1rem;
+  }
+  /*Retiro Madre e "Hija*/
+  .mb-text {
+    margin-bottom: 3rem;
+  }
+  .text-plane, .text-plane-02, .text-plane-03, .text-plane-04, .text-plane-05 {
+    position: inherit;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .img-avion {
+    height: 8vh;
+    margin: 4rem 0;
+  }
+  .box-containter-retiro-hilo {
+    padding: 0 0 5rem 0;
+    margin-top: 6rem;
+  }
+  .box-containter-retiro-hilo .row {
+    flex-direction: column-reverse;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .img-retiro-madreHija {
+    position: inherit;
+    height: 61vh;
+    margin-bottom: 4rem;
+  }
+  .box-retiro-hilo .d-flex {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .box-retiro-hilo .d-flex p, .box-actividades p, .box-retiro-madreHija p {
+    width: 100%;
+  }
+  .box-retiro-hilo img {
+    width: 50%;
+    margin: auto;
+  }
+  .container-actividades {
+    padding-top: 4rem;
+    margin-bottom: 0;
+  }
+  .box-actividades img {
+    width: 23%;
+  }
+  .box-padding-actividades, .box-padding-actividades-02 {
+    padding: 0;
+  }
+  .btn-dark-02 {
+    padding: 0.8rem 1.5rem;
+  }
+  .img-retiro-madreHija-02 {
+    position: inherit;
+    height: 25rem;
+  }
+  .box-retiro-madre h1 {
+    font-size: 2rem;
+  }
+  .calendar-01, .calendar-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .calendar-01 {
+    padding-top: 5rem;
+  }
+  .calendar-02 {
+    padding-bottom: 5rem;
+  }
+  .padding-row-retiro {
+    padding: 0;
+  }
+  .btn-precio-resp {
+    margin: 3rem auto;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 475px) {
@@ -2256,7 +2410,7 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown, #countdown-02, #countdown-03, #countdown-04 {
+  #countdown, #countdown-02, #countdown-03, #countdown-04, #countdown-05 {
     flex-direction: column;
     padding: 3rem 0;
   }
@@ -2761,6 +2915,9 @@ p {
   .box-precio-05 {
     width: 90%;
   }
+  .height-row {
+    height: auto;
+  }
   .early-bird-box {
     flex-direction: column;
   }
@@ -2771,6 +2928,201 @@ p {
     width: auto;
     text-align: center;
     margin-top: 1rem;
+  }
+  /*Retiro Emprendedores*/
+  .box-video-retiro-emp video {
+    width: auto;
+    height: 61vh;
+  }
+  .box-text-retiro-01 h1 {
+    font-size: 2rem;
+    line-height: 2.5rem !important;
+  }
+  .padding-btn {
+    padding: 0.8rem 1rem !important;
+  }
+  .box-video-retiro-emp .box-text-retiro-01 {
+    margin-bottom: 0;
+  }
+  .text-brunch-emp h1 {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  .flex-resp {
+    flex-direction: column-reverse;
+  }
+  .img-retiro-emp {
+    height: 40vh;
+  }
+  .box-containter-retiro {
+    padding: inherit;
+    margin-top: 5rem;
+  }
+  .box-containter-retiro .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container-emp {
+    padding: 4rem 0;
+  }
+  .img-retiro-emp-02 {
+    position: inherit;
+    height: 58vh;
+  }
+  .box-retiro {
+    padding-bottom: 4rem;
+  }
+  .box-retiro h1 {
+    padding: 3rem 0;
+    width: auto;
+    margin-bottom: 0;
+  }
+  .box-for-retiro {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .box-for-retiro h1 {
+    line-height: 2rem !important;
+    margin-top: 0;
+  }
+  .box-infografia h2 {
+    font-size: 2rem;
+  }
+  .button-center {
+    width: 90%;
+    margin: auto;
+  }
+  .button-center a {
+    text-align: center;
+  }
+  .img-retiro-emp-03 {
+    height: 23rem;
+    position: inherit;
+  }
+  .padding-top-resp {
+    padding-top: 0;
+  }
+  .box-retiro-emp {
+    padding: 5rem 0 2rem 0rem;
+    text-align: center;
+  }
+  .box-retiro-emp h1 {
+    font-size: 2rem;
+    line-height: 3rem !important;
+  }
+  .box-retiro-emp-02 img {
+    width: 40%;
+    padding: 0.6rem;
+  }
+  .box-retiro-emp-02 {
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .btn-dark {
+    padding: 0.8rem 1.5rem;
+  }
+  .padding-presentadores {
+    padding-bottom: 2rem;
+  }
+  .bg-color-12 h1 {
+    text-align: center;
+    line-height: 2.5rem !important;
+  }
+  .box-precio-05 {
+    width: 90%;
+  }
+  .height-row {
+    height: auto;
+  }
+  .early-bird-box {
+    flex-direction: column;
+  }
+  .early-bird-box div {
+    padding-left: 0;
+  }
+  .early-bird-box div h1 {
+    width: auto;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  /*Retiro Madre e "Hija*/
+  .mb-text {
+    margin-bottom: 3rem;
+  }
+  .text-plane, .text-plane-02, .text-plane-03, .text-plane-04, .text-plane-05 {
+    position: inherit;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .img-avion {
+    height: 10vh;
+    margin: 4rem 0;
+  }
+  .box-containter-retiro-hilo {
+    padding: 0 0 5rem 0;
+    margin-top: 6rem;
+  }
+  .box-containter-retiro-hilo .row {
+    flex-direction: column-reverse;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .img-retiro-madreHija {
+    position: inherit;
+    height: 61vh;
+    background-size: cover;
+    margin-bottom: 4rem;
+  }
+  .box-retiro-hilo .d-flex {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .box-retiro-hilo .d-flex p, .box-actividades p, .box-retiro-madreHija p {
+    width: 100%;
+  }
+  .box-retiro-hilo img {
+    width: 50%;
+    margin: auto;
+  }
+  .container-actividades {
+    padding-top: 4rem;
+    margin-bottom: 0;
+  }
+  .box-actividades img {
+    width: 23%;
+  }
+  .box-padding-actividades, .box-padding-actividades-02 {
+    padding: 0;
+  }
+  .btn-dark-02 {
+    padding: 0.8rem 1.5rem;
+  }
+  .img-retiro-madreHija-02 {
+    position: inherit;
+    height: 25rem;
+    background-size: cover;
+  }
+  .box-retiro-madre h1 {
+    font-size: 2rem;
+  }
+  .calendar-01, .calendar-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .calendar-01 {
+    padding-top: 5rem;
+  }
+  .calendar-02 {
+    padding-bottom: 5rem;
+  }
+  .padding-row-retiro {
+    padding: 0;
+  }
+  .btn-precio-resp {
+    margin: 3rem auto;
   }
 }
 @media screen and (min-width: 476px) and (max-width: 600px) {
@@ -3187,7 +3539,7 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown, #countdown-02, #countdown-03, #countdown-04 {
+  #countdown, #countdown-02, #countdown-03, #countdown-04, #countdown-05 {
     flex-direction: row;
     padding: 1rem 0;
   }
@@ -3383,7 +3735,7 @@ p {
   .box-calendar {
     padding: 0 1rem;
     margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-bottom: 0;
   }
   .box-calendar .row div:nth-child(1) {
     margin-bottom: 3rem;
@@ -3597,6 +3949,9 @@ p {
   .box-precio-05 {
     width: 90%;
   }
+  .height-row {
+    height: auto;
+  }
   .early-bird-box {
     flex-direction: column;
   }
@@ -3607,6 +3962,84 @@ p {
     width: auto;
     text-align: center;
     margin-top: 1rem;
+  }
+  /*Retiro Madre e "Hija*/
+  .mb-text {
+    margin-bottom: 3rem;
+  }
+  .text-plane, .text-plane-02, .text-plane-03, .text-plane-04, .text-plane-05 {
+    position: inherit;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .img-avion {
+    height: 10vh;
+    margin: 4rem 0;
+    background-size: cover;
+  }
+  .box-containter-retiro-hilo {
+    padding: 0 0 5rem 0;
+    margin-top: 6rem;
+  }
+  .box-containter-retiro-hilo .row {
+    flex-direction: column-reverse;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .img-retiro-madreHija {
+    position: inherit;
+    height: 61vh;
+    background-size: cover;
+    margin-bottom: 4rem;
+  }
+  .box-retiro-hilo .d-flex {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .box-retiro-hilo .d-flex p, .box-actividades p, .box-retiro-madreHija p {
+    width: 100%;
+  }
+  .box-retiro-hilo img {
+    width: 50%;
+    margin: auto;
+  }
+  .container-actividades {
+    padding-top: 4rem;
+    margin-bottom: 0;
+  }
+  .box-actividades img {
+    width: 23%;
+  }
+  .box-padding-actividades, .box-padding-actividades-02 {
+    padding: 0;
+  }
+  .btn-dark-02 {
+    padding: 0.8rem 1.5rem;
+  }
+  .img-retiro-madreHija-02 {
+    position: inherit;
+    height: 30rem;
+    background-size: cover;
+  }
+  .box-retiro-madre h1 {
+    font-size: 2rem;
+  }
+  .calendar-01, .calendar-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .calendar-01 {
+    padding-top: 5rem;
+  }
+  .calendar-02 {
+    padding-bottom: 5rem;
+  }
+  .padding-row-retiro {
+    padding: 0;
+  }
+  .btn-precio-resp {
+    margin: 3rem auto;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 740px) {
@@ -4000,7 +4433,7 @@ p {
   }
   /*Brunch Madre e Hija*/
   /*Countdown*/
-  #countdown, #countdown-02, #countdown-03, #countdown-04 {
+  #countdown, #countdown-02, #countdown-03, #countdown-04, #countdown-05 {
     flex-direction: row;
     padding: 1rem 0;
   }
@@ -4194,7 +4627,7 @@ p {
   .box-calendar {
     padding: 0 1rem;
     margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-bottom: 0;
   }
   .box-calendar .row div:nth-child(1) {
     margin-bottom: 3rem;
@@ -4403,7 +4836,7 @@ p {
     padding: 0.8rem 1.5rem;
   }
   .padding-presentadores {
-    padding-bottom: 2rem;
+    padding: 0;
   }
   .bg-color-12 h1 {
     text-align: center;
@@ -4411,6 +4844,89 @@ p {
   }
   .box-precio-05 {
     width: 90%;
+  }
+  .height-row {
+    height: auto;
+  }
+  /*Retiro Madre e "Hija*/
+  .mb-text {
+    margin-bottom: 3rem;
+  }
+  .text-plane, .text-plane-02, .text-plane-03, .text-plane-04, .text-plane-05 {
+    position: inherit;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .img-avion {
+    height: 10vh;
+    margin: 4rem 0;
+    background-size: cover;
+  }
+  .box-containter-retiro-hilo {
+    padding: 0 0 5rem 0;
+    margin-top: 6rem;
+  }
+  .box-containter-retiro-hilo .row {
+    flex-direction: column-reverse;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .img-retiro-madreHija {
+    position: inherit;
+    height: 61vh;
+    background-size: cover;
+    margin-bottom: 4rem;
+  }
+  .box-retiro-hilo .d-flex {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .box-retiro-hilo .d-flex p, .box-actividades p, .box-retiro-madreHija p {
+    width: 100%;
+  }
+  .box-retiro-hilo img {
+    width: 50%;
+    margin: auto;
+  }
+  .container-actividades {
+    padding-top: 4rem;
+    margin-bottom: 0;
+  }
+  .box-actividades img {
+    width: 23%;
+  }
+  .box-padding-actividades, .box-padding-actividades-02 {
+    padding: 0;
+  }
+  .btn-dark-02 {
+    padding: 0.8rem 1.5rem;
+  }
+  .img-retiro-madreHija-02 {
+    position: inherit;
+    height: 30rem;
+    background-size: cover;
+  }
+  .box-retiro-madre h1 {
+    font-size: 2rem;
+  }
+  .calendar-01, .calendar-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .calendar-01 {
+    padding-top: 5rem;
+  }
+  .calendar-02 {
+    padding-bottom: 5rem;
+  }
+  .padding-row-retiro {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .btn-precio-resp {
+    margin: 3rem auto;
   }
 }
 @media screen and (max-width: 560px) {
@@ -5042,7 +5558,7 @@ p {
   .box-calendar {
     padding: 0 1rem;
     margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-bottom: 0;
   }
   .box-calendar .row div:nth-child(1) {
     margin-bottom: 3rem;
@@ -5091,6 +5607,7 @@ p {
   }
   .btn-reset-01 {
     padding: 0.8rem 2.5rem;
+    text-align: center;
   }
   .countdown-row-03 {
     margin-top: 4rem;
@@ -5154,6 +5671,95 @@ p {
     margin-bottom: 1.5rem;
     height: 575px;
     max-width: 90%;
+  }
+  /*Retiro Madre e "Hija*/
+  .box-video-retiro-emp .box-text-retiro-01 {
+    margin-bottom: 0;
+  }
+  .mb-text {
+    margin-bottom: 3rem;
+  }
+  .text-plane, .text-plane-02, .text-plane-03, .text-plane-04, .text-plane-05 {
+    position: inherit;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .img-avion {
+    height: 16vh;
+    margin: 4rem 0;
+    background-size: cover;
+  }
+  .box-containter-retiro-hilo {
+    padding: 0 0 5rem 0;
+    margin-top: 6rem;
+  }
+  .box-containter-retiro-hilo .row {
+    flex-direction: column-reverse;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .img-retiro-madreHija {
+    position: inherit;
+    height: 61vh;
+    background-size: cover;
+    margin-bottom: 4rem;
+  }
+  .box-retiro-hilo .d-flex {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .box-retiro-hilo .d-flex p, .box-actividades p, .box-retiro-madreHija p {
+    width: 100%;
+  }
+  .box-retiro-hilo img {
+    width: 25%;
+    margin: auto;
+  }
+  .container-actividades {
+    padding-top: 4rem;
+    margin-bottom: 0;
+  }
+  .box-actividades img {
+    width: 23%;
+  }
+  .box-padding-actividades, .box-padding-actividades-02 {
+    padding: 0;
+  }
+  .btn-dark-02 {
+    padding: 0.8rem 1.5rem;
+  }
+  .img-retiro-madreHija-02 {
+    position: inherit;
+    height: 40rem;
+    background-size: cover;
+  }
+  .box-retiro-madre h1 {
+    font-size: 2rem;
+  }
+  .calendar-01, .calendar-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .calendar-01 {
+    padding-top: 5rem;
+  }
+  .calendar-02 {
+    padding-bottom: 5rem;
+  }
+  .padding-row-retiro {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .btn-precio-resp {
+    margin: 3rem auto;
+  }
+  .height-row {
+    height: auto;
+  }
+  .box-precio-05 {
+    width: 40%;
   }
 }
 @media screen and (min-width: 781px) and (max-width: 1000px) {
@@ -5798,6 +6404,96 @@ p {
     height: 575px;
     max-width: 65%;
     margin: 0 -2rem;
+  }
+  /*Retiro Madre e "Hija*/
+  .box-video-retiro-emp .box-text-retiro-01 {
+    margin-bottom: -21px;
+  }
+  .mb-text {
+    margin-bottom: 3rem;
+  }
+  .text-plane, .text-plane-02, .text-plane-03, .text-plane-04, .text-plane-05 {
+    position: inherit;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .img-avion {
+    height: 16vh;
+    margin: 4rem 0;
+    background-size: cover;
+  }
+  .box-containter-retiro-hilo {
+    padding: 0 0 5rem 0;
+    margin-top: 6rem;
+  }
+  .box-containter-retiro-hilo .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .img-retiro-madreHija {
+    position: inherit;
+    height: 61vh;
+    background-size: cover;
+    margin-bottom: 4rem;
+  }
+  .box-retiro-hilo .d-flex {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .box-retiro-hilo .d-flex p, .box-actividades p, .box-retiro-madreHija p {
+    width: 100%;
+  }
+  .box-retiro-hilo img {
+    width: 25%;
+    margin: auto;
+  }
+  .container-actividades {
+    padding-top: 4rem;
+    margin-bottom: 0;
+  }
+  .box-actividades img {
+    width: 23%;
+  }
+  .box-padding-actividades, .box-padding-actividades-02 {
+    padding: 0;
+  }
+  .btn-dark-02 {
+    padding: 0.8rem 1.5rem;
+  }
+  .img-retiro-madreHija-02 {
+    position: inherit;
+    height: 40rem;
+    background-size: cover;
+  }
+  .box-retiro-madre h1 {
+    font-size: 2rem;
+  }
+  .calendar-01, .calendar-02 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .calendar-01 {
+    padding: 3rem 0;
+    margin-bottom: 0 !important;
+  }
+  .calendar-02 {
+    padding: 3rem 0;
+    justify-content: center;
+  }
+  .padding-row-retiro {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .btn-precio-resp {
+    margin: 3rem auto;
+  }
+  .height-row {
+    height: auto;
+  }
+  .box-precio-05 {
+    width: 40%;
   }
 }
 /*desktop*/
