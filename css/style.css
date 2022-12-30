@@ -2923,7 +2923,7 @@ ol li::marker {
   height: 2rem;
 }
 
-.text-plane-05, .text-plane-04, .text-plane-03, .text-plane-02, .text-plane, .box-text, .box-home p {
+.box-text, .box-home p {
   height: 34px;
   text-align: center;
 }
@@ -4380,7 +4380,7 @@ p {
   margin-top: 5rem;
 }
 
-.text-plane-05, .text-plane-04, .text-plane-03, .text-plane-02, .text-plane, .box-home p, .box-text {
+.text-plane-05, .text-plane-04, .text-plane-03, .text-plane-02, .text-plane {
   position: relative;
   width: 25%;
   font-size: 16px;
