@@ -79,7 +79,7 @@
     height: 50rem;
   }
   .adelante-hackea,
-.atras-hackea {
+  .atras-hackea {
     padding-left: 2rem;
   }
   .text-estancada {
@@ -123,11 +123,11 @@
   }
   /*Mi contenido*/
   .img-content-1,
-.img-content-2 {
+  .img-content-2 {
     height: 23rem;
   }
   .img-content-1 h1,
-.img-content-2 h2 {
+  .img-content-2 h2 {
     font-size: 1.2rem !important;
     line-height: 2rem !important;
   }
@@ -161,11 +161,11 @@
     margin: 1.5rem 0.4rem;
   }
   .icon-instagram,
-.icon-twitter,
-.icon-youtube,
-.icon-facebook,
-.icon-pinterest,
-.icon-linkedin2 {
+  .icon-twitter,
+  .icon-youtube,
+  .icon-facebook,
+  .icon-pinterest,
+  .icon-linkedin2 {
     font-size: 1.2rem;
   }
   /*Material descargable*/
@@ -260,11 +260,11 @@
     width: auto;
   }
   .cuadro-1 p,
-.cuadro-2 p,
-.cuadro-3 p,
-.cuadro-4 p,
-.cuadro-5 p,
-.cuadro-6 p {
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
     text-align: center;
     margin-top: 2rem;
     margin-top: 4rem;
@@ -273,15 +273,15 @@
     padding-top: 0;
   }
   .cuadro-2,
-.cuadro-5 {
+  .cuadro-5 {
     flex-direction: column;
     position: inherit;
     top: inherit;
     right: inherit;
   }
   .cuadro-3,
-.cuadro-4,
-.cuadro-6 {
+  .cuadro-4,
+  .cuadro-6 {
     flex-direction: column-reverse;
     position: inherit;
     top: inherit;
@@ -294,7 +294,7 @@
     margin-top: auto;
   }
   #metodo,
-#clientes {
+  #clientes {
     flex-direction: column-reverse;
   }
   .bg-metodo {
@@ -304,17 +304,17 @@
     padding: 0 1rem 0 1.3rem;
   }
   .img-metodo,
-.img-beneficios,
-.img-clientes {
+  .img-beneficios,
+  .img-clientes {
     height: 17rem;
   }
   .box-beneficios,
-.box-clientes {
+  .box-clientes {
     padding: 0 0.5rem;
   }
   .box-beneficios h1,
-.box-clientes h1,
-.box-especialistas h1 {
+  .box-clientes h1,
+  .box-especialistas h1 {
     font-size: 5.5rem;
     padding-top: 2rem;
   }
@@ -324,13 +324,13 @@
     margin-bottom: 2rem;
   }
   .bandera-01,
-.bandera-02,
-.bandera-03,
-.bandera-04,
-.bandera-05,
-.bandera-06,
-.bandera-07,
-.bandera-08 {
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
     height: 3rem;
     width: 3rem;
   }
@@ -339,7 +339,7 @@
     height: 32rem;
   }
   .row-guia,
-.box-text-guia {
+  .box-text-guia {
     margin-bottom: 0;
   }
   .box-text-guia p {
@@ -1026,8 +1026,8 @@
     margin: 0;
   }
   .text-sobremi h1,
-h2,
-p {
+  h2,
+  p {
     width: 95%;
   }
   .text-decides-2 {
@@ -1157,7 +1157,7 @@ p {
     line-height: normal !important;
   }
   .img-content-1,
-.img-content-2 {
+  .img-content-2 {
     height: 23rem;
   }
   .ancho-col-talleres {
@@ -1182,7 +1182,7 @@ p {
     height: 43rem;
   }
   .adelante-hackea,
-.atras-hackea {
+  .atras-hackea {
     padding-left: 2rem;
   }
   /*sobre mi*/
@@ -1284,11 +1284,11 @@ p {
     width: auto;
   }
   .cuadro-1 p,
-.cuadro-2 p,
-.cuadro-3 p,
-.cuadro-4 p,
-.cuadro-5 p,
-.cuadro-6 p {
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
     text-align: center;
     margin-top: 2rem;
     margin-top: 4rem;
@@ -1297,15 +1297,15 @@ p {
     padding-top: 0;
   }
   .cuadro-2,
-.cuadro-5 {
+  .cuadro-5 {
     flex-direction: column;
     position: inherit;
     top: inherit;
     right: inherit;
   }
   .cuadro-3,
-.cuadro-4,
-.cuadro-6 {
+  .cuadro-4,
+  .cuadro-6 {
     flex-direction: column-reverse;
     position: inherit;
     top: inherit;
@@ -1318,7 +1318,7 @@ p {
     margin-top: auto;
   }
   #metodo,
-#clientes {
+  #clientes {
     flex-direction: column-reverse;
   }
   .bg-metodo {
@@ -1328,17 +1328,17 @@ p {
     padding: 0 1rem 0 1.3rem;
   }
   .img-metodo,
-.img-beneficios,
-.img-clientes {
+  .img-beneficios,
+  .img-clientes {
     height: 17rem;
   }
   .box-beneficios,
-.box-clientes {
+  .box-clientes {
     padding: 0 0.5rem;
   }
   .box-beneficios h1,
-.box-clientes h1,
-.box-especialistas h1 {
+  .box-clientes h1,
+  .box-especialistas h1 {
     font-size: 5.5rem;
     padding-top: 2rem;
   }
@@ -1348,19 +1348,19 @@ p {
     margin-bottom: 2rem;
   }
   .bandera-01,
-.bandera-02,
-.bandera-03,
-.bandera-04,
-.bandera-05,
-.bandera-06,
-.bandera-07,
-.bandera-08 {
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
     height: 3rem;
     width: 3rem;
   }
   /*Especialistas*/
   .img-especialistas,
-.box-especialistas {
+  .box-especialistas {
     height: 23rem;
   }
   .box-especialistas h1 {
@@ -1380,7 +1380,7 @@ p {
     height: 32rem;
   }
   .row-guia,
-.box-text-guia {
+  .box-text-guia {
     margin-bottom: 0;
   }
   .box-text-guia p {
@@ -2115,7 +2115,7 @@ p {
     line-height: normal !important;
   }
   .img-content-1,
-.img-content-2 {
+  .img-content-2 {
     height: 23rem;
   }
   .ancho-col-talleres {
@@ -2263,11 +2263,11 @@ p {
     width: auto;
   }
   .cuadro-1 p,
-.cuadro-2 p,
-.cuadro-3 p,
-.cuadro-4 p,
-.cuadro-5 p,
-.cuadro-6 p {
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
     text-align: center;
     margin-top: 2rem;
     margin-top: 4rem;
@@ -2276,15 +2276,15 @@ p {
     padding-top: 0;
   }
   .cuadro-2,
-.cuadro-5 {
+  .cuadro-5 {
     flex-direction: column;
     position: inherit;
     top: inherit;
     right: inherit;
   }
   .cuadro-3,
-.cuadro-4,
-.cuadro-6 {
+  .cuadro-4,
+  .cuadro-6 {
     flex-direction: column-reverse;
     position: inherit;
     top: inherit;
@@ -2297,7 +2297,7 @@ p {
     margin-top: auto;
   }
   #metodo,
-#clientes {
+  #clientes {
     flex-direction: column-reverse;
   }
   .bg-metodo {
@@ -2307,17 +2307,17 @@ p {
     padding: 0 1rem 0 1.3rem;
   }
   .img-metodo,
-.img-beneficios,
-.img-clientes {
+  .img-beneficios,
+  .img-clientes {
     height: 17rem;
   }
   .box-beneficios,
-.box-clientes {
+  .box-clientes {
     padding: 0 0.5rem;
   }
   .box-beneficios h1,
-.box-clientes h1,
-.box-especialistas h1 {
+  .box-clientes h1,
+  .box-especialistas h1 {
     font-size: 5.5rem;
     padding-top: 2rem;
   }
@@ -2327,19 +2327,19 @@ p {
     margin-bottom: 2rem;
   }
   .bandera-01,
-.bandera-02,
-.bandera-03,
-.bandera-04,
-.bandera-05,
-.bandera-06,
-.bandera-07,
-.bandera-08 {
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
     height: 3.5rem;
     width: 3.5rem;
   }
   /*Especialistas*/
   .img-especialistas,
-.box-especialistas {
+  .box-especialistas {
     height: 23rem;
   }
   .box-especialistas h1 {
@@ -2359,7 +2359,7 @@ p {
     height: 32rem;
   }
   .row-guia,
-.box-text-guia {
+  .box-text-guia {
     margin-bottom: 0;
   }
   .box-text-guia p {
@@ -3284,7 +3284,7 @@ p {
     line-height: normal !important;
   }
   .img-content-1,
-.img-content-2 {
+  .img-content-2 {
     height: 23rem;
   }
   .ancho-col-talleres {
@@ -3400,11 +3400,11 @@ p {
     width: auto;
   }
   .cuadro-1 p,
-.cuadro-2 p,
-.cuadro-3 p,
-.cuadro-4 p,
-.cuadro-5 p,
-.cuadro-6 p {
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
     text-align: center;
     margin-top: 2rem;
     margin-top: 4rem;
@@ -3414,15 +3414,15 @@ p {
     width: 21rem;
   }
   .cuadro-2,
-.cuadro-5 {
+  .cuadro-5 {
     flex-direction: column;
     position: inherit;
     top: inherit;
     right: inherit;
   }
   .cuadro-3,
-.cuadro-4,
-.cuadro-6 {
+  .cuadro-4,
+  .cuadro-6 {
     flex-direction: column-reverse;
     position: inherit;
     top: inherit;
@@ -3435,7 +3435,7 @@ p {
     margin-top: auto;
   }
   #metodo,
-#clientes {
+  #clientes {
     flex-direction: column-reverse;
   }
   .bg-metodo {
@@ -3445,17 +3445,17 @@ p {
     padding: 0 1rem 0 1.3rem;
   }
   .img-metodo,
-.img-beneficios,
-.img-clientes {
+  .img-beneficios,
+  .img-clientes {
     height: 17rem;
   }
   .box-beneficios,
-.box-clientes {
+  .box-clientes {
     padding: 0 0.5rem;
   }
   .box-beneficios h1,
-.box-clientes h1,
-.box-especialistas h1 {
+  .box-clientes h1,
+  .box-especialistas h1 {
     font-size: 7.5rem;
     padding-top: 2rem;
   }
@@ -3465,13 +3465,13 @@ p {
     margin-bottom: 2rem;
   }
   .bandera-01,
-.bandera-02,
-.bandera-03,
-.bandera-04,
-.bandera-05,
-.bandera-06,
-.bandera-07,
-.bandera-08 {
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
     height: 4.5rem;
     width: 4.5rem;
   }
@@ -3480,7 +3480,7 @@ p {
   }
   /*Especialistas*/
   .img-especialistas,
-.box-especialistas {
+  .box-especialistas {
     height: 29rem;
   }
   .box-especialistas h1 {
@@ -3500,7 +3500,7 @@ p {
     height: 32rem;
   }
   .row-guia,
-.box-text-guia {
+  .box-text-guia {
     margin-bottom: 0;
   }
   .box-text-guia p {
@@ -4177,7 +4177,7 @@ p {
   }
   /*Talleres*/
   .img-content-1 h1,
-.img-content-3 h1 {
+  .img-content-3 h1 {
     font-size: 3rem;
   }
   .img-content-2 h2 {
@@ -4188,7 +4188,7 @@ p {
     line-height: normal !important;
   }
   .img-content-1,
-.img-content-2 {
+  .img-content-2 {
     height: 23rem;
   }
   .ancho-col-talleres {
@@ -4305,11 +4305,11 @@ p {
     width: auto;
   }
   .cuadro-1 p,
-.cuadro-2 p,
-.cuadro-3 p,
-.cuadro-4 p,
-.cuadro-5 p,
-.cuadro-6 p {
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
     text-align: center;
     margin-top: 2rem;
     margin-top: 4rem;
@@ -4319,15 +4319,15 @@ p {
     width: 21rem;
   }
   .cuadro-2,
-.cuadro-5 {
+  .cuadro-5 {
     flex-direction: column;
     position: inherit;
     top: inherit;
     right: inherit;
   }
   .cuadro-3,
-.cuadro-4,
-.cuadro-6 {
+  .cuadro-4,
+  .cuadro-6 {
     flex-direction: column-reverse;
     position: inherit;
     top: inherit;
@@ -4340,7 +4340,7 @@ p {
     margin-top: auto;
   }
   #metodo,
-#clientes {
+  #clientes {
     flex-direction: column-reverse;
   }
   .bg-metodo {
@@ -4350,17 +4350,17 @@ p {
     padding: 0 1rem 0 1.3rem;
   }
   .img-metodo,
-.img-beneficios,
-.img-clientes {
+  .img-beneficios,
+  .img-clientes {
     height: 17rem;
   }
   .box-beneficios,
-.box-clientes {
+  .box-clientes {
     padding: 0 0.5rem;
   }
   .box-beneficios h1,
-.box-clientes h1,
-.box-especialistas h1 {
+  .box-clientes h1,
+  .box-especialistas h1 {
     font-size: 7.5rem;
     padding-top: 2rem;
   }
@@ -4370,13 +4370,13 @@ p {
     margin-bottom: 2rem;
   }
   .bandera-01,
-.bandera-02,
-.bandera-03,
-.bandera-04,
-.bandera-05,
-.bandera-06,
-.bandera-07,
-.bandera-08 {
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
     height: 5.5rem;
     width: 5.5rem;
   }
@@ -4385,7 +4385,7 @@ p {
   }
   /*Especialistas*/
   .img-especialistas,
-.box-especialistas {
+  .box-especialistas {
     height: 29rem;
   }
   .box-especialistas h1 {
@@ -4405,7 +4405,7 @@ p {
     height: 32rem;
   }
   .row-guia,
-.box-text-guia {
+  .box-text-guia {
     margin-bottom: 0;
   }
   .box-text-guia p {
@@ -5095,10 +5095,10 @@ p {
 @media screen and (max-width: 767px) {
   /*Talleres*/
   .img-taller-1,
-.img-taller-2,
-.img-taller-3,
-.img-taller-4,
-.img-taller-5 {
+  .img-taller-2,
+  .img-taller-3,
+  .img-taller-4,
+  .img-taller-5 {
     width: 100%;
     height: 20rem;
   }
@@ -5251,11 +5251,11 @@ p {
     width: auto;
   }
   .cuadro-1 p,
-.cuadro-2 p,
-.cuadro-3 p,
-.cuadro-4 p,
-.cuadro-5 p,
-.cuadro-6 p {
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
     text-align: center;
     margin-top: 2rem;
     margin-top: 4rem;
@@ -5265,15 +5265,15 @@ p {
     width: 21rem;
   }
   .cuadro-2,
-.cuadro-5 {
+  .cuadro-5 {
     flex-direction: column;
     position: inherit;
     top: inherit;
     right: inherit;
   }
   .cuadro-3,
-.cuadro-4,
-.cuadro-6 {
+  .cuadro-4,
+  .cuadro-6 {
     flex-direction: column-reverse;
     position: inherit;
     top: inherit;
@@ -5286,7 +5286,7 @@ p {
     margin-top: auto;
   }
   #metodo,
-#clientes {
+  #clientes {
     flex-direction: column-reverse;
   }
   .bg-metodo {
@@ -5296,17 +5296,17 @@ p {
     padding: 0 1rem 0 1.3rem;
   }
   .img-metodo,
-.img-beneficios,
-.img-clientes {
+  .img-beneficios,
+  .img-clientes {
     height: 17rem;
   }
   .box-beneficios,
-.box-clientes {
+  .box-clientes {
     padding: 0 0.5rem;
   }
   .box-beneficios h1,
-.box-clientes h1,
-.box-especialistas h1 {
+  .box-clientes h1,
+  .box-especialistas h1 {
     font-size: 7.5rem;
     padding-top: 2rem;
   }
@@ -5316,13 +5316,13 @@ p {
     margin-bottom: 2rem;
   }
   .bandera-01,
-.bandera-02,
-.bandera-03,
-.bandera-04,
-.bandera-05,
-.bandera-06,
-.bandera-07,
-.bandera-08 {
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
     height: 6rem;
     width: 6rem;
   }
@@ -5331,7 +5331,7 @@ p {
   }
   /*Especialistas*/
   .img-especialistas,
-.box-especialistas {
+  .box-especialistas {
     height: 33rem;
   }
   .box-especialistas h1 {
@@ -5351,7 +5351,7 @@ p {
     height: 32rem;
   }
   .row-guia,
-.box-text-guia {
+  .box-text-guia {
     margin-bottom: 0;
   }
   .box-text-guia p {
@@ -5894,8 +5894,8 @@ p {
     margin-bottom: 0;
   }
   .img-content-2,
-.img-content-3,
-.img-content-4 {
+  .img-content-3,
+  .img-content-4 {
     height: 17.6rem;
   }
   /*Material descargable*/
@@ -6006,11 +6006,11 @@ p {
     width: auto;
   }
   .cuadro-1 p,
-.cuadro-2 p,
-.cuadro-3 p,
-.cuadro-4 p,
-.cuadro-5 p,
-.cuadro-6 p {
+  .cuadro-2 p,
+  .cuadro-3 p,
+  .cuadro-4 p,
+  .cuadro-5 p,
+  .cuadro-6 p {
     text-align: center;
     margin-top: 2rem;
     margin-top: 4rem;
@@ -6020,15 +6020,15 @@ p {
     width: 21rem;
   }
   .cuadro-2,
-.cuadro-5 {
+  .cuadro-5 {
     flex-direction: column;
     position: inherit;
     top: inherit;
     right: inherit;
   }
   .cuadro-3,
-.cuadro-4,
-.cuadro-6 {
+  .cuadro-4,
+  .cuadro-6 {
     flex-direction: column-reverse;
     position: inherit;
     top: inherit;
@@ -6041,7 +6041,7 @@ p {
     margin-top: auto;
   }
   #metodo,
-#clientes {
+  #clientes {
     flex-direction: row;
   }
   .bg-metodo {
@@ -6051,17 +6051,17 @@ p {
     padding: 0 1rem 0 1.3rem;
   }
   .img-metodo,
-.img-beneficios,
-.img-clientes {
+  .img-beneficios,
+  .img-clientes {
     height: auto;
   }
   .box-beneficios,
-.box-clientes {
+  .box-clientes {
     padding: 0 0.5rem;
   }
   .box-beneficios h1,
-.box-clientes h1,
-.box-especialistas h1 {
+  .box-clientes h1,
+  .box-especialistas h1 {
     font-size: 7.5rem;
     padding-top: 2rem;
   }
@@ -6071,13 +6071,13 @@ p {
     margin-bottom: 2rem;
   }
   .bandera-01,
-.bandera-02,
-.bandera-03,
-.bandera-04,
-.bandera-05,
-.bandera-06,
-.bandera-07,
-.bandera-08 {
+  .bandera-02,
+  .bandera-03,
+  .bandera-04,
+  .bandera-05,
+  .bandera-06,
+  .bandera-07,
+  .bandera-08 {
     height: 6.5rem;
     width: 6.5rem;
   }
@@ -6086,7 +6086,7 @@ p {
   }
   /*Especialistas*/
   .img-especialistas,
-.box-especialistas {
+  .box-especialistas {
     height: 33rem;
   }
   .box-especialistas h1 {
@@ -6106,7 +6106,7 @@ p {
     height: 32rem;
   }
   .row-guia,
-.box-text-guia {
+  .box-text-guia {
     margin-bottom: 0;
   }
   .box-text-guia p {
@@ -6822,8 +6822,8 @@ p {
     height: 910px;
   }
   .image-bg-01,
-.image-bg-02,
-.image-bg-03 {
+  .image-bg-02,
+  .image-bg-03 {
     padding: 10rem 3rem;
   }
   /*Coffee*/
@@ -6873,8 +6873,8 @@ p {
     flex-wrap: wrap;
   }
   .img-content-1,
-.img-content-2,
-.img-content-3 {
+  .img-content-2,
+  .img-content-3 {
     width: 100%;
   }
 }
@@ -6882,7 +6882,7 @@ p {
 @media screen and (max-width: 669px) {
   /*Coffee*/
   .icon-plus,
-.icon-minus {
+  .icon-minus {
     display: block;
     font-size: 1.5rem;
     text-decoration: none;
@@ -6895,7 +6895,7 @@ p {
     height: 55px;
   }
   .icon-plus-one,
-.icon-minus-one {
+  .icon-minus-one {
     margin-top: 1rem;
     color: #8a7c62;
   }
@@ -6925,12 +6925,12 @@ p {
 /*desktop*/
 @media screen and (min-width: 670px) {
   .icon-plus,
-.icon-minus {
+  .icon-minus {
     display: none;
   }
   /*coffee*/
   .adelante,
-.atras {
+  .atras {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -6969,7 +6969,7 @@ p {
   }
   /*HAckea tu vida*/
   .adelante-hackea,
-.atras-hackea {
+  .atras-hackea {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -6993,85 +6993,85 @@ p {
 /*Responsive desktop Teilen*/
 @media screen and (min-width: 1600px) and (max-width: 1700px) {
   .caja-01,
-.caja-04 {
+  .caja-04 {
     left: 32rem;
   }
   .caja-02,
-.caja-05 {
+  .caja-05 {
     left: 47rem;
   }
   .caja-03,
-.caja-06 {
+  .caja-06 {
     left: 62rem;
   }
 }
 @media screen and (min-width: 1701px) and (max-width: 1800px) {
   .caja-01,
-.caja-04 {
+  .caja-04 {
     left: 35rem;
   }
   .caja-02,
-.caja-05 {
+  .caja-05 {
     left: 50rem;
   }
   .caja-03,
-.caja-06 {
+  .caja-06 {
     left: 65rem;
   }
 }
 @media screen and (min-width: 1801px) and (max-width: 1900px) {
   .caja-01,
-.caja-04 {
+  .caja-04 {
     left: 35rem;
   }
   .caja-02,
-.caja-05 {
+  .caja-05 {
     left: 51rem;
   }
   .caja-03,
-.caja-06 {
+  .caja-06 {
     left: 67rem;
   }
 }
 @media screen and (min-width: 1901px) and (max-width: 2000px) {
   .caja-01,
-.caja-04 {
+  .caja-04 {
     left: 36rem;
   }
   .caja-02,
-.caja-05 {
+  .caja-05 {
     left: 53rem;
   }
   .caja-03,
-.caja-06 {
+  .caja-06 {
     left: 70rem;
   }
 }
 @media screen and (min-width: 2001px) and (max-width: 3000px) {
   .caja-01,
-.caja-04 {
+  .caja-04 {
     left: 38rem;
   }
   .caja-02,
-.caja-05 {
+  .caja-05 {
     left: 55rem;
   }
   .caja-03,
-.caja-06 {
+  .caja-06 {
     left: 72rem;
   }
 }
 @media screen and (min-width: 3001px) and (max-width: 4000px) {
   .caja-01,
-.caja-04 {
+  .caja-04 {
     left: 57rem;
   }
   .caja-02,
-.caja-05 {
+  .caja-05 {
     left: 83rem;
   }
   .caja-03,
-.caja-06 {
+  .caja-06 {
     left: 109rem;
   }
 }
